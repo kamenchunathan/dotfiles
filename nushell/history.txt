@@ -1,0 +1,8415 @@
+ls
+..
+ls
+clear
+ls
+ls "$HOME/tmp"
+cp -r ~/tmp/nu-0.96.1-x86_64-unknown-linux-gnu/ /opt
+chown nathankamenchu:root /opt/
+sudo chown nathankamenchu:root /opt/
+cp -r ~/tmp/nu-0.96.1-x86_64-unknown-linux-gnu/ /opt
+ls
+ls /opt
+ln -s /opt/nu-0.96.1-x86_64-unknown-linux-gnu/nu ~/.local/bin/nu
+ln -s /opt/nu-0.96.1-x86_64-unknown-linux-gnu/nu usr/local/bin/nu
+ls /
+ls /usr/local/
+ls /usr/local/bin
+ln -s /opt/nu-0.96.1-x86_64-unknown-linux-gnu/nu /usr/local/bin/nu
+sudo ln -s /opt/nu-0.96.1-x86_64-unknown-linux-gnu/nu /usr/local/bin/nu
+exit
+nu
+chsh nathankamenchu /usr/local/bin/nu
+man chshs
+man chsh
+cat /etc/shells
+rvim
+sudo vim /etc/shells
+vim
+sudo apt install vim
+sudo apt install nvim
+sudo apt install neovim
+apt search neovim
+apt search neovide
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+ls
+tar xvf nvim-linux64.tar.gz
+ls
+rm nvim-linux64.tar.gz
+ls
+mkdir /opt/nvim
+tar -C /opt -xzf nvim-linux64.tar.gz
+mv nvim-linux64/ /opt
+ls
+ls /opt
+rm -d /opt/nvim/
+rm -D /opt/nvim/
+rm /opt/nvim
+which rm
+ls /opt
+fdm
+/opt/freedownloadmanager/fdm
+nvim
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+git
+nvim ~/.zshrc
+git
+/usr/gin/git
+ls
+nvim
+echo $env.PATH
+nvim ~/.zshrc
+nvim ~/.config/nushell/env.nu
+exit
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+nvim nvim ~/.zshrc
+exit
+nvim
+nvim ~/.zshrc
+nix
+nix flake
+curl -fsSL https://github.com/neovide/neovide/releases/download/0.13.3/neovide-linux-x86_64.tar.gz
+ls
+..
+ls
+curl -fsSL https://github.com/neovide/neovide/releases/download/0.13.3/neovide-linux-x86_64.tar.gz
+ls
+man curl
+wget https://github.com/neovide/neovide/releases/download/0.13.3/neovide-linux-x86_64.tar.gz
+htop
+tar xvf neovide-linux-x86_64.tar.gz
+ls
+neovide
+./neovide
+mkdir ~/.config/neovide
+neovide
+./neovide
+mkdir -p /opt/neovide/bin/
+mkdir /opt/neovide/bin/
+ls
+neovide --version
+./neovide --version
+mv neovide neovide-0_13_3
+mv neovide-0_13_3 /opt/neovide/bin/
+ln -s /opt/neovide/bin/neovide-0_13_3 ~/.local/bin/neovide
+mkdir ~/.local/neovide
+ln -s /opt/neovide/bin/neovide-0_13_3 ~/.local/bin/neovide
+mkdir ~/.local/bin
+rm ~/.local/neovide/
+ln -s /opt/neovide/bin/neovide-0_13_3 ~/.local/bin/neovide
+neovid
+neovide
+~/Downloads/
+ls
+unzip Agave.zip
+unzip ComicShannsMono.zip
+unzip FiraCode.zip
+sudo mv *.ttf /usr/share/fonts/
+ls
+sudo mv *.otf /usr/share/fonts/
+ls
+rm LICENSE *.md
+rm *
+ls
+nvim ~/.config/nvim/
+~/dev/projects/capsule_clock/
+nix
+clear
+ls
+nvim ~/.config/nix/nix.conf
+nix
+which nix
+echo $env.PATH
+nix
+which nix
+nvim ~/.zshrc
+echo $env.PATH
+echo $env.PATH
+nvim ~/.profile
+exit
+nvim ~/.bashrc
+nvim ~/.bash_logout
+flatpak install audacity
+echo $env.PATH
+echo $env.PATH | head
+nvim ~/.config/nushell/env.nu
+exit
+clear
+nix
+nix flake init
+clear
+~/dev/
+mkdir build
+build
+cd build
+ls
+git@github.com:Maix0/aseprite-flake.git
+git clone git@github.com:Maix0/aseprite-flake.git
+cd aseprite-flake/
+nix develop
+clear
+sudo modprobe kvm
+sudo modprobe kvm_intel
+kvm-ok
+sudo kvm-ok
+sudo apt install cpu-checker
+clear
+~/tmp
+wget https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64
+sudo apt install 'docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64'
+file 'docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64'
+sudo dpkg -i './docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64'
+sudo apt install qemu
+sudo apt --fix-broken install
+flatpak install pixelorama
+flatpak install libresprite
+ping 8.8.8.8
+flatpak install spotify
+ls
+..
+rm -rf aseprite-flake/
+ls
+..
+ls
+exit
+bash
+zsh
+ls
+rm flake.nix
+ls
+cd tmp/
+ls
+../Downloads/
+ls
+rm Dockerfile
+ls
+~/dev/projects/
+ls
+cd capsule_clock/
+ls
+neovide
+nvim ~/.config/nushell/
+pactl 
+pactl --help
+pactl list
+pactl --help
+pactl set-sink-volume
+pactl set-sink-volume0
+pactl set-sink-volume 0
+pactl set-sink-volume 0+110
+pactl set-sink-volume 0 +110
+pactl set-sink-volume +110 0
+pactl get-default-sink
+pactl set-sink-volume +110 $(pactl get-default-sink)
+pactl -- set-sink-volume $SINK +110%
+pactl -- set-sink-volume 0 +110%
+clear
+ls
+n
+neovide
+clear
+which neovide
+file $(which neovide)
+file .local/bin/neovide
+/opt/neovide/bin/neovide-0_13_3
+clear
+neovide &
+clear
+whoami
+echo $env.SHELL
+which neovide
+which neovide | whereis
+whereis neovide
+xargsm
+man xargs
+most
+apt search most
+sudo apt install most
+ls
+clear
+dev
+ls
+cd dev
+./build/
+ls
+..
+-
+~
+-
+- 4
+clear
+3 - 4
+~/dev
+./build/
+ls
+ls ~/Downloads/
+ls
+nvim .
+nix flake show github:kilzm/odin-overlay
+nvim ~/.config/nvim/
+htop
+nix flake init github:kilzm/odin-overlay
+nix flake init
+sudo dpkg -i ~/Downloads/morgen-3.5.4amd64.deb
+nix run github:szamuboy/odin-nix
+sudo apt install most
+odin
+which odin
+exit
+clear
+ls
+rm flake.nix
+most
+most wow
+echo wow | most
+clear
+nvim ~/.config/nushell/env.nu
+echo "                        \033[1;33m  .     \033[0m    \033[1;36m+        *        +\033[0m<\n>            \033[1;33m  .     *\033[0m <\n>                   \033[1;31m*         .     \033[0m  \033[1;34m.       .      \033[0m<\n>         \033[1;36m.     *\033[0m    \033[1;35m+       \033[0m   \033[1;34m .          +   \033[0m<\n>                           \033[1;33m+  .       *\033[0m     \033[1;35m.     \033[0m  \033[1;36m   .     \033[0m<\n>      \033[1;31m    *     \033[0m  \033[1;33m     .  +    .\033[0m    \033[1;36m      *     \033[0m<\n>                      \033[1;35m.        *  \033[0m\033[1;33m    .       +     . \033[0m<\n>    \033[1;33m        *        \033[0m  \033[1;36m .         *      \033[0m<\n>                \033[1;35m+          *\033[0m<\n>        \033[1;32m .      .          *  \033[0m    \033[1;34m*      . \033[0m<\n>          \033[1;32m     +   .  *\033[0m      \033[1;36m +\033[0m<\n>                        \033[1;33m*\033[0m<\n>                            <\n>                             \033[1;37m*<\n>          .                   \033[0m     \033[1;31m/\033[0m<\n>               \033[1;37m.\033[0m        \033[1;33m.         \033[1;31m//\033[0m<\n>                         \033[1;36m\       \033[0m    \033[1;31m////\033[0m<\n>                \033[1;36m.       \033[0m  \033[1;37m__\033[0m   \033[1;31m//////\033[0m<\n>             \033[1;35m.            \033[1;34m_|__|_\033[0m\033[1;31m////////\033[0m<\n>                \033[1;35m*   .    \033[1;33m'---'\033[0m\033[1;31m//////  \033[0m<\n>                    \033[1;36m  \033[0m \033[1;33m/\033[0m \033[1;31m/////\033[0m  \033[1;36m\033[0m      \033[1;37m.\033[0m<\n>                        \033[1;31m/////\033[0m    \033[1;36m . \033[0m \033[1;32m+ \033[0m<\n>                        \033[1;31m/////\033[0m<\n>                          \033[1;31m///\033[0m<\n><\n>                        \033[1;37m*       +\033[0m<\n>        \033[1;33m+     .          *    .        \033[0m<\n>              \033[1;34m.      .\033[0m     \033[1;36m*     \033[0m<\n>                      \033[1;36m*        \033[0m  \033[1;33m.   \033[0m   \033[1;37m. \033[0m<\n>    \033[1;31m       .    *       .     \033[0m<\n>\033[1;33m           *         \033[0m    \033[1;37m .\033[0m<\n>"
+echo
+nvim ~/.config/nvim/
+neovide
+nvim
+nvim ~/.config/nvim/
+~/.config/nvim/
+ls ~/.local/share/
+history
+history | grep fira
+history | grep font
+ls /usr/share/fonts
+nvim
+neovide
+neovide
+flatpak install fonts
+flatpak uninstall com.polyphone_soundfonts.polyphone
+flatpak install flathub org.gnome.font-viewer
+flatpak install flathub org.gnome.font-viewer
+nvim
+htop
+neovide
+flatpak install flathub org.fontforge.FontForge
+nvim ~/.config/nvim/
+neovide
+which nvim
+neovide
+clear
+..
+neovide nushell/
+nvim ~/.config/nvim/
+cd -
+nvim
+nvim ../nushell/
+nvim
+../nushell/
+nvim
+neovide
+nvim 
+../nvim
+nvim
+cd -
+nvim
+cd -
+nvim
+cd -
+nvim
+cd -
+nvim
+clear
+ls
+../nushell/
+nvim
+curl -sS https://starship.rs/install.sh | sh
+mkdir ~/.cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+$nu.config-path
+nvim
+nvim ~/.config/nushell
+starship
+ls
+wow
+clear
+ls
+clear
+ls
+clear
+ls
+.mkdir -p ~/.config && touch ~/.config/starship.toml
+.mkdir -p ~/.config
+nvim ~/.cache/starship/
+nvim ~/.config/nushell
+exit
+nu
+clear
+ls
+clear
+cd dev
+ls
+mkdir rust/os
+cd os
+cd rust/o
+cd rust/os
+ls
+nix flake init -t github:nix-community/templates#rust
+ls
+nix develop
+..
+rm -rf os
+mkdir hello
+cd hello
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/#rust"
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+clear
+ls
+htop
+nix develop
+ash
+nix develop --command ash
+ls
+cargo
+cargo init 
+cargo b
+cargo r
+~/Downloads/
+tar xvf `RFQ for PSK National Elections 2024.pdf`
+tar xvf zellij-x86_64-unknown-linux-musl.tar.gz
+ls
+zellij
+mkdir /opt/zellij/bin/
+mv zellij /opt/zellij/bin/
+nvim ~/.config/nushell/env.nu
+ln -s /opt/zellij/bin/zellij ~/.local/bin/zellij
+ls
+clear
+nvim
+cargo r
+nix develop --command ash
+nix develop --command nu
+ls
+nix develop --command nu
+nix develop
+clear
+nix develop
+which nix
+nix
+clear
+ls
+nix develop
+nix clean
+nix
+nix --help
+nix run
+rm flake.lock
+nix develop
+nix store --help
+cargo b
+nix
+~/
+cd dev/
+mkdir elm/games
+elm/games
+cd elm/games/
+mkdir hello
+cd hello/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+nix store gc
+nix develop
+..
+rm -rf hellow
+rm -rf hello
+ls
+clear
+mkdir hello
+cd hello/
+nix develop
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+nix develop
+kj
+clear
+cargo
+ls
+clear
+zellij
+zellij --help
+zellij list-sessions
+zellij
+zellij help
+zellij list-sessions
+clear
+rustc
+node
+pnpm
+pnpm init
+pnpx elm-pages
+pnpx elm-pages init blogger
+ls
+pnpm dev
+pnpm start
+pnpm install
+htop
+pnpm start
+pnpm install
+nvim
+ls
+pnpx elm-pages init --help
+ls
+pnpx elm-pages --help
+pnpx elm-pages init .
+ls
+rm package.json
+rm pnpm-lock.yaml
+ls
+mv blogger/* .
+ls
+ls blogger/
+rm blogger/
+ls
+nvim .
+clear
+clear
+ls
+pnpm install
+cargo
+cargo init
+ls
+git status
+g
+g status
+git status
+ga * .*
+git add * .*
+git add .
+ls
+git status
+zellij
+git commit -S
+exit
+clear
+zellij kill
+zellij kill-all-sessions
+clear
+neovide
+clear
+ls
+nvim ~/.config/nushell/env.nu
+git config --global core.editor "nvim"
+git commit -S
+gpg 
+man gpg
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format=long<\n>
+htop
+gpg --armor --export 324
+gpg --list-secret-keys --keyid-format=long
+ls
+ls
+gpg --list-secret-keys --keyid-format=long
+gpg --armor --export 3241B1ACEC5B1FB5
+nvim
+gpg --armor --export 3241B1ACEC5B1FB5 > source.txt
+gpg --armor --export 3241B1ACEC5B1FB5 o> source.txt
+ls
+nvim source.txt
+xclip
+sudo apt install xclip
+xclip
+nix develop
+clear
+man xargs
+man xcl
+xclip -i "wow"
+xclip -i source.txt
+xclip -o
+xclip -selection primary -i source.txt
+xclip -selection clipboard -i source.txt
+git config --global --unset gpg.format
+gpg --list-secret-keys --keyid-format=long
+git config --global user.signingkey 3241B1ACEC5B1FB5
+git commit -S
+rm source.txt
+ls
+neovide
+ls
+which cargo
+clear
+ls
+cargo watch
+clear
+ls
+git status
+flatpak run org.godotengine.Godot
+cargo add comfy
+flatpak install org.godotengine.Godot
+cargo add comfy
+cargo b
+neovide
+htop
+clear
+novide
+neovide
+clear
+ls
+cargo b
+sudo apt install alsa
+cargob
+cargo b
+sudo apt install alsa-dev
+apt search alsa | less
+sudo apt install libasound2-dev
+cargo b
+cargo clean
+cargo b
+apt search alsa | less
+nix search alsa
+sudo apt install alsa-source
+cargo b
+nix develop --command nu
+nix search nixpkgs alsa
+htop
+pkill rust_analyzer
+htop
+pkill rust-analyzer
+cargo b
+flatpak uninstall
+flatpak list
+flatpak uninstall org.godotengine.Godot3
+htop
+cargo b
+cargo watch -x r
+cargo watch -c -x r
+cargo watch
+ls
+clear
+cargo b
+cargo watch -c -w src -x r
+exit
+zellij
+clear
+cargo add anyhow
+htop
+clear
+ls
+rm neovide_backtraces.log
+cargo doc
+cargo b
+cargo doc --open
+cargo r
+cargo doc 
+~
+ls
+~/dev/rust/hello/
+ls
+clear
+ls
+cargo b
+ls
+cargo doc --open
+nvim ~/.cargo/config.toml
+ls
+ls
+ls target
+sudo apt install mold 
+ls --tree target/doc
+ls  target/doc
+clear
+flatpak --help
+flatpak permissions --help
+flatpak permissions-show --help
+flatpak permission-show --help
+flatpak permission-show 1
+flatpak permission-show org.mozilla.Firefox
+flatpak permissions
+flatpak permission-show org.mozilla.firefox
+flatpak override 
+flatpak override --help
+mold
+clear
+ls
+cargo install cargo expand
+flatpak install flatseal
+cargo install cargo-expand
+nvim ~/.cargo/config.toml
+cargo install cargo-binstall
+clang
+sudo apt install clang
+cargo install cargo-binstall
+nvim ~/.cargo/config.toml
+nvim flake.nix
+nvim 
+nvim ~/.cargo/config.toml
+nvim .rust-toolchain.toml
+exit
+which rust
+exit
+cargo install cargo-binstall
+rustup
+nvim ~/.cargo/config.toml
+rm rust-toolchain.toml
+cargo b
+cargo binstall cargo-expand
+clear
+ls
+cat ~/.cargo/config.toml
+clear
+which cargo
+cargo install cargo-expand
+cargo expand
+cargo expand > expanded.rs
+cargo expand o> expanded.rs
+cargo watch -c -w src -x r
+neovide
+zellij
+clear
+ping 8.8.8.8
+pactl -- set-sink-volume 0 +110%
+~/dev/projects/capsule_clock/
+ls
+nix develop --command nu
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pactl -- set-sink-volume 0 +110%
+ls
+exit
+nix develop --command nu
+exit
+nix develop --command nu
+exit
+exit
+cd ~/dev/projects/capsule_clock/ls
+cd ~/dev/projects/capsule_clock/
+ls
+node --version
+pnpm build
+pnpm install
+exit
+htop
+ls
+clear
+git status
+git branch
+git branch v2
+git checkout v2
+git status
+neovide
+exit
+pnpm dev
+nix develop --command nu
+zellij
+exit
+ls
+dev/
+ls
+cd elm
+ls
+cd games
+ls
+...
+mkdir purescript
+cd purescript/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+ls
+mkdir tiles
+mv * tiles/
+ls
+cd tiles/
+ls
+z
+nvim ~/.config/nushell/config.nu
+z
+nvim ~/.config/nushell/config.nu
+zellij --help
+nvim ~/.config/nushell/config.nu
+ls
+~/dev/purescript/tiles/
+ls
+la
+ll
+ls -al
+ls -a
+l
+la
+ls
+n
+pnpm create
+pnpm create --help
+pnpm create -- --help
+pnpx create help
+pnpm create 
+pnpm create --git github.com/kamenchunathan/purescript-template.git
+pnpm init
+pnpm install purescript spago@next
+pnpm install -D purescript spago@next
+ls
+pnpm spago init
+pnpm spago install deku
+git init
+git add * .*
+git add .
+ls
+git status
+gc 
+git commit -S
+nvim ~/.config/nvim/
+cd ~/.config/nvim/
+ls
+cd -
+nvim
+clear
+pnpm install -D vite
+touch index.html
+ls
+pnpm dev
+pnpm spago build
+pnpm spago --migrate build
+pnpm spago --migrate 
+pnpm spago build
+pnpm spago build --migrate
+pnpm spago build
+cd -
+..
+ls
+-
+cd -
+clear
+n
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+rm flake.nix flake.lock
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+node
+pnpm
+git add flake.*
+git status
+git commit -S
+htop
+clear
+spago build
+spago
+spago
+exit
+which spago
+spago
+clear
+n
+node
+purs
+pnpm dev
+node
+pnpm 
+npm 
+clear
+ls
+spago build
+ls
+pnpm spago build
+spago build
+ls
+nix develop --command nu
+clear
+ls
+pnpm install -D purs-backend-es
+pnpm purs-backend-es
+pnpm purs-backend-es build
+ls
+pnpm purs-backend-es build
+pnpm build
+pnpm vite build --help
+pnpm vite build --minify false
+pnpm purs 
+pnpm purs build --help
+pnpm purs-backend-es
+pnpm purs-backend-es bundle-module
+pnpm purs-backend-es bundle-module --help
+pnpm purs-backend-es bundle-module --no-build --platform browser
+pnpm purs-backend-es bundle-module --help
+pnpm purs-backend-es build --help
+pnpm purs-backend-es build
+rm -rf output output-es .spago
+pnpm dev
+clear
+pnpm spago install
+clear
+ls
+pnpm purs-backend-es build
+pnpm spago build
+pnpm purs-backend-es build
+pnpm vite build --minify false
+pnpm install -D tailwindcss autoprefixer 
+pnpm tailwindcss init -p
+pnpm install -D tailwindcss autoprefixer postcss
+pnpm dev
+ls
+clear
+cd ~/.config/nvim/
+nvim
+cd -
+ls
+clear
+..
+mkdir learning/deku
+cp tiles/src/Main.purs learning/deku/Hello.purs
+git add .
+-
+cd -
+git add .
+g status
+git status
+git commit -S
+clear
+ls
+htop
+mkdir scripts
+convert -extract 1024x1024+0+0 original.png target.png
+convert
+sudo apt install imagemagick
+convert
+clear
+ls
+clear
+calc
+cal
+df
+dc
+python
+fzf
+sudo apt search fz
+sudo apt search fzf
+sudo apt install fzf
+nu scripts/gen-image.nu
+nu scripts/gen-image.nu "Hello"
+nu scripts/gen-image.nu "World"
+nu scripts/gen-image.nu 4
+nu scripts/gen-image.nu 2
+mod
+4 mod 4
+nu scripts/gen-image.nu 2
+nu scripts/gen-image.nu 2 ww
+chmod +x scripts/gen-image.nu
+mkdir public
+cd public
+mkdir images
+cd images/
+mv ~/Downloads/woman-3077180_640.jpg
+mv ~/Downloads/woman-3077180_640.jpg .
+clear
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+kk
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+rm -rf woman-3077180_640.jpg-16
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+open woman-3077180_640.jpg-0
+xdg-open woman-3077180_640.jpg
+^clear 
+xdg-open woman-3077180_640.jpg-0
+ls 
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+k
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+mv woman-3077180_640.jpg ..
+rm -rf *
+ls
+mv ../woman-3077180_640.jpg .
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+mv woman-3077180_640.jpg ..
+rm -rf *
+mv ../woman-3077180_640.jpg .
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+mv woman-3077180_640.jpg ..
+rm -rf *
+mv ../woman-3077180_640.jpg .
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+.
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+rm *-jpg
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+mv woman-3077180_640.jpg ..
+rm *
+mv ../woman-3077180_640.jpg .
+ls
+../../scripts/gen-image.nu 4 woman-3077180_640.jpg
+ls
+xdg-open woman-3077180_640-10.jpg
+lear
+clear
+mkdir parts
+mv * parts/
+mv parts/woman-3077180_640.jpg
+mv parts/woman-3077180_640.jpg .
+clear
+htop
+pnpm spago init --use-solver
+ls
+la
+ls -al
+clear
+...
+mkdir tmp
+cd tmp
+pnpm create-deku-app@0.0.11 my-awesome-app
+pnpx create-deku-app@0.0.11 my-awesome-app
+cp tmp spago.yaml .
+ls
+cp tmp/my-awesome-app/
+cp tmp/my-awesome-app/spago.yaml .
+pnpm spago install
+rm -rf output output-es .spago
+pnpm spago install
+pnpm spago build
+pnpm spago doc
+pnpm spago graph
+pnpm spago graph packages
+clear
+ls
+pnpm spago build
+clear
+pnpm spago build
+n
+exit
+z
+clear
+htop
+clear
+ls
+z
+exit
+nix develop --command nu
+exit
+ls
+node
+cd ~/.config/nvim/
+nvim
+clear
+./scripts/gen-image.nu public/images/parts/
+./scripts/gen-image.nu 0 public/images/parts/
+ls
+cd scripts/
+./gen-image.nu
+./gen-image.nu 0 9
+./gen-image.nu 4 9
+..
+cd public/images/parts/
+rm -rf *
+../../../scripts/gen-image.nu 4 ../woman-3077180_640.jpg
+ls
+n
+clear
+cd public/images/parts/
+../../../scripts/gen-image.nu 4 ../woman-3077180_640.jpg
+htop
+pnpm spago repl
+flatpak kill org.mozilla.firefox
+clear
+pnpm spago repl
+clear
+pnpm spago repl
+pnpm spago build
+htop
+pnpm spago repl
+pnpm dev
+pnpm spago repl
+htop
+pnpm build
+pnpm purs-backend-es build
+pnpm build
+~/Downloads/
+wget https://github.com/static-web-server/static-web-server/releases/download/v2.32.2/static-web-server-v2.32.2-x86_64-unknown-linux-gnu.tar.gz
+tar xvf static-web-server-v2.32.2-x86_64-unknown-linux-gnu.tar.gz
+ls
+cd static-web-server-v2.32.2-x86_64-unknown-linux-gnu/
+ls
+./static-web-server
+..
+mkdir /opt/sws/bin/
+mv static-web-server-v2.32.2-x86_64-unknown-linux-gnu/static-web-server /opt/sws/bin/
+ln -s /opt/sws/bin/static-web-server ~/.local/bin/sws
+sws
+sws --help
+sws
+sws --help
+sws -p 3000 -d dist
+clear
+pnpm clean
+pnpm install
+pnpm spago install
+pnpm build
+pnpm spago build
+sws --help | less
+pnpm vite build --help
+cd -
+~/dev/purescript/tiles/
+pnpm vite build --help
+pnpm build
+rm -rf output output-es .spago
+pnpm spago install
+pnpm spago build
+pnpm purs-backend-es build
+pnpm build
+sws -p 3000 -d dist
+git add .
+g status
+git status
+git restore --staged dist
+git status
+git commit -S
+git status
+clear
+~/dev/projects/capsule_clock/
+exit
+nix develop
+~/dev/projects/capsule_clock/
+nix develop
+clear
+ls
+z
+exit
+ls
+mkdir ~/dev/odin/hello_world
+cd ~/dev/odin/hello_world
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#odin"
+wget https://github.com/haller33/Odin-Flake/raw/master/flake.nix
+ls
+nix develop --command nu
+nvim 
+nix develop --command nu
+clear
+rm *
+ls
+ls -al
+nix flake show github:kilzm/odin-overlay
+cp ../../rust/hello/flake.nix .
+nvim flake.nix
+nix develop --command nu
+odin
+odin version
+exit
+nix develop --command nu
+clear
+ls
+ols
+odinfmt
+make
+touch Makefile
+exit
+nvim
+exit
+z
+clear
+wget https://github.com/kamenchunathan/ron-odin/raw/master/Makefile
+cd -
+cd ~/dev/odin/hello_world
+wget https://github.com/kamenchunathan/ron-odin/raw/master/Makefile
+wget https://github.com/kamenchunathan/ron-odin/raw/master/odinfmt.json
+git clone git@github.com:kamenchunathan/ron-odin.git
+mv ron-odin/Makefile .
+mv ron-odin/ols .
+mv ron-odin/ols.json .
+mv ron-odin/odinfmt.json .
+rm ron-odin/
+rm -rf ron-odin/
+clear
+odin
+n
+clear
+odin
+make -s watch
+make build
+make -s watch
+apt search inotifywait
+nix develop --command nu
+exit
+make -s watch
+wget https://github.com/gfx-rs/wgpu-native/releases/tag/v0.19.4.1
+ls
+file v0.19.4.1
+rm v0.19.4.1
+make build
+wget https://github.com/gfx-rs/wgpu-native/releases/download/v0.19.4.1/wgpu-macos-x86_64-release.zip
+unzip wgpu-macos-x86_64-release.zip
+make build
+mv libwgpu_native.a /nix/store/gn7iipp54fx3yc5d0jjn1xqaiv7i5ind-odin-0-unstable-2024-08-05/share/vendor/wgpu/lib/wgpu-linux-x86_64-release/
+make build
+mkdir /nix/store/gn7iipp54fx3yc5d0jjn1xqaiv7i5ind-odin-0-unstable-2024-08-05/share/vendor/wgpu/lib/wgpu-linux-x86_64-release/
+sudo mkdir /nix/store/gn7iipp54fx3yc5d0jjn1xqaiv7i5ind-odin-0-unstable-2024-08-05/share/vendor/wgpu/lib/wgpu-linux-x86_64-release/
+sudo mv libwgpu_native.a /nix/store/gn7iipp54fx3yc5d0jjn1xqaiv7i5ind-odin-0-unstable-2024-08-05/share/vendor/wgpu/lib/wgpu-linux-x86_64-release/
+clear
+ls
+rm wgpu-macos-x86_64-release.zip
+rm libwgpu_native.dylib wgpu.*
+ls
+rm webgpu.h
+ls
+rm commit-sha
+ls
+cd bin
+wget https://github.com/gfx-rs/wgpu-native/releases/download/v0.19.4.1/wgpu-linux-x86_64-release.zip
+unzip wgpu-macos-x86_64-release.zip
+unzip wgpu-linux-x86_64-release.zip
+sudo mv libwgpu_native.a libwgpu_native.so /nix/store/gn7iipp54fx3yc5d0jjn1xqaiv7i5ind-odin-0-unstable-2024-08-05/share/vendor/wgpu/lib/wgpu-linux-x86_64-release/
+make build
+make -s watch
+exit
+make build
+make -s watch
+make run
+clear
+cd ~/dev/odin/hello_world
+..
+cp -r hello_world/ ~/Templates/
+ls --tree ~/Templates/
+lsd
+ls --du ~/Templates/
+ls --du ~/Templates/hello_world/
+rm -rf ~/Templates/hello_world/
+cd -
+nvim
+cd ..
+cp -r hello_world/ ~/Templates/
+nvim ~/Templates/hello_world/
+clear
+mv ~/Templates/hello_world/ ~/Templates/odin_template
+cp -r ~/Templates/odin_template/ .
+mkdir learning
+cd learning/
+mv ../odin_template/ .
+ls
+mv odin_template/ http
+cd http/
+nix develop --command nu
+git init
+git add *
+git status
+touch .gitignore
+echo "bin/" o> .gitignore
+cat .gitignore
+ga .
+git add .
+ls
+git restore --staged git
+git rm bin
+git status
+git commit -S
+man 3 sock
+man 2 socket
+man 2 close
+man 2 socket
+man 2 bind
+man man
+man 2 bind
+man 3 bind
+man bind
+man 2 htons
+man htons
+htop
+n
+man bind
+man listen
+man 2 recv
+man accept
+make build
+clear
+ping localhost:8080
+nc localhost:8080
+nc localhost -p 8080
+man 2 recv
+man nc
+nc localhost 8080
+make run
+..
+mkdir examples
+cd examples/
+odin
+nix develop --command nu
+ls
+clear
+...
+cd examples
+git clone git@github.com:laytan/odin-http.git
+cd odin-http/
+htop
+n
+exit
+exit
+nix develop --command nu
+exit
+z
+~/dev/purescript/graphics/
+mkdir ~/dev/purescript/graphics/
+cd ~/dev/purescript/graphics/
+git clone git@github.com:kamenchunathan/webgpu-purescript.git
+mv webgpu-purescript/ air_bender
+cd air_bender/
+n
+htop
+clear
+ls
+spago
+clear
+ls
+pnpm build
+pnpm
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+clear
+pnpm
+npm
+exit
+n
+nvim
+nvim flake.nix
+exit
+nix develop --command nu
+exit
+nix develop --command nu
+nvim
+nix develop --command nu
+nvim
+mv flake.nix flake.nix1
+cp ../../tiles/flake.nix .
+nvim flake.nix
+rm flake.nix1
+git status
+exit
+nix develop --command nu
+clear
+rm flake.lock
+cp ../../tiles/.envrc .
+exit
+nix develop --command nu
+ls flake.lock
+rm flake.lock
+cp ../../tiles/flake.lock .
+clear
+git status
+pnpm 
+nvim 
+pnpm install
+pnpm spago install
+pnpm spago --version
+pnpm spago build
+ping localhost:8080
+ping 8.8.8.8
+pnpm spago build
+clear
+purs --version
+nvim 
+pnpm install
+clear
+pnpm dev
+clear
+purs --version
+spago
+clear
+n
+git status
+git checkout flake.nix flake.lock
+git checkout package.json
+exit
+nix develop --command nu
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+clear
+purs --version
+pnpm spago build
+pnpm install
+pnpm --version
+..
+cd tiles/
+pnpm --version
+clear
+cp ../../tiles/flake.lock .
+ls
+git status
+clear
+pnpm --version
+clear
+pnpm install
+pnpm spago install
+clear
+n
+exit
+nix develop --command nu
+n
+...
+cd purescript/graphics/air_bender/
+clear
+which pnpm
+exit
+nix develop --command nu
+git status
+git branch
+git add .
+git status
+git restore --staged .
+git status
+clear
+git branch
+git add .
+git comi
+git commit -S 
+git status
+git add .
+git status
+git commit -S 
+git push
+git checkout -b camera
+clear
+n
+...
+pnpm dev
+clear
+ls
+mkdir examples
+cd examples/
+git clone git@github.com:btgaffor/purescript-ecs.git
+cd purescript-ecs/
+clear
+exit
+exit
+exit
+nix develop --command nu
+exit
+bash
+exit
+nix develop --command nu
+exit
+clear
+~/dev/purescript/examples/purescript-ecs/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+clear
+spago upgrade-set
+spago build
+clear
+n
+..
+git clone https://github.com/btgaffor/purescript-ecs-space-invaders.git
+cd purescript-ecs-space-invaders/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+pnpm spago install
+npm spago install
+spago install
+spago upgrade-set
+spago install
+pnpm install
+pnpm init
+pnpm install
+pnpm dev
+pnpm run
+pnpm run webpack:server
+clear
+pnpm spago build
+spago build
+spago install
+spago build
+n
+exit
+nix develop --command nu
+clear
+cp ../../graphics/air_bender/flake.nix .
+nvim flake.nix
+rm flake.lock
+nix develop --command nu
+cp ../../graphics/air_bender/flake.lock .
+clear
+spago build
+ls
+git status
+git checkout packages.dhall
+spago build
+nvim flake.nix
+spago buil
+spago build
+spago install
+spago build
+ls .spago
+ls .spago/ecs
+ls .spago
+ls
+ls -al
+ls -a
+n
+clear
+exit
+nix develop --command nu
+nvim flake.nix
+spago build
+spago upgrade-set
+spago build
+nvim flake.nix
+nvim
+exit
+nix develop --command nu
+spago build
+exit
+nvim flake.nix
+spago build
+exit
+nix develop --command nu
+ls
+ls .spago
+htop
+~/dev/purescript/
+cd learning/
+mkdir ecs
+cd ecs
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+clear
+cd ~/dev/purescript/learning/ecs/
+spago init
+spago install ecs
+purs --version
+spago install ecs
+n
+exit
+nix develop --command nu
+rm -rf *
+ls
+ls -a
+rm .envrc .purs-repl
+clear
+cp ~/dev/purescript/
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+ls
+exit
+nix develop --command nu
+clear
+nvim
+nix develop --command nu
+exit
+nix develop --command nu
+nvim flake.nix
+spago init
+nvim flake.nix
+exit
+nix develop --command nu
+spago init
+spago install
+spago install ecs
+exit
+rm -rf *
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+spago init
+exit
+nix develop --command nu
+clear
+ls
+spago --version
+rm -rf *
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+spago init
+clear
+n
+nix develop --command nu
+exit
+nix develop --command nu
+rm -rf *
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+nvim
+spago init
+spago install
+n
+exit
+nix develop --command nu
+...
+cd examples/purescript-ecs-space-invaders/
+neovide
+clear
+exit
+clear
+mkdir ~/dev/haskell/examples
+cd ~/dev/haskell/examples
+git clone git@github.com:jonascarpay/apecs.git
+n
+n
+clear
+..
+mkdir learning/ecs_test
+cd learning/ecs_test/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+~/dev/projects/capsule_clock/
+clear
+..
+clear
+voter
+mkdir voter
+cd voter
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpx elm-pages init .
+gdebi
+sudo dpkg -i ~/Downloads/PureRef-2.0.2_x64.deb
+pnpm install
+ls
+pnpx elm-pages init .
+pnpx elm-pages init s
+mv s/* .
+ls s
+rm s
+ls
+pnpm install
+pnpm dev
+pnpm run
+pnpm start
+pnpm install -D tailwindcss autoprefixer postcss
+pnpm tailwindcss init -p
+htop
+cd ~/dev/godot/tetris
+ls
+cd sprites/blocks/
+cp ~/Downloads/Tetris.zip
+cp ~/Downloads/Tetris.zip .
+unzip Tetris.zip .
+unzip Tetris.zip
+ls
+ls Tetris/
+rm *.zip
+rm *.txt
+ls
+cd Tetris/
+rm *.txt
+ls
+mv * ..
+ls
+..
+rm -d
+rm Tetris/
+ls
+~/dev/projects/voter/
+nvim
+wget -qO - https://hub.unity3d.com/linux/keys/public | gpg --dearmor | sudo tee /usr/share/keyrings/Unity_Technologies_ApS.gpg > /dev/null
+bash
+sudo apt update
+sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/Unity_Technologies_ApS.gpg] https://hub.unity3d.com/linux/repos/deb stable main" > /etc/apt/sources.list.d/unityhub.list'
+sudo apt update
+sudo apt search unityhub
+sudo apt install unityhub
+ps | grep unity
+pkill unityhub-bin
+ps | grep unity
+clear
+~/dev/purescript/
+ls
+cd graphics
+..
+mkdir games
+clear
+ls learning/deku/
+ls
+ls tiles
+mv tiles games
+cd games
+cp -r tiles recce
+ls
+ls recce
+cd recce/
+ls -a
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpm clean
+rm -rf .git
+clear
+neovide
+pnpm install
+pnpm spago build
+clear
+ls
+git init
+git add *
+git status
+rm public/*
+rm -rf public/*
+ls
+git status
+git rm public
+git status
+git add public
+git status
+git rm scripts
+git -r rm scripts
+git rm -r scripts
+git status
+git rm -r --cached scripts
+ls
+git status
+git commit -S
+rm -rf scripts
+man rm
+cd public
+ls
+mv ~/Downloads/cards_shiva.zip
+mv ~/Downloads/cards_shiva.zip .
+unzip cards_shiva.zip
+rm cards_shiva.zip
+ls
+ls cards_shiva/
+xdg-open cards_shiva/preview_tp.jpg
+clear
+yazi
+cargo 
+~/dev/rust/hello/
+cargo
+cargo binstall
+clear
+spago
+pnpm spago install fetch yoga-json
+cargo install cargo-binstall
+cargo binstall
+cargo binstall yazi
+cargo install yazi
+exit
+nix develop --command nu
+~/Downloads/
+unzip yazi-x86_64-unknown-linux-gnu.zip
+cd yazi-x86_64-unknown-linux-gnu/
+./yz
+./ya
+./yazi
+mkdir /opt/yazi/bin/
+mv yazi /opt/yazi/bin/
+ln -s /opt/yazi/bin/yazi ~/.local/bin/yazi
+rm *.zip
+ls
+..
+ls
+ls Templates/
+ls -a
+.config/nu
+cd .config/nu
+cd .config/nushell/
+ls
+mkdir completions
+cp ~/Downloads/yazi-x86_64-unknown-linux-gnu/completions/ yazi
+cp -r ~/Downloads/yazi-x86_64-unknown-linux-gnu/completions/ yazi
+cd yazi
+ls
+mv yazi.nu ..
+cat _yazi.ps1
+ls
+mv yazi.nu ..
+..
+nvim
+cd completions/
+rm *
+ls
+mv ../yazi.nu .
+..
+rm -rf yazi
+ls
+nvim
+ga
+gis
+z
+nvim
+z
+clear
+ls
+htop
+pkill neovide
+htop
+~
+cd ~/dev/purescript
+ls
+cd games
+git clone git@github.com:kamenchunathan/purescript-solitaire
+cd purescript-solitaire/
+nvim
+fzf
+spago build
+pnpm spago build
+~/dev/purescript/games/recce/
+ls
+z
+zellijs
+htop
+...
+cd learning
+ls
+rm -rf *
+git init
+clear
+ls
+git status
+gh
+bash
+gh repo create
+gh auth login
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+nvim
+~/dev/rust/hello/
+cd -
+cd ~/dev/purescript/learning/ecs/
+cd ~/dev/purescript/learning/
+ls
+clear
+nvim
+exit
+nix develop --command nu
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+nvim
+git status
+git checkout flake.*
+exit
+nix develop --command nu
+~/dev/purescript/learning/
+ls
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+clear
+spago
+spago --version
+clear
+spago init
+ls
+rm -rf src/ test
+mkdir monads
+cd monads/
+spago init
+..
+clear
+spago run --package monad
+spago run --package monads
+clear
+git add .
+git status
+git commit -S
+gh repo create
+clear
+spago repl
+clear
+spago repl
+clear
+spago install
+spago repl
+clear
+spago repl
+exit
+neovide
+exit
+nix develop --command nu
+clear
+spago repl
+clear
+neovide
+exit
+clear
+spago repl
+spago build
+clear
+spago repl
+clear
+spago repl
+clear
+spago repl
+clear
+ls
+flatpak uninstall org.godotengine.Godot
+flatpak install flathub org.godotengine.GodotSharp
+nvim ~/.config/nix/nix.conf
+neovide
+neovide
+nvim flake.nix
+clear
+ls
+~/dev/godot/hello/
+neovide
+ls
+nevim .
+flatpak kill org.godotengine.Godot
+flatpak list
+htop
+pkill neovide
+clear
+neovide
+nvim .
+neovide
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#csharp"
+neovide
+msbuild
+nvim 
+exit
+nix develop --command nu
+nvim
+clear
+neovide
+htop
+zellij
+flatpak list --installed
+htop
+clear
+~/dev/ts
+mkdir ~/dev/ts/
+cd ts
+cd dev/ts
+ls
+clear
+ls
+mkdir learning
+cd learning/
+mkdir shots
+cd shots
+ls
+clear
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+clear
+ls
+nvim flake.nix
+pnpm create partykit@latest
+ls
+pnpm create partykit@latest
+cd poll
+ls
+cd pong/
+pnpm install
+ls
+mv * ..
+ls
+..
+rm pong
+pnpm install
+clear
+neovide
+zsh
+ls
+clear
+pnpm create partykit@latest
+ls
+pnpm dev
+pnpm install
+ls
+cd pong/
+pnpm install
+pnpm dev
+clear
+..
+pnpm create partykit@latest
+cd lolz/
+neovide
+pnpm dev
+clear
+..
+rm -rf lolz/ pong/
+pnpm create partykit@latest
+cd lolz
+pnpm dev
+clear
+..
+git clone git@github.com:partykit/partykit-nextjs-chat-template.git
+cd partykit-nextjs-chat-template/
+pnpm install
+xclear
+..
+cd shots/partykit-nextjs-chat-template/
+pnpm dev
+pnpm install
+pnpm dev
+clear
+pnpm dev
+clear
+sudo apt install ripgrep
+nvim
+bash
+zsh
+ln -s /opt/lazygit/bin/lazygit ~/.local/bin/lazygit
+lazygit --version
+clear
+nvim
+neovide
+clear
+~/dev/purescript
+ls
+mkdir projects
+cd projects/
+clear
+ls
+exit
+exit
+zellij
+exit
+nix develop --command nu
+clear
+ls
+..
+cd purescript/projects/
+ls
+mkdir purescript-partykit
+cd purescript-partykit/
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+clear
+spago init
+pnpm init
+~/dev/ts/
+ls
+learning
+cd learning/shots/
+ls
+cd partykit-nextjs-chat-template/
+nvim package.json
+..
+nvim
+pnpm install -D partysocket
+pnpm install -D partysocket partykit
+clear
+ls
+nix develop --command nu
+clear
+nvim .envrc
+man install
+sudo apt install ~/Downloads/rstudio-2024.04.2-764-amd64.deb
+clear
+sudo apt install r
+apt search r
+sudo apt update && sudo apt install r-base r-base-dev
+apt search r-base
+sudo apt update ; sudo apt install r-base r-base-dev
+sudo apt install libcurl
+curl
+apt search curl
+zsh
+R
+cat .zshrc | tail 
+cat ~/.zsh_history | tail
+ls /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1/00LOCK-ragg
+ls /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1/
+ls /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1/00LOCK*
+ls /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1
+R
+clear
+sudo apt purge r-base
+R
+apt list
+apt list | grep r-base
+sudo apt purge r-base r-base-dev r-base-html
+sudo apt autoremove
+sudo apt install r-base r-base-dev
+man apt
+man apt-get
+sudo apt install --install-suggests r-base r-base-dev
+~
+ls
+ls /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1
+rm /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1/*
+clear
+wget https://www.kaggle.com/datasets/shibumohapatra/house-price
+ls
+nvim house-price
+rm house-price
+sudo apt install r-base r-base-dev
+rm /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1/DBI/
+rm -rf /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1/*
+ls /home/nathankamenchu/R/x86_64-pc-linux-gnu-library/4.1
+R
+wget     "https://raw.githubusercontent.com/febse/data/main/econ/california_house_pricing.csv"<\n>
+nvim california_house_pricing.csv
+clear
+ls
+rm ./california_house_pricing.csv
+...
+..
+ls
+cd elm/games/hello/
+htop
+clear
+~/dev/purescript/projects/
+ls
+cd purescript-partykit/
+clear
+zellij
+nix develop --command nu
+~/dev/purescript/projects/purescript-partykit/
+clear
+git init
+git config --global init.defaultBranch master
+clear
+ls
+spago init
+clear
+ls
+spago
+spago init
+clear
+ls
+clear
+cd examples/tic_tac_toe/
+pnpm init
+pnpm install partysocket
+..
+rm -rf tic_tac_toe/
+pnpm create partykit@latest
+cd tic_tac_toe/
+pnpm install purescript spago@next
+pnpm install -D purescript spago@next
+pnpm install -D vite
+..
+rm -rf tic_tac_toe/
+mkdir tic_tac_toe
+cd tic_tac_toe/
+htop
+pkill neovide
+neovide
+history
+history | grep deku
+R
+clear
+ls
+pnpx create-deku-app tic_tac_toe
+clear
+ls
+mv tic_tac_toe/ examples/
+pnpm init
+rm package.json
+ls
+cd examples/tic_tac_toe/
+ls
+pnpx partykit@latest init
+clear
+cd examples/tic_tac_toe/
+clear
+pnpm install
+nvim ~/dev/ts/learning/shots/partykit-nextjs-chat-template/partykit.json
+nvim ~/dev/ts/learning/shots/partykit-nextjs-chat-template/
+pnpm install -D concurrently
+nvim ~/dev/ts/learning/shots/partykit-nextjs-chat-template/package.json
+pnpm install
+pnpm dev
+pnpm dev:partykit
+git clone git@github.com:kamenchunathan/halogen-template.git
+..
+ls
+git clone git@github.com:kamenchunathan/halogen-template.git tic-tac-toe
+mv tic-tac-toe/ tic_tac_toe
+pnpm dev
+pnpm install -D concurrently
+pnpm spago upgrade
+pnpm spago --version
+spago init
+spago init --name tic-tac-toe
+pnpm install -D spago@next
+nvim ~/dev/ts/learning/shots/partykit-nextjs-chat-template/package.json
+rm -rf tic_tac_toe/.git/
+pnpx partykit@latest init
+ls
+pnpm dev
+pnpm dev:vite
+spago install
+spago build
+pnpm dev
+clear
+ls
+pnpm spago --version
+cd examples/tic_tac_toe/
+pnpm spago --version
+spago v
+spago --version
+pnpm install
+pnpm dev
+pnpm spago build
+pnpm dev
+clear
+pnpm spago build
+cd examples/tic_tac_toe/
+pnpm spago build
+          nix develop --command nu
+ls
+nix
+nix develop --command nu
+nix develop
+clear
+..
+mv purescript-partykit/ partykit
+cd partykit/
+nix develop
+rm flake.lock
+nix develop
+ls
+git status
+nix develop
+clear
+pnpm
+zsh
+clear
+..
+ls
+mkdir purescript-partykit
+mv partykit/flake.nix purescript-partykit/
+cd purescript-partykit/
+nix develop
+clear
+nvim flake.nix
+cp ~/dev/purescript/graphics/air_bender/flake.lock .
+cp -r ../partykit/* .
+pnpm
+clear
+ls
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+clear
+pnpm 
+pnpm init
+pnpm install partysocket
+clear
+spago install effect
+spago build
+ls
+clear
+ls
+spago build
+cd examples/tic_tac_toe/
+pnpm dev
+pnpm install
+ls
+clear
+pnpm dev
+clear
+cd examples/tic_tac_toe/
+pnpm spago build
+spago install nullable
+clear
+spago install nullable
+pnpm build:purescript
+spago install web-events
+purs-tidy format-in-place client/**/*.purs
+pnpm build:purescript
+purs-tidy format-in-place client/**/*.purs
+neovide
+git status
+git add * .*
+git add .
+git status
+nvim .gitignore
+git rm --cached .partykit
+git rm --cached examples/tic_tac_toe/.partykit/
+git rm -r --cached examples/tic_tac_toe/.partykit/
+git status
+ga .gitignore
+git add .gitignore
+clear
+g status
+git status
+git commit -S
+clear
+gh repo create
+ls
+git status
+ls
+git origin
+git remote 
+git remote --help
+git remote get-url
+git remote get-url origin
+git remote get-url --a
+git remote get-url --all
+clear
+git pull
+..
+ls
+cd purescript-partykit/
+git pull
+neovide
+flatpak list --help
+flatpak kill --help
+clear
+htop
+clear
+ls
+cd dev/purescript/projects/purescript-partykit/
+nvim
+zellij
+clear
+ls
+clear
+..
+ls
+cd learning/
+ls
+clear
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+ls
+rm flake.*
+rm spago.*
+rm .envrc
+ls
+mkdir backend
+cd backend/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+nix develop --command nu
+ls
+nix develop --command nu
+git init
+git status
+git add flake.* .envrc
+git status
+nvim
+nix develop --command nu
+nvim
+git add .
+git commit -S -m "init: Set up dependencies and environment"
+clear
+ls
+clear
+ls
+spago init
+spago install httpure
+spago list
+spago ls
+spago ls packages | grep httpure
+spago ls packages | jq
+spago ls packages | less
+spago install httpure
+neovide
+..
+rm -rf backend
+exit
+nix develop --command nu
+..
+~/dev/purescript/learning
+ls
+clear
+mkdir backend
+cp ~/dev/purescript/graphics/air_bender/{flake.*,.envrc} .
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+clear
+ls
+cp flake.* backend/
+cp .envrc backend/
+ls
+ls backend/
+rm flake.*
+rm .envrc
+rm .gitignore
+cd backend/
+ls
+nix develop --command nu
+git status
+..
+mv backend ..
+ls
+..
+ls
+mkdir scratches
+mv backend/ scratches/
+scratches/backend/
+ls
+clear
+ls
+spago init
+spago install httpure
+spago install
+clear
+spago build
+git log -S 'httpure' --source --all
+..
+git clone git@github.com:purescript/package-sets.git
+cd package-sets/
+git log -S 'httpure' --source --all
+git checkout 45cf05b96698507a2d3bdd6c17dbc50aac542046
+clear
+ls
+git status
+nvim
+grep -r . 'httpure'
+grep
+nvim
+git log -S 'httpure' --source --all
+git checkout d1121a8a42c1c9a83544a5ad4532caefe6243c22
+grep -r . 'httpure'
+nvim
+git log
+git checkout 45cf05b96698507a2d3bdd6c17dbc50aac542046
+git checkout HEAD~1
+grep -r . 'httpure'
+man grep
+grep -r 'httpure' .
+git reflog
+clear
+ls
+git describe --tags
+git status
+grep -r 'httpure' .
+git checkout HEAD
+git log
+clear
+git status
+git describe --tags
+git checkout psc-0.15.10-20230826
+git status
+grep -r 'httpure' .
+spago build
+spago
+spago --version
+ls
+..
+cd backend/
+spago build
+exit
+clear
+git status
+git init
+spago registry info httpure
+spago build
+clear
+spago build
+purs-backend-es
+spago build
+purs-backend-es bundle-app
+purs-backend-es bundle-app --help
+nix develop --command nu
+nix
+ls
+nix develop --command nu
+exit
+nix develop --command nu
+clear
+git status
+git add .
+exit
+nix develop --command nu
+clear
+spago build
+clear
+purs-backend-es bundle-app --help
+purs-backend-es bundle-app
+purs-backend-es bundle-app --help
+purs-backend-es bundle-app --no-build
+purs-backend-es --help
+purs-backend-es bundle-module --help # --no-build
+purs-backend-es bundle-module --platform node --no-build
+ls
+purs-backend-es bundle-module --platform node --no-build --to dist/bundled.js
+rm index.js
+purs-backend-es bundle-app --platform node --no-build --to dist/bundled.js
+node dist/bundled.js
+rm dist
+rm -rf dist
+purs-backend-es bundle-app --platform node --no-build --to dist/bundled.mjs
+node dist/bundled.mjs
+clear
+neovide
+clear
+ls
+pnpm build:purescript
+pnpm build
+cd examples/tic_tac_toe/
+pnpm build
+spago purs --version
+pnpm purs --version
+pnpm install
+ls
+spago build
+pnpm build:purescript
+pnpm spago install aff
+pnpm spago -p tic-tac-toe-server install aff
+pnpm spago install -p tic-tac-toe-server aff
+htop
+nix develop --command nu
+clear
+ls
+clear
+..
+ls
+..
+cd scratches/backend/
+neovide
+clear
+spago run
+spago install transformers
+spago install node-fs-aff
+spago install node-fs
+spago build
+spago install node-buffer
+spago build
+spago 
+spago ls
+spago ls deps
+spago install idiomatic-node-buffer
+clear
+spago install unordered-collections
+spago run
+spago ls deps
+spago install node-fs-aff
+spago build
+spago run
+k
+spago run
+spago install debugger
+spago install debug
+spago build
+spago run
+spago install filterable
+spago run
+clear
+spago run
+~/dev/purescript/scratches/
+git clone git@github.com:FruitieX/purescript-ws.git
+htop
+cd purescript-ws/
+ls
+cp ~/dev/purescript/graphics/air_bender/{flake.lock,.envrc} .
+cp ~/dev/purescript/graphics/air_bender/{{flake.lock,.envrc}} .
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+ls
+nix develop --command nu
+git add .
+git status
+clear
+spago init
+pnpm upgrade
+pnpm install -D purescript spago@next
+spago init
+spago install prelude console node-http record
+pnpm install ws
+pnpm spago --version
+spago build
+pnpm spago build
+clear
+~/dev/purescript/scratches/
+git clone git@github.com:purescript-contrib/purescript-react.git
+cd purescript-react/
+ls
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+nvim flake.nix
+nix develop --command nu
+git add flake.* .envrc
+htop
+ls
+spago install
+clear
+zellis
+clear
+ls
+zellij
+exit
+nix develop --command nu
+clear
+which pnpm
+ls
+spago build
+clear
+~/dev/purescript/scratches/
+clear
+mkdir wow
+cd wow
+spago init
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+clear
+spago init
+spago build
+neovide
+neovide
+clear
+spago install node-http
+~/dev/web/
+cd ~/dev/web
+cd ~/dev/ts/
+ls
+mkdir scratches
+cd scratches/
+mkdir wss
+cd wss
+clear
+pnpm init
+pnpm install wss
+clear
+pnpm watch
+pnpm install -D nodemon
+pnpm watch
+clear
+htop
+flatpak kill org.mozilla.firefox
+htop
+spago install records
+spago install record
+spago install nullable
+spago install
+spago ls deps
+spago install
+spago ls deps
+spago build
+spago install
+spago install exceptions
+clear
+cd example/WithServer/
+pnpm init
+pnpm install ws
+spago 
+spago build --help
+spago test
+purs compile
+purs compile Main.purs
+clear
+...
+spago test
+spago build --help
+-
+cd -
+ls
+pnpm init
+pnpm install ws
+pnpm install -D purescript spago@next
+spago install ../..
+spago install node-http exceptions
+spago init
+spago init --name example1
+spago install node-http exceptions
+spago install
+pnpm build
+purs --version
+spago --version
+pnpm purs --version
+pnpm spago --version
+pnpm install
+pnpm build
+pnpm run
+pnpm run run
+pnpm build
+~/dev/purescript/scratches/
+ls
+cd backend/
+nvim
+neovide
+htop
+nvim
+pwd
+spago install
+spago run
+pnpm init
+pnpm install ws
+pnpm install -D purescript spago@next
+pnpm install -D purescript@0.15.14 spago@0.93.38
+pnpm spago build
+pnpm spago run
+neovide
+nvim example/WithServer/
+htop
+~/dev/ts
+ls
+neovide
+cd scratches
+exit
+nix develop --command nu
+which pnpm
+cd -
+clear
+~/dev/ts/scratches
+mkdir wow
+rm wow
+mkdir vite_ssr
+cd vite_ssr/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+clear
+pnpm create vite-plugin-ssr
+mv vite_ssr/* .
+ls
+rm vite_ssr/
+ls
+pnpm install
+clear
+pnpm dev
+neovide
+clear
+~/dev/purescript/scratches/backend/
+nvim
+clear
+..
+ls
+..
+ls
+projects/
+ls
+cd purescript-partykit/
+ls
+pnpm dev
+examples/tic_tac_toe/
+pnpm dev
+pnpm spago install -p tic-tac-toe-client fetch
+pnpm spago install -p tic-tac-toe-client yoga-json
+pnpm dev
+pnpm spago build
+pnpm dev
+pnpm build
+pnpm dev
+clear
+pnpm spago build
+cd example/WithServer/
+cd examples/tic_tac_toe/
+pnpm spago build
+ls
+~/dev/ts/scratches
+mkdir wow
+cd wow
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+clear
+pnpm init
+clear
+pnpm spago build
+pnpm spago install js-fetch
+pnpm spago install -p tic-tac-toe-server js-fetch
+pnpm spago build
+nvim
+neovide
+htop
+clear
+ls
+clear
+~/dev/purescript/projects/purescript-partykit/
+clear
+pnpm dev
+cd examples/tic_tac_toe/
+pnpm dev
+pnpm build:purescript
+cler
+clear
+pnpm build:purescript
+cd examples/tic_tac_toe/
+pnpm build:purescript
+clear
+ls
+clear
+~/dev/purescript/learning
+ls
+cd monads
+ls
+cd src/
+ls
+clear
+..
+ls
+cd monads
+ls
+..
+ls 
+clear
+git status
+git checkout flake.lock flake.nix .envrc .gitignore
+git status
+clear
+ls
+~/dev/purescript/projects/purescript-partykit/
+open `~/Downloads/Book of Monads (Alejandro Serrano Mena) (Z-Library).pdf`
+xdg-open `~/Downloads/Book of Monads (Alejandro Serrano Mena) (Z-Library).pdf`
+clear
+cd examples/tic_tac_toe/
+ls
+ls party
+ls party src
+ls party/src
+clear
+ls
+node party/src/auth.ts
+bun
+pnpm tsc
+pnpm tsc party/src/auth.ts
+ls
+node party/src/auth.js
+spago build
+pnpm build:purescript
+node party/src/auth.js
+node
+node party/src/auth.js
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript
+...
+spago build
+-
+cd -
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript
+node party/src/auth.js
+pnpm build:purescript && ls
+pnpm build:purescript and ls
+nvim
+clear
+ls
+cd examples/tic_tac_toe/
+pnpm build:purescript; node party/src/auth.js
+pnpm dev
+htop
+clear
+pnpm dev
+cd examples/tic_tac_toe/
+pnpm dev
+clear
+pnpm build:purescript
+pnpm dev
+~/dev/purescript/projects/purescript-partykit/
+ls
+git status
+clear
+pnpm build:purescript
+pnpm dev
+pnpm build:purescript
+pnpm dev
+pnpm build:purescript
+pnpm dev
+pnpm build:purescript
+clear
+pnpm build:purescript
+cd examples/tic_tac_toe/
+pnpm build:purescript
+pnpm dev
+clear
+pnpm dev
+pnpm build:purescript
+pnpm dev
+clear
+..
+ls
+cd partykit/
+ls
+nvim
+clear
+~
+dev/ts
+ls
+ls dev
+cd dev/ts/
+ls
+cd scratches/
+ls
+clear
+rm -rf *
+mkdir partycup
+cd partycup/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpm create partykit@latest
+mv verb-myself/* .
+rm verb-myself/
+ls
+pnpm install
+clear
+pnpm dev
+pnpm build:purescript
+clear
+pnpm dev
+pnpm build:purescript
+pnpm dev
+nvim
+neovide
+htop
+clear
+pnpm dev
+nvim
+clear
+clear
+ls
+clear
+pnpm build:purescript; node party/src/auth.js
+cd examples/tic_tac_toe/
+pnpm build:purescript; node party/src/auth.js
+pnpm build:purescript; node party/src/a.js
+~/dev/purescript/scratches/
+ls
+mkdir recordig
+cd recordig
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+clear
+spago init
+clear
+spago build
+spago run
+purs-backend-es build
+purs-backend-es --help
+purs-backend-es build
+purs-backend-es build --help
+rm output-es
+rm -rf output-es
+purs-backend-es build --help
+purs-backend-es build
+spago build
+purs-backend-es build
+spago build --help
+nvim
+exi
+nix develop --command nu
+clear
+rm flake.nix flake.lock
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+clear
+spago build
+spago init
+spago build
+purs-backend-es build
+spago build
+purs-backend-es build
+spago build
+purs-backend-es build
+spago build
+purs-backend-es build
+spago run
+spago install unsafe-coerce
+spago run
+purs-backend-es build
+nvim
+~/dev/ts/scratches
+ls
+cd partycup
+s
+ls
+clear
+ls
+clear
+pnpm build:purescript; node party/src/a.js
+nvim src/server.js
+~/dev/purescript/scratches/
+ls
+cd wow
+../recordig/
+clear
+spago run
+purs-backend-es build
+nvim
+clear
+spago install nullable
+spago run
+purs-backend-es build
+node src/a.js
+spago run
+spago install record-extra
+spago install record-extra
+spago install -p tic-tac-toe-server record-extra
+spago build
+neovide
+cd examples/tic_tac_toe/
+clear
+pnpm build:purescript; node party/src/a.js
+cd examples/tic_tac_toe/
+pnpm build:purescript
+pnpm dev
+pnpm build:purescript
+spago install
+..
+spago install
+cd examples/tic_tac_toe/
+pnpm spago install
+nvim ~/.config/nvim
+ls ~/.local/share/font
+ls ~/.local/share/fonts
+ls ~/.local/share/
+ls /usr/share/fonts
+nvim ~/.config/nvim/lua
+neovide
+nvim ~/.config/nvim/lua
+htop
+xdg-open `~/Downloads/Book of Monads (Alejandro Serrano Mena) (Z-Library).pdf`
+htop
+sudo apt update ; sudo apt install r-base r-base-dev
+htop
+~/Videos/
+pip
+python3
+python3 -m pip install yt-dlp
+python3 -m ensurepip
+python3 -v
+python3 --version
+python -m ensurepip --upgrade
+python3 -m ensurepip --upgrade
+sudo apt install ffmpeg
+clear
+~/dev/python
+mkdir ~/dev/python
+~/dev/python
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#python"
+pip
+clear
+python3 -m pip install yt-dlp
+clear
+yt-dlp
+clear
+~/dev/purescript/projects/purescript-partykit/
+clear
+spago install record
+clear
+spago test
+htop
+spago test
+cd examples/tic_tac_toe/
+pnpm spago install
+pnpm dev
+spago install
+cd -
+spago install
+spago build
+cd -
+pnpm install
+pnpm build:purescript
+nvim
+ls
+xdg-open abcdem
+file abcdem
+clear
+ls
+ls
+ffplay abcdem
+rm abcdem
+clear
+~/dev/purescript/projects/purescript-partykit/
+nvim
+~/Downloads/
+wget https://github.com/gorhill/uBlock/releases/download/1.59.1rc7/uBlock0_1.59.1rc7.npm.tgz
+tar xvf uBlock0_1.59.1rc7.npm.tgz
+ls
+ls -t
+ls
+ls -x
+l -f
+ls
+clear
+tar xvf uBlock0_1.59.1rc7.npm.tgz
+cd package/
+l
+ls
+cd build
+ls
+..
+pnpm
+clear
+ls
+cat package.json | less
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpm install
+pnpm build
+ls build
+ls
+pnpm run
+pnpm run build
+ls
+ls build
+ls lib
+ls js
+..
+rm -rf package 3340531.3412026.pdf
+ls
+man ls
+help ls
+ls -f
+help ls
+rm uBlock0_1.59.1rc7.npm.tgz
+wget https://github.com/gorhill/uBlock/releases/download/1.59.1rc7/uBlock0_1.59.1rc7.chromium.zip
+unzip uBlock0_1.59.1rc7.chromium.zip
+clear
+~/dev/
+ls
+cd elm
+ls
+clear
+cd gaes
+cd games/
+ls
+cd hello
+~/dev
+nvim ~/.config/nushell/history.txt
+xdg-open `~/Downloads/Book of Monads (Alejandro Serrano Mena) (Z-Library).pdf`
+clear
+mkdir scala
+cd scala
+mkdir hello
+cd hello/
+ping 8.8.8.8
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#scala"
+nix develop --command nu
+nix develop --command nu
+...
+ls
+cd games/purescript-solitaire/
+ls
+nix develop --command nu
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+git status
+ga .
+git add .
+clear
+ls
+clear
+ls
+nix develop --command nu
+clear
+nix develop --command nu
+clear
+nix develop --command nu
+ping 8.8.8.8
+ping 8.8.8.8
+nix develop --command nu
+ping 8.8.8.8
+nix develop --command nu
+spago 
+spago --version
+purs --version
+pnpm 
+pnpm install -D vite typescript tailwindcss potcss autoprefixer
+ping 8.8.8.8
+pnpm install -D vite typescript tailwindcss potcss autoprefixer
+pnpm install -D vite typescript tailwindcss postcss autoprefixer
+pnpm view spago versions
+pnpm install
+pnpm install -D vite typescript tailwindcss postcss autoprefixer
+spago init
+spago install aff arrays console effect iehter foldable-traversable foreign halogen integers lists maybe routing routing-duplex strings tuples web-events web-html web-uievents
+spago install aff arrays console effect either foldable-traversable foreign halogen integers lists maybe routing routing-duplex strings tuples web-events web-html web-uievents
+spago install typelevel-prelude
+pnpm install -D spago@next
+spago --version
+pnpm install
+pnpm build
+spago build
+sws
+sws -p 3000 -d dist
+git status
+neovide
+~/dev/purescript/scratches/
+ls
+cd backend/
+nvim
+exit
+nix develop --command nu
+ls
+..
+ls
+cd recordig/
+clear
+spago run
+htop
+nvim
+exit
+nix develop --command nu
+~/dev/purescript/projects/partykit/
+zelli
+clear
+nix develop --command nu
+ls
+git status
+ls
+nvim
+exit
+zellij
+exit
+nix develop --command nu
+clear
+~/dev/purescript/projects/purescript-partykit/
+htop
+~/dev/purescript/scratches/
+ls
+cd recordig/
+neovide
+clear
+spago install variant
+spago build
+nvim
+clear
+spago build
+spago run
+clear
+purs-backend-es build
+clear
+ls
+purs-backend-es bundle-app --platform node --no-build --to dist/bundled.mjs
+esbuild
+clear
+esbuild
+purs-backend-es bundle-app --platform node --no-build --to dist/bundled.mjs
+sws -p 3000 -d dist
+purs-backend-es bundle-app --platform node --no-build --to dist/bundled.mjs
+purs-backend-es bundle-app --platform node  --to dist/bundled.mjs
+clear
+purs-backend-es bundle-app --platform node  --to dist/bundled.mjs
+spago build
+purs-backend-es bundle-app --platform node  --to dist/bundled.mjs
+pnpm build
+spago install foreign
+spago run
+node
+spago run
+nix develop --command nu
+nix develop --command nu
+clear
+which spago
+~/dev/purescript/projects/purescript-partykit/
+..
+-
+nix develop --command nu
+ls
+cd partykit
+../purescript-partykit/
+ls
+neovide
+exit
+nix develop --command nu
+..
+ls
+cd partykit/
+nix develop --command nu
+ls
+clear
+ls
+nvim
+..
+~/dev/ts/scratches
+ls
+cd partycup/
+ls
+2exit
+exit
+nix develop --command nu
+exit
+zellij
+which spago
+clear
+...
+cd scratches/
+mkdir monad
+cd monad/
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+nvim
+spago init
+clear
+spago build
+nvim
+1028 8859 1807 8427 5650
+spago install tuples
+nvim
+spago install transformers
+spago run
+xdg-open `~/Downloads/Book of Monads (Alejandro Serrano Mena) (Z-Library).pdf`
+nvim
+xdg-open `~/Downloads/Book of Monads (Alejandro Serrano Mena) (Z-Library).pdf`
+nvim
+flatpak install obs
+clear
+~/dev/purescript/projects/
+mkdir pomodoro_chan/
+cd pomodoro_chan/
+ls
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+cp ~/dev/purescript/graphics/air_bender/.envrc .
+nvim .envrc
+rm .envrc
+git init
+neovide
+nix develop --command nu
+git add .
+pnpm init
+clear
+spago init
+spago init --name pomodoro-chan
+cd packages/extension/
+pnpm
+pnpm init
+../webapp/
+pnpm init
+spago init
+cd -
+spago init
+spago --versin
+spago --version
+pnpm install purescript spago@0.93.38
+cd -
+pnpm install purescript spago@0.93.38
+spago build
+cd -
+spago build
+pnpm build
+pnpm spago build
+...
+pnpm install purescript spago@0.93.38
+pnpm install -w  purescript spago@0.93.38
+pnpm install
+mv packages/* .
+rm packages
+ls
+cd webapp/
+pnpm install -D vite typescript tailwindcss postcss autoprefixer
+pnpm tailwindcss init -p
+pnpm install
+pnpm dev
+pnpm spago build
+pnpm build
+ls output
+ls output/Main
+pnpm dev
+pnpm build
+clear
+spago install halogen
+cd webapp/
+spago install halogen
+spago build
+neovide
+clear
+ls
+clear
+cd webapp/
+clear
+spago build
+spago repl
+which spago
+which purs
+spago build
+ls ~/Downloads/
+ls `~/Downloads/Haskell (almost) Standard Libraries (Alejandro Serrano Mena) (Z-Library).pdf`
+/usr/bin/ls -t ~/Downloads/
+clear
+/usr/bin/ls -t ~/Downloads/ | head
+xdg-open ~/Downloads/mossakowski-slides.pdf
+xdg-open ~/Downloads/threemonads.pdf
+sudo apt restart bluetoothd 
+sudo service restart bluetoothd 
+sudo systemctl service restart bluetoothd 
+sudo systemctl service bluetoothd 
+sudo systemctl restart bluetoothd 
+sudo systemctl restart bluetoothctl 
+sudo systemctl status bluetooth
+sudo systemctl restart bluetooth
+bluetoothctl 
+clear
+ls
+clear
+cd webapp/
+spago build
+spago install aff web-html
+nvim ~/dev/purescript/projects/purescript-partykit/
+nvim ~/dev/purescript/graphics/air_bender/
+spago install exceptions
+spago build
+purs-tidy format-in-place client/**/*.purs
+purs-tidy format-in-place src/**/*.purs
+spago build
+purs-tidy format-in-place src/**/*.purs
+spago install transformers
+spago build
+spago install transformers
+spago build
+spago run
+pnpm dev
+clear
+cd ../extension/
+pnpm install -D vite typescript tailwindcss postcss autoprefixer
+clear
+ls
+pnpm tailwindcss init -p
+spago build
+clear
+pnpm build
+pnpm vite build
+pnpm install -D path
+pnpm install -D @types/node
+pnpm install
+pnpm vite build
+pnpm spago build
+spago build
+pnpm vite build
+spago build
+ls output/Manifest/
+pnpm vite build
+spago build
+pnpm vite build
+purs-tidy format-in-place src/**/*.purs
+spago build
+pnpm vite build
+spago build
+spago install halogen web-html
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+spago build
+pnpm vite build
+git status
+git tatus
+git status
+git add .
+git status
+git commit -S -m "init: Set up repository structure"
+pnpm build
+pnpm install -D @types/chrome
+pnpm install
+purs-tidy format-in-place src/**/*.purs
+spago build
+pnpm build
+clear
+cd webapp/
+pnpm install
+pnpm add @clerk/clerk-j
+pnpm add @clerk/clerk-js
+~/dev/ts/scratches
+git clone 
+git@github.com:clerk/clerk-javascript-quickstart.git
+git clone git@github.com:clerk/clerk-javascript-quickstart.git
+cd clerk-javascript-quickstart/
+pnpm install
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+htop
+pnpm dev
+pnpm install
+pnpm dev
+cp ~/dev/purescript/projects/pomodoro_chan/extension/.env .
+ls
+nvim extension/src/Manifest.purs
+nvim
+clear
+~/dev/rust
+ls
+~/dev/
+ls
+cd projects/
+ls
+..
+ls
+cd rust
+ls
+..
+cd rust/
+ls
+mkdir scratches
+ls
+clear
+cd scratches/
+ls
+mkdir backtracking
+cd backtracking/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+ls
+cargo init
+zellijs
+clear
+cargo watch -c -w src -x r
+cargo watch -c -w src -x t
+caiclear
+clear
+nvim ../../hello/src/main.rs
+cargo b
+cargo r
+cargo help
+cargo b --help
+cargo b --release o> res
+ls
+cargo b --release +o> res
+cargo b --release 0> res
+cargo b --release o+> res
+cargo b --release o> res
+cargo r --release o> res
+nix develop --command nu
+git status
+ga .
+git add .
+zellij
+clear
+..
+~/dev/haskell
+ls
+cd learning/
+mkdir n_queens
+cd n_queens/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+zellij
+exit
+nix develop --command nu
+clear
+cabal
+cabal help
+cabal init
+cabal run
+cabal watch
+cabal repl
+cabal build
+htop
+nvim ~/.config/nvim/lua
+~/.config/nvim/lua
+nvim
+cd -
+nvim
+neovide
+nvim ../../examples/apecs/apecs-physics/src/Apecs/Physics.hs
+nvim ../../examples/apecs/
+hx
+neovide
+exit
+nix develop --command nu
+exit
+zellij
+..
+ls
+mkdir loop_comprehensions
+cd loop_comprehensions/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+cabal init --help
+cabal init -l MIT -a Kamenchu -e kamenchunathan@gmail.com --libandexe --tests --language ghc2021
+clear
+ls
+ghc --version
+nvim 
+rm loop-comprehensions.cabal
+cabal init -l MIT -a Kamenchu -e kamenchunathan@gmail.com --libandexe --tests 
+cabal --help
+cabal init --help
+cabal init -n -l MIT -a Kamenchu -e kamenchunathan@gmail.com --libandexe --tests --language GHC2021 
+clear
+cabal repl
+zellij
+cd -
+cd n_queens/
+zellij --help
+zellij list-sessions
+clear
+htop
+neovide
+htop
+convert CHANGELOG.md
+clear
+zsh
+~/dev/python/
+ls
+cat flake.nix
+yt-dlp
+yt-dlp https://www.youtube.com/watch?v=WqdPD2SQAnk
+yt-dlp https://www.youtube.com/watch?v=X19k7b1_eck&pp=ygUccmlnZ2luZyBoYXJkIHN1cmZhY2UgYmxlbmRlcg%3D%3D
+yt-dlp https://www.youtube.com/watch?v=J1He21vDIfQ
+ffplay 'EVERYTHING you need to know to Hard Surface Rigging in Blender [WqdPD2SQAnk].mkv'
+yt-dlp -a https://www.youtube.com/watch?v=7YDgo0bE_4k
+yt-dlp -a https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+yt-dlp https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+~/dev/python
+yt-dlp https://www.youtube.com/watch?v=Y2SWwZmwrwM
+yt-dlp https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+ls
+yt-dlp -F https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+yt-dlp -f 137 + 139 https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+ls
+htop
+yt-dlp https://www.youtube.com/watch?v=7YDgo0bE_4k&list=PLrYVIu42N613-xjbIdqxOXyd-Cs0N4pBY
+ls
+clear
+ls
+~/Downloads/
+ls
+ls | head
+ls -t
+ls --help
+ls  | sort 
+ls  | sort --help
+sort --help
+htop
+sudo apt update ; sudo apt install r-base r-base-dev
+sudo dpkg --configure -a
+flatpak update
+flatpak update -y
+clear
+~/dev/purescript
+ls
+mkdir compiler
+htop
+which nu
+file /usr/local/bin/nu
+git clone git@github.com:purescript/purescript.git
+nu --version
+ls
+rm compiler/
+mv purescript/ compiler
+~/dev/el
+~/dev/elm
+ls
+git clone git@github.com:elm/compiler.git
+~/dev
+mkdir roc
+ls
+cd roc
+wget https://github.com/nushell/nushell/releases/download/0.98.0/nu-0.98.0-x86_64-unknown-linux-gnu.tar.gz
+git clone git@github.com:roc-lang/roc.git compiler
+ls
+mkdir tp
+cd tp
+tar xvf ../nu-0.98.0-x86_64-unknown-linux-gnu.tar.gz
+ls
+ls nu-0.98.0-x86_64-unknown-linux-gnu/
+ls nu-0.98.0-x86_64-unknown-linux-gnu/nu
+ls nu-0.98.0-x86_64-unknown-linux-gnu/
+ls -r
+lsd
+/usr/bin/ls nu-0.98.0-x86_64-unknown-linux-gnu/
+/usr/bin/ls -r -a nu-0.98.0-x86_64-unknown-linux-gnu/
+file nu-0.98.0-x86_64-unknown-linux-gnu/nu
+ls /opt/nu-0.96.1-x86_64-unknown-linux-gnu/
+mv nu-0.98.0-x86_64-unknown-linux-gnu/ /opt
+rm -rf /opt/nu-0.96.1-x86_64-unknown-linux-gnu/
+ls
+..
+rm tp
+rm nu-0.98.0-x86_64-unknown-linux-gnu.tar.gz
+ls
+clear
+rm *.part
+ls
+clear
+mv *.mkv ~/Videos/blender
+mkdir ~/Videos/blender
+mv *.mkv ~/Videos/blender
+mv *.web ~/Videos/blender
+mv *.webm ~/Videos/blender
+ls
+mv 'Mechanical Rigging Tutorial in Blender 2.90 ｜ Claw Machine ｜ FREE .blend file [74jXRKF1RRc].mp4' ~/Videos/blender/
+ls
+clear
+ls
+clear
+ls
+cd compiler/
+~/dev/purescript/compiler/
+ls
+nix develop --command nu
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+clear
+nix develop --command nu
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+nix develop --command nu
+nu
+which nu
+ls
+which nu
+unlink /usr/local/bin/nu
+sudo unlink /usr/local/bin/nu
+ln -s /opt/nu-0.98.1-x86_64-unknown-linux-gnu/nu /usr/local/bin/nu
+sudo ln -s /opt/nu-0.98.1-x86_64-unknown-linux-gnu/nu /usr/local/bin/nu
+nu
+which nu
+/usr/local/bin/nu
+file /usr/local/bin/nu
+unlink /usr/local/bin/nu
+sudo unlink /usr/local/bin/nu
+ln -s /opt/nu-0.98.0-x86_64-unknown-linux-gnu/nu /usr/local/bin/nu
+sudo ln -s /opt/nu-0.98.0-x86_64-unknown-linux-gnu/nu /usr/local/bin/nu
+nvim ~/.config/nushell/
+exit
+nu
+exit
+nu
+clear
+nix
+ls
+nu
+ls
+stack
+nvim flake.nix
+stack
+stack install
+clear
+~/dev/elm/compiler/
+ls
+nix develop --command nu
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+cabal build
+cabal
+cabal --help
+cabal install
+ls cabal
+nvim 
+clear
+cabal install
+ls
+clear
+cabal install
+cabal --version
+htop
+ls
+stack install
+nix search nixpkgs alsa
+stack build
+nix search nixpkgs cabal-install
+clear
+nvim
+cabal build
+stack build --help | less
+stack build
+stack build purescript
+nvim
+clear
+../scratches/
+ls
+mkdir nondeterminitic
+cd nondeterminitic/
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+spago init
+spago build
+htop
+spago install arrays
+spago build
+spago repl
+spago install numbers
+spago install integers
+spago doc
+spago docs
+neovide
+ls ~/Downloads/ | top
+ls ~/Downloads/ | head
+ls ~/Downloads/ | sort
+rm ~/Downloads/*.ovpn
+ls ~/Downloads/
+ranger
+ls /opt
+clear
+~/dev/purescript/scratches/
+clear
+ls
+mkdir par
+cd par
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+spago init
+spago build
+spago repl
+spago intall list
+spago intall lists
+spago install lists
+spago install arrays
+spago repl
+spago install transformers
+spago run
+neovide
+htop
+clear
+..
+exit
+nix develop --command nu
+exit
+clear
+spago
+exit
+nix develop --command nu
+..
+mkdir cont
+cd cont
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+spago init
+spago build
+spago install arrays
+spago repl
+~/dev/purescript/examples
+git clone git@github.com:MitchStevens/abed-ps.git
+~/dev/purescript/examples
+git clone git@github.com:zilch-lang/playground.git
+git clone git@github.com:purescript-contrib/purescript-aff.git
+~/dev/purescript/examples
+git clone git@github.com:robertdp/purescript-resourcet.git
+git clone git@github.com:clinuxrulz/purescript-stackless-cont.git
+git clone git@github.com:juspay/medea-ps.git
+git clone git@github.com:OrangeLanguage/orange.git
+git clone git@github.com:minimal/concurrent-experiments.git
+git clone git@github.com:xal-0/interactive-cek-machine.git
+git clone git@github.com:rowtype-yoga/psfp.git
+git clone git@github.com:jasonzoladz/slamdata.git
+git clone git@github.com:julienchan/purescript-vault.git
+git clone https://github.com/thomashoneyman/purescript-halogen-realworld.git
+git clone https://github.com/Thimoteus/purescript-mmorph
+git clone 
+htop
+git clone https://github.com/syaiful6/purescript-pairing
+git clone https://github.com/albertprz/puresheet
+clear
+spago install transformers
+neovide
+mkdir tree-monad
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+clear
+neovide
+exit
+nix develop --command nu
+cp flake.* tree-monad/
+mv src/ tree-monad/
+ls
+rm flake.*
+ls
+mv tree-monad/ ../scratches/
+../scratches/tree-monad/
+clear
+spago init
+spago build
+spago repl
+clear
+spago install strings
+spago repl
+spago docs
+spago doc
+spago docs
+htop
+..
+mkdir unfold
+cd unfold/
+cp flake.* tree-monad/
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+exit
+nu
+clear
+spago build
+spago install unfoldable
+spago repl
+spago install sequences
+neovide
+git init
+spago build
+clear
+spago repl
+spago install lists
+clear
+spago repl
+htop
+git clone git@github.com:purefunctor/purescript-ssrs.git
+git clone git@github.com:xgrommx/purescript-experiments.git
+wget https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.7.240/zotero-better-bibtex-6.7.240.xpi
+mv *.xpi ~/Downloads/
+~/Downloads/
+wget https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.7.238/zotero-better-bibtex-6.7.238.xpi
+flatpak kill org.zotero.Zotero
+flatpak list | grep zotero
+exit
+nix develop --command nu
+which spago
+..
+ls
+cd cont
+neovide
+clear
+~/dev/purescript/scratches/
+ls
+find callcc
+grep -r transformers .
+clear
+ls
+find spago.yaml
+find -iname "spago.yaml" .
+help find
+clear
+ls 
+cat nondeterminitic/spago.yaml
+cat unfold/spago.yaml
+cat tree-monad/spago.yaml
+cat monad/spago.yaml
+cd monad
+ls
+nvim
+clear
+nvim
+exit
+nix develop --command nu
+clear
+ls
+nvim
+clear
+spago intall transformers
+spago install transformers
+spago build
+~/dev/python
+ls
+~/Videos/
+yt-dlp https://www.youtube.com/watch?v=vTTlzmCRwU4
+htop
+which spago
+ls
+~/Videos/
+ls
+cd blender
+s
+ls
+clear
+ls
+~/Videos/
+ls
+cd blender/
+ls
+ffplay 'Control your Blender Rigs like a Pro [83NVOUKt3-o].webm'
+cd ~/Downloads/
+ls
+ffplay '[SubsPlease] Oshi no Ko - 12 (720p) [F5B0C8F7].mkv'
+htop
+clear
+~/dev/purescript/scratches/
+mkdir coveriantt
+cd coveriantt/
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+spago install functors bifunctors covariant
+spago init
+spago install functors bifunctors covariant
+spago install functors bifunctors invariant profunctor
+spago install functors bifunctors invariant profunctor contravariant
+spago build
+neovide
+htop
+ls 
+clear
+ls
+clear
+htop
+hx
+~/dev/purescript/scratches/
+ls
+cd wow
+ls
+cat src/Main.purs
+nvim
+clear
+exit
+~/Videos/
+ls
+ls
+clear
+ls
+cd purescript-stackless-cont/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#purescript"
+htop
+ls
+clear
+neovide
+clear
+spago build
+neovide
+exit
+nix develop --command nu
+rm flake.*
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+nvim
+ls blender
+ping 8.8.8.8
+clear
+spago
+nix develop --command nu
+htop
+ping 8.8.8.8
+neovide
+neovide
+clear
+ls
+..
+ls
+cd concurrent-experiments/
+ls
+xdg-open '~/Downloads/[SubsPlease] Dandadan - 02 (720p) [CBF5A663].mkv'
+ls '~/Downloads/[SubsPlease] Dandadan - 02 (720p) [CBF5A663].mkv'
+ls '~/Downloads/[SubsPlease] Dandadan - 01 (1080p) [2AB10B14].mkv'
+cd ~/Downloads/
+xdg-open '[SubsPlease] Dandadan - 02 (720p) [CBF5A663].mkv'
+mv *.mkv ~/Videos/
+ls
+ls ~/Videos/
+-
+cd -
+xdg-open '[SubsPlease] Oshi no Ko - 13 (720p) [96219FEC].mkv'
+htop
+..
+ls
+cd purescript-mmorph/
+nvim
+../purescript-vault/
+~/dev/
+mkdir roc
+cd roc
+ls
+cd compiler/
+git pull
+clear
+ls
+htop
+nvim
+clear
+nvim
+...
+ls
+cd compiler/
+..
+cd compiler
+ls
+..
+cd compiler
+git origin
+git remote get-url --all
+git remot get-url origin
+git remote get-url origin
+mkdir purescript
+cp * .* purescript/
+ls
+cp * .* purescript
+mv * .* purescript
+ls
+git status
+ls -al
+l
+..
+ls
+clear
+cd compiler
+git clone git@github.com:purefunctor/purescript-ssrs.git
+git clone git@github.com:purefunctor/purescripts.git
+git clone git@github.com:purefunctor/purescript.git
+git clone git@github.com:pure-c/purec.git
+git clone git@github.com:andyarvanitis/purescript-native.git
+cd purec/
+ls
+nvim
+ls
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+nvim flake.nix
+nix develop --command nu
+git add flake.nix
+nix develop --command nu
+nvim
+clear
+nvim
+clear
+spago build
+spago version
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+make
+ls
+spago build
+git log
+clear
+ls
+make
+nvim
+..
+ls
+cd purescript-native/
+ls
+nvim
+nix develop --command nu
+nix shell
+nvi
+nvim
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#haskell"
+stack build purescript
+stack build
+nvim
+exit
+nix develop --command nu
+nix shell -p stack.nix
+nix shell stack.nix
+nvim
+clear
+~/dev
+ls
+cd purescript/
+ls
+cd games
+ls
+cd purescript-solitaire/
+ls
+clear
+git status
+git stash
+git checkout -b router
+pnpm dev
+clear
+spago install debug
+pnpm dev
+spago build
+spago install logger
+spago install logging
+spago install transformers
+pnpm dev
+git status
+spago install
+git status
+git checkout main
+git branch
+git branch -c main
+git status
+git branch --help
+git branch main
+git branch --help
+git checkout main
+git status
+clear
+git stash --hel
+git stash --help
+git stash pop
+git status
+git log
+git status
+git merge router
+git status
+git checkout router
+git status
+git restore --staged .
+git status
+git branch main
+git checkout main
+git status
+spago install halogen-store
+git push
+git remote get-url origin
+git push origin master
+ping 8.8.8.8
+git push origin master
+git log
+git checkout master
+htop
+mv src app
+mv app/src .
+rm -d app
+srm app
+rm app
+which pure
+which pureref
+flatpak list | grep pure
+ls /opt
+flatpak list | grep zed
+flatpak update dev.zed.Zed
+~/.config/nvim
+nvim
+nvim .
+nvim
+~/dev/elm/
+ls
+cd games
+ls
+cd hello
+ls
+nvim
+~/dev/purescript/scratches/
+ls
+cd recordig/
+nvim
+...
+ls
+cd graphics/air_bender/
+nvim
+nvim ~/.config/nvim/lua
+~/Downloads/
+wget https://github.com/sxyazi/yazi/releases/download/v0.3.3/yazi-x86_64-unknown-linux-gnu.zip
+unzip yazi-x86_64-unknown-linux-gnu.zip
+cd yazi-x86_64-unknown-linux-gnu/
+./yazi
+..
+mv yazi-x86_64-unknown-linux-gnu/ /opt
+yazi
+rm -rf /opt/yazi
+mv /opt/yazi-x86_64-unknown-linux-gnu/ /opt/yazi
+yazi
+which yazi
+clear
+mv /opt/yazi /opt/yazi-x86_64-unknown-linux-gnu/ 
+ln -s /opt/yazi-x86_64-unknown-linux-gnu/yazi ~/.local/bin/yazi
+which yazi
+rm ~/.local/bin/yazi
+ln -s /opt/yazi-x86_64-unknown-linux-gnu/yazi ~/.local/bin/yazi
+yzai
+xclip
+xclip --help
+man xclip
+xclip -selection clipboard -o | img.png
+xclip -selection clipboard -o o> img.png
+xclip -selection clipboard -o | cat img.png
+xclip -selection clipboard -o 
+xclip -o
+clear
+man xclip
+bash
+yazi
+flatpak kill org.blender.Blender
+htop
+bluetoothctl 
+systemctl status bluetooth
+rfkill list
+rfkill unblock bluetooth
+bluetoothctl 
+clear
+~
+ls
+cd Videos/
+~/dev/python
+~/Videos
+ls
+yt-dlp https://www.youtube.com/watch?v=ScS8Q32lMxA&list=PLt3Bq-TECx_gwyb6wXUb9u2KNI_X_17qP
+clear
+ls
+rm *.part
+...
+cd games
+ls
+clear
+cd purescript-solitaire/
+ls
+clear
+htop
+~/Downloads/
+unzip rubik-cube-moyugts-v2.zip
+mkdir ~/Documents/
+ls
+ls ~/Documents/
+ls
+ls -d
+ls
+mkdir rubiks
+mv source/ textures/ rubiks/
+mv rubiks/ ~/Documents/blender/
+htop
+yazi
+htop
+sudo dpkg -i ~/Downloads/PureRef-2.0.3_x64.deb
+yazi
+clear
+cd ~/dev/projects
+ls
+clear
+git clone git@github.com:kamenchunathan/personal_website.git
+cd personal_website/
+nix develop --command nu
+clear
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+htop
+clear
+git status
+neovide
+exit
+nix develop --command nu
+rm flake.nix
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elm"
+clear
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+nvim flake.nix
+nvim flake.nix
+pnpm install
+pnpm build
+clear
+ls
+pnpm install -D tailwindcss autoprefixer postcss
+pnpm tailwindcss init -p
+neovide
+htop
+~/dev/ts
+ls
+cd scratches/
+ls
+mkdir 30D
+cd 30D/
+clear
+ls
+exit
+exit
+exit
+nix develop --command nu
+exit
+nix develop --command nu
+exit
+~/dev/ts/scratches/30D/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+clear
+pnpm init
+pnpm create vite@latest
+rm package.json
+mv 30D/* .
+ls
+rm 30D/
+pnpm install
+pnpm dev
+pnpm create vite@latest
+mv 30D/src .
+mv 30D/package.json .
+ls 30D/
+mv 30D/* .
+ls 30D/
+rm -rf public
+mv 30D/* .
+rm 30D/
+pnpm install
+neovide
+pnpm create vite@latest
+ls
+rm tsconfig.*
+rm public src vite.config.ts 
+ls
+rm -rf src public node_modules/
+ls
+rm pnpm-lock.yaml package.json index.html
+ls
+mv 30D/* .
+pnpm install
+clear
+pnpm install webgl2
+flatpak kill org.blender.Blender
+pnpm install three
+pnpm build
+clear
+pnpm install -D @types/three
+pnpm build
+clear
+ls
+clear
+cp `~/Documents/blender/rubiks cube/rubiks.glb` .
+mkdir assets/
+mv rubiks.glb assets/
+mv ~/Downloads/*.hdr .
+ls
+mv studio_small_03_1k.hdr public/textures/
+pnpm build
+neovide
+clear
+ls
+exit
+nix develop --command nu
+..
+mkdir zion
+cd zion
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+htop
+pnpm create vite@latest
+ls
+mv babylon/* .
+rm babylon/
+ls
+pnpm i
+clear
+pnpm install babylonjs
+clear
+cp ../30D/public/models/ public
+cp -r ../30D/public/models/ public
+pnpm install @babylonjs/core @babylonjs/loaders
+pnpm i
+pnpm build
+pnpm vite serve
+pnpm dev
+nvim
+exit
+nix develop --command nu
+cd -
+cd 30D/
+clear
+pnpm build
+neovide
+exit
+nix develop --command nu
+~/dev/purescript/
+ls
+cd scratches/
+mkdir rubiks_solver
+cd rubiks_solver/
+clear
+ls
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+clear
+spago init
+spago init rubiks-solver
+spago init --name rubiks-solver
+ls
+ffplay `2024-10-15 21-01-26.mkv`
+rm `2024-10-15 21-01-26.mkv`
+ls Videos/
+mkdir Videos/screenrecordings
+spago build
+spago run
+clear
+ffplay `Videos/screenrecordings/2024-10-15 21-07-19.mkv`
+ffplay `Videos/screenrecordings/2024-10-15 21-11-34.mkv`
+spago run
+ffplay `Videos/screenrecordings/2024-10-15 21-12-16.mkv`
+clear
+ls
+ffplay `Videos/screenrecordings/2024-10-15 21-14-28.mkv`
+rm Videos/screenrecordings/*
+ffplay `Videos/screenrecordings/2024-10-15 21-15-57.mkv`
+ls Videos/screenrecordings/
+ffplay ~/Videos/screenrecordings/2024-10-15_21-23-54.mkv
+htop
+spago install fast-vect
+purs-tidy format-in-place src/**/*.purs
+neovide
+clear
+spago install arrays
+spago repl
+spago install strings
+spago repl
+clear
+spago run
+s
+spago run
+clear
+spago repl
+spago install debug
+spago run
+neovide
+clear
+spago run
+flatpak kill io.elementary.videos
+htop
+clear
+neovide
+clear
+spago run
+spago build
+spago run
+pnpm watch
+pnpm watch --help
+ls
+pnpm init
+pnpm watch --help
+pnpm watch -x "spago run"
+spago run
+pnpm watch -x "ls"
+pnpm watch -x "ls -al"
+pnpm watch --help
+pnpm watch -x "ls" "-al"
+pnpm watch -x spago run
+clear
+pnpm watch -t -x spago run
+spago --help
+spago run --help
+spago run -q
+pnpm watch -t -x spago run -q
+pnpm watch -c -t -x spago run -q
+spago install debug
+htop
+neovid
+e
+clear
+pnpm watch -c -t -x spago run -q
+spago repl
+neovide
+exit
+nix develop --command nu
+~/dev/python
+mkdir examples
+ls
+rm flake.*
+cd examples/
+git clone git@github.com:pglass/cube.git
+-
+cd -
+~/dev/purescript/
+ls
+cd scratches/
+ls
+clear
+ls
+cd rubiks_solver/
+clear
+spago run
+clear
+spago run
+clear
+neovide
+htop
+clear
+exit
+nix develop --command nu
+/dev/ts
+~/dev/ts
+ls
+scratches/
+ls
+mkdir boxed
+cd boxed/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpm create vite@latest
+exit
+nix develop --command nu
+..
+cd 30D/
+ls
+clear
+pnpm install cubejs
+pnpm build
+neovide
+history | grep volume
+pactl -- set-sink-volume 0 +110%
+htop
+pactl -- set-sink-volume 0 +110%
+flatpak install vscode
+flatpak install code
+flatpak search visual
+flatpak search --help
+flatpak search --user --columns=name code
+htop
+~/Videos/
+ls
+mkdir env
+cd env
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#python"
+python3 -m pip install yt-dlp
+clear
+ls
+python3 -m pip install yt-dlp
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3027s
+yt-dlp --help
+python3 -m pip install yt-dlp
+yt-dlp
+clear
+which python
+which python3
+pip
+pip install yt-dlp
+yt-dlp
+exit
+nix develop --command nu
+..
+rm -rf env
+mkdir env
+cd env
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#python"
+ls
+pip install yt-dlp
+yt-dlp
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3027s
+flatpak install musescore
+clear
+yt-dlp https://www.youtube.com/watch?v=HyW54cI8Qdo
+nvim
+htop
+clear
+..
+mkdir audacity
+cd audacity/
+nvim source.txt
+yt-dlp -a source.txt
+clear
+ls
+clear
+nvim source.txt
+..
+ls
+mkdir ardour
+clear
+ls
+cd ardour/
+ls
+nvim source.txt
+yt-dlp -a source.txt
+yt-dlp -a source.txt
+ping 8.8.8.8
+clear
+nvim source.txt
+htop
+nvim source.txt
+yt-dlp -a source.txt
+yt-dlp -a source.txt
+clear
+ls
+~/Videos/
+ls
+nvim ~/.config/nushell/history.txt
+env
+cd env
+ls
+yt-dlp https://www.youtube.com/watch?v=HyW54cI8Qdo
+~/dev/roc/compiler/
+git pull
+clear
+ls
+which rustc
+ls
+cargo build
+htop
+flatpak search zulip
+flatpak install org.zulip.Zulip
+wget "https://unpkg.com/@rive-app/canvas@2.20.0"
+ls
+rm  canvas@2.20.0
+clear
+~/Documents/blender/test_1/output_/
+ls
+ffplay 0001-0060.mp4
+xdg-open 0001-0060.mp4
+clear
+bluetoothctl 
+sudo apt install bluez
+sudo apt install bluez bluez-tools
+bluemoon 
+bt-obex 
+bt-obex -s ~/Downloads/
+htop
+clear
+cargo b
+glibc
+clear
+nvim
+exit
+nix develop --command nu
+ls ~/.cache/nix/
+nix-collect-garbage 
+nix develop --command nu
+clear
+htop
+clear
+`~/Documents/blender/rubiks cube/`
+ls
+cd renders_/Solve_1/
+ls
+ffmpeg
+ffmpeg --help
+ffmpeg -framerate 30 -i input%03d.webp -c:v libwebp -pix_fmt yuv420p output.webm
+ls
+ffmpeg -framerate 30 -i %03d.webp -c:v libwebp -pix_fmt yuv420p output.webm
+ffmpeg -framerate 30 -i %04d.webp -c:v libwebp -pix_fmt yuv420p output.webm
+ffmpeg -framerate 60 -i %04d.webp -c:v libwebp output.webm
+ffmpeg -framerate 30 -i %04d.webp -c:v libwebp -pix_fmt yuv420p output.webp
+ls
+ls output.webp
+ffplay output.webp
+xdg-open output.webp
+clear
+htop
+clear
+~/
+yazi
+~/Downloads/
+xdg-open '[SubsPlease] Dandadan - 04 (1080p) [3D2CC7CF].mkv'
+clear
+~/dev/ts/
+ls
+cd scratches/
+mkdir wow
+cd wow
+clear
+ls
+nix develop --command nu
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#python"
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpx create next@latest
+pnpm create next@latest
+ls
+pnpx create-next-app@latest
+clear
+ls
+mv skin/* .
+ls skin
+rm skin
+clear
+ls
+clear
+ls
+pnpm install
+neovide
+flatpak kill io.elementary.videos
+flatpak kill org.blender.Blender
+`~/Documents/blender/rubiks cube/renders_/Solve_1/`
+ls
+ffplay 0001-0280.webm
+ffplay ~/Videos/screenrecordings/2024-10-26_13-56-00.mkv
+xdg-open  ~/Videos/screenrecordings/2024-10-26_13-56-00.mkv
+clear
+ffplay ~/Videos/screenrecordings/2024-10-15_21-56-38.mkv
+rm ~/Videos/screenrecordings/2024-10-15_21-56-38.mkv
+ffplay ~/Videos/screenrecordings/2024-10-26_14-09-51.mkv
+rm ~/Videos/screenrecordings/2024-10-26_14-09-51.mkv
+ffplay ~/Videos/screenrecordings/2024-10-26_13-56-00.mkv
+rm ~/Videos/screenrecordings/2024-10-26_13-56-00.mkv
+ffplay ~/Videos/screenrecordings/2024-10-26_14-14-15.mkv
+rm ~/Videos/screenrecordings/2024-10-26_14-14-15.mkv
+ffplay ~/Videos/screenrecordings/2024-10-26_14-15-01.mkv
+ffplay ~/Videos/screenrecordings/2024-10-26_14-17-02.mkv
+convert --help
+which convert
+convert ~/Videos/screenrecordings/2024-10-26_14-17-02.mkv ~/cube.mp4
+nix develop --command nu
+zsh
+clear
+ffmpeg -i ~/Videos/screenrecordings/2024-10-26_14-15-01.mkv -c:v copy -c:a copy output.mp4
+ffplay output.mp4
+cp ~/Documents/photo_editting/cube/tex_1.png `~/Documents/blender/rubiks cube/textures/`
+bt-obex -s ~/Downloads/
+bt-obex --help
+bt-obex -s ~/Downloads/
+ps aux | grep bt-obex
+ps
+ps -aux | grep bt
+ps -a
+ps
+which ps
+ps | grep bt-obex
+clar
+sudo apt install prolog
+apt search prolog
+sudo apt install gprolog
+flatpak update
+ls
+~
+clear
+ls
+htop
+sudo apt update ; sudo apt install r-base r-base-dev
+sudo apt update ; sudo apt upgrade
+flatpak update
+htop
+flatpak list | grep ink
+ping 8.8.8.8
+clear
+ls
+~/dev/ts/scratches/
+ls
+cd zion
+ls
+..
+cd wow
+ls
+nix develop --command nu
+git status
+git add *
+git add .
+git status
+pnpm install
+clear
+ls
+~/Videos/
+ls
+cd env
+ls
+yt-dlp -F https://www.youtube.com/watch?v=kztj9iMrajo
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=kztj9iMrajo
+neovide
+clear
+exit
+nix develop --command nu
+~/dev/python
+ls
+cd examples/
+ls
+cd cube
+nix develop --command nu
+-
+~/Videos/env
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=kztj9iMrajo
+ping 8.8.8.8
+~/dev/elm
+ls
+mkdir apps/
+cd apps
+mkdir altheas
+cd altheas/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elm"
+..
+ls
+mkdir examples
+cd examples/
+git clone git@github.com:dillonkearns/elm-pages.git
+~/dev/elm/apps/altheas/
+git clone git@github.com:dillonkearns/elm-pages-starter.git
+rm -rf elm-pages-starter/.git
+mv elm-pages-starter/* .
+rm elm-pages-starter/
+ls
+pnpm install
+nvim flake.nix
+exit
+nix develop --command nu
+pnpm install
+clear
+pnpm install -D tailwindcss autoprefixer postcss
+pnpm tailwindcss init -p
+nvim ~/dev/projects/personal_website/flake.nix
+htop
+~/dev/elm/examples/elm-pages/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elm"
+nvim flake.nix
+pnpm install
+nvim
+exit
+nix develop --command nu
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=miNInZ806a0
+ping 8.8.8.8
+~/Videos/env
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=miNInZ806a0
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=miNInZ806a0
+nix develop --command nu
+ls
+yt-dlp -f 137+139 https://www.youtube.com/playlist?list=PLuGpMawKEhfYcJINsWkhibydvQIob1rwe
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=RYDiDpW2VkM&t=7s&pp=ygUeZmlnbWEgY3JlYXRpbmcgYSBkZXNnaW4gc3N5dGVt
+ls
+open 'MULTIPLAYER in Hazel - My Game Engine [miNInZ806a0].mp4'
+clear
+xdg-open 'MULTIPLAYER in Hazel - My Game Engine [miNInZ806a0].mp4'
+ffplay 'MULTIPLAYER in Hazel - My Game Engine [miNInZ806a0].mp4'
+clear
+ls
+clear
+ls
+ffplay 'Tauri： Build Secure and Reliable Native Apps using Rust and Elm by Jonas Kruckenberg ｜Lambda Days 23 [kztj9iMrajo].mp4'
+clear
+ls
+clear
+ls
+~/dev/elm/examples/elm-pages/
+...
+ls
+cd apps
+ls
+cd altheas/
+clear
+ffplay 'Figma Design System： 01 Structure [3a0GF5cE3G0].mp4'
+clar
+nvim source.txt
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=RYDiDpW2VkM&t=7s&pp=ygUeZmlnbWEgY3JlYXRpbmcgYSBkZXNnaW4gc3N5dGVt
+yt-dlp -a source.txt
+ls
+ckear
+clear
+yt-dlp -a source.txt
+      ls
+clear
+ls
+sudo apt update ; sudo apt upgrade
+sudo dpkg -i ~/Downloads/code_1.94.2-1728494015_amd64.deb
+/bin/python3 /home/nathankamenchu/dev/python/examples/cube/rubik/solve.py
+which python
+which python3
+clear
+python3 rubik/cube.py
+touch main.py
+/bin/python3 /home/nathankamenchu/dev/python/examples/cube/main.py
+clear
+~/dev/elm/examples/elm-pages/
+neovide
+exit
+nix develop --command nu
+..
+ls
+..
+ls
+cd apps/
+ls
+cd altheas/
+clear
+ls
+clear
+pnpm dev
+pnpm 
+pnpm run
+clear
+ls
+pnpm i -s supertokens-web-js
+pnpm elm-pages --help
+pnpm elm-pages run AddRoute
+pnpm elm-pages run AddRoute /auth/login
+pnpm elm-pages run --help
+pnpm elm-pages run a
+pnpm elm-pages run Starts
+pnpm elm-pages run Stars
+pnpm build
+pnpm elm-pages run Stars
+pnpm lamdera --version
+pnpm install
+pnpm elm-pages run Stars
+neovide
+pnpm spago build
+~/dev/elm/examples/elm-pages/
+nvim
+htop
+nix develop --command nu
+git add .
+clear
+curl "localhost:1234"
+curl "localhost:1234/auth"
+curl "localhost:1234/api/auth/emailpassword/email/exists"
+nvim
+nevim
+nvim
+clear
+ls
+neovide
+clear
+pnpm start
+nvim
+clear
+ls
+clear
+~/dev/ts/examples
+ls
+~/dev/ts
+mkdir examples
+cd examples/
+git clone git@github.com:supertokens/supertokens-node.git
+ls
+cd supertokens-node/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+nvim
+-
+cd -
+exit
+nix develop --command nu
+cd -
+~/dev/elm/examples/elm-pages/
+nvim
+pnpm start
+clear
+pnpm install
+pnpm start
+clear
+cd -
+clear
+pnpm start
+pnpm i -s supertokens-node
+cd -
+exit
+nix develop --command nu
+cd -
+pnpm start
+nvim
+exit
+nix develop --command nu
+..
+git clone git@github.com:supertokens/supertokens-web-js.git
+cd supertokens-web-js/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+cd examples/astro/
+pnpm install
+pnpm dev
+pnpm run
+..
+exit
+nix develop --command nu
+...
+cd scratches/
+mkdir supetokens-test
+cd supetokens-test/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpm install
+npx create-supertokens-app@latest
+pnpx create-supertokens-app@latest
+pnpm dev
+ls
+mv supertokens-test/* .
+rm supertokens-test/
+pnpmdev
+pnpm dev
+pnpm start
+nvim
+exit
+nix develop --command nu
+cd -
+~/dev/ts/examples/supertokens-node/
+ls
+nvim
+htop
+nix develop --command nu
+clear
+docker
+neovide
+exit
+nix develop --command nu
+~/dev/rust/examples
+~/dev/rust
+ls
+mkdir examples
+cd examples/
+~/dev/go
+~/dev/
+mkdir go
+cd go/
+mkdir examples
+cd examples/
+git clone git@github.com:casdoor/casdoor.git
+cd casdoor/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#go"
+nix develop --command nu
+git clone git@github.com:sebadob/rauthy.git
+cd rauthy/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+nvim
+cargo check
+clear
+python
+python3
+nvim
+exit
+nix develop --command nu
+cd -
+~/dev/elm/examples/elm-pages/
+~/dev/elm/apps/altheas/
+clear
+ls
+pnpm start
+pnpm dev
+pnpm --node-arg=--inspect vite
+pnpm --node-arg=--inspect elm-pages dev
+pnpm dev
+ls
+clear
+node --inspect-brk pnpm dev
+node --inspect pnpm dev
+which pnpm
+node --inspect-brk (which pnpm) dev
+node --inspect-brk "$(which pnpm)" dev
+which pnpm
+let pnpm_loc = which pnpm
+echo $pnpm_loc
+node --inspect-brk $pnpm_loc dev
+~/dev/ts/scratches/clerk-javascript-quickstart/
+ls
+nix develop --command nu
+clear
+ls
+..
+clear
+ls
+cd wow
+ls
+clear
+pnpm dev
+nvim
+clear
+exit
+nix develop --command nu
+..
+ls
+cd zion/
+ls
+nvim
+pnpm install
+pnpm dev
+clear
+htop
+neovide
+clear
+htop
+clea
+clear
+ls
+clear
+pnpm dev
+clear
+nvm ~/.config/nvim/lua
+nvim ~/.config/nvim/lua
+ls
+nvim
+clear
+~/dev/ts/scratches/supetokens-test/
+ls
+nvim
+...
+ks
+ls
+cd examples/supertokens-web-js/
+pnpm build
+pnpm dev
+clear
+pnpm dev
+clear
+nvim
+cd examples/astro/
+ls
+cd with-thirdpartyemailpassword/
+ls
+pnpm install
+pnpm dev
+clear
+~/dev/ts/scratches/supetokens-test/
+pnpm install
+pnpm dev
+..
+clear
+cd -
+pnpx create-supertokens-app@latest
+cd my-app/
+pnpm install
+pnpm dev
+pnpm dev
+nvim
+clear
+..
+~/dev/ts/examples/supertokens-node/
+../supertokens-web-js/
+pnpx create-supertokens-app@latest
+pnpm build
+nvim
+clear
+ls
+cd appy/
+nvim
+clear
+..
+exit
+nix develop --command nu
+..
+~/dev/elm/examples/elm-pages
+ls
+rm .elm-pages/
+pnpm build
+nvim examples/
+htop
+python
+python3
+pactl -- set-sink-volume 0 +110%
+~/dev/
+ls
+mkdir grain
+ls
+cd grain
+clear
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#grain"
+mkdir compiler
+clear
+exit
+~/dev/
+ls
+cd roc
+l
+ls
+clear
+cd compiler/
+ls
+clear
+rm compiler/
+git pull
+git pull git@github.com:grain-lang/grain.git compiler
+ls
+curl -L --output /opt/grain/bin/grain
+curl -L --output /opt/grain/bin/grain \
+curl -L --output /opt/grain/bin/grain https://github.com/grain-lang/grain/releases/download/grain-v0.6.6/grain-linux-x64
+mkdir /opt/grain/bin/
+git clone git@github.com:grain-lang/grain.git compiler
+cd grain
+cd compiler/
+ls
+clear
+ls
+nvim
+curl -L --output /opt/grain/bin/grain https://github.com/grain-lang/grain/releases/download/grain-v0.6.6/grain-linux-x64
+clear
+..
+clear
+cd gren
+mkdir gren
+cd gren
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#gren"
+git clone git@github.com:gren-lang/compiler.git
+cd compiler/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+cargo b
+nvim flake.nix
+exit
+nix develop --command nu
+clear
+nix develop
+htop
+roc
+ls
+pnpm install
+pnpm build
+pnpm run
+pnpm gren-lang
+pnpm gren
+cargo check
+cargo run -- --help
+clear
+ls
+..
+mkdir scratches
+ls
+exit
+nix develop --command nu
+../scratches/
+mkdir hello_world
+ls
+cd hello_world/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+..
+-
+neovide
+nvim --help
+nvim --embed
+nvim --embed --server :6537
+neovide --help
+nvim --embed --listen 0:6537
+neovide --server 0:6537
+-
+cd compiler/
+nvim --embed --listen 0:6537
+nvim --embed --listen 0:6537
+neovide --server 0:6537
+clear
+exit
+nix develop --command nu
+clear
+~/dev/roc/
+ls
+mkdir scratches
+mkdir learning
+cd learning/
+mkdir hello_world
+cd hello_world/
+wget https://raw.githubusercontent.com/vincenzopalazzo/nix-roc/refs/heads/main/flake.nix
+clear
+~/dev/roc/compiler/
+cargo run --help
+cargo run -- --help
+nvim
+exit
+nix develop --command nu
+~/dev/gren/
+ls
+cd scratches/
+ls
+cd hello_world/
+ls
+pnpm init
+clear
+..
+ls
+cp compiler/examples/helloWorld.roc scratches
+ls
+ls scratches/
+ls
+cd scratches/
+ls
+roc
+../compiler/
+ls
+ls target
+-
+cd -
+/home/nathankamenchu/dev/roc/compiler/target/debug/roc
+alias roc=/home/nathankamenchu/dev/roc/compiler/target/debug/roc
+alias roc = /home/nathankamenchu/dev/roc/compiler/target/debug/roc
+roc --help
+roc build --help
+roc build helloWorld.roc
+pnpm init
+roc
+ls
+nix develop --command nu
+ls
+clear
+roc
+ls
+roc help
+roc --version
+clear
+ls
+nvim helloWorld.roc
+roc --version
+ls
+ls -al 
+roc build --help
+roc build --target wasm32
+roc build --target wasm32 helloWorld.roc
+roc build helloWorld.roc
+roc build --target wasm32 helloWorld.roc
+roc build helloWorld.roc --target wasm32
+ls
+./helloWorld
+clear
+ls
+cp -r ../compiler/examples/platform-switching/ . 
+cd platform-switching/
+ls
+clear
+ls
+roc build main.roc
+roc
+alias roc = /home/nathankamenchu/dev/roc/compiler/target/debug/roc
+roc
+./main
+rust
+rustc
+roc build rocLovesRust.roc
+cd rust-platform/
+cargo build --bin host
+roc --version
+touch main.roc
+pnpm install gren-lang
+cargo build --bin host
+clear
+pnpm gren init
+...
+cd -
+..
+clear
+ls
+roc build rocLovesRust.roc
+roc build rocLovesWebAssembly.roc
+roc build --target wasm32 rocLovesWebAssembly.roc
+cd rust-platform/
+cargo build
+roc --version
+cargo fetch -Zgit="shallow-deps"
+rustc --version
+cargo fetch --config "unstable.git='shallow-deps'"
+clear
+CARGO_UNSABLE_GIT='shallow-deps' cargo fetch
+clear
+cargo fetch --config "unstable.git='shallow-deps'"
+clear
+cargo b
+cargo fetch -Zgit="shallow-deps"
+rustup 
+rustc --version
+cargo fetch
+clear
+cargo b
+..
+roc build rocLovesRust.roc
+nvim
+clear
+ls
+..
+cd compiler/ci/
+..
+ls
+nvim
+roc glue
+roc glue --help
+clear
+nvim
+..
+mkdir custom_platform
+cd custom_platform/
+ls
+cp ../hello_world/flake.* .
+nix develop --command nu
+../custom_platform/
+ls
+clear
+ls
+nvim flake.nix
+cp ~/dev/odin/hello_world/flake.nix odin.nix
+nvim
+exit
+nix develop --command nu
+nvim
+pnpm gren init --platform=node
+ls
+rm gren.json
+rn src
+rm -r src
+ls
+pnpm gren init --platform=node
+ls
+clear
+pnpm gren
+pnpm gren make
+pnpm gren make src/Main.gren
+ls
+clear
+pnpm gren make --help
+nvim
+ls
+ls
+..
+ls
+~/dev/roc
+ls
+cd scratches/
+mkdir throwaway
+cd throwaway/
+cat ~/.config/nushell/history.txt
+nix profile install github:jetify-com/devbox/latest
+clear
+ls
+..
+ls
+cd custom_platform/
+exit
+nix develop --command nu
+../custom_platform/
+ls
+nix develop --command nu
+nvim
+nix develop --command nu
+cp ~/dev/odin/hello_world/flake.nix odin.nix
+nix develop --command nu
+nvim
+nix develop --command nu
+htop
+nix profile install github:jetify-com/devbox/latest
+ls
+devbox
+ls
+clear
+~/dev/gren
+ls
+cd compiler/
+ls
+devbox
+nvim 
+exit
+nix develop --command nu
+nvim
+nix develop --command nu
+nvim
+exit
+nix develop --command nu
+devbox install
+nvim
+roc
+ls
+clear
+rm roc.nix
+nvim
+clear
+devbox
+nvim
+cat devbox.json
+ghc
+cabal
+nvim
+clear
+~/dev/elm
+ls
+cd apps
+ls
+cd altheas
+ls
+neovide
+clear
+~/.config/nvim
+nvim
+neovide
+clear
+neovide
+nix develop --command nu
+devbox shell
+neovide
+htop
+neovide
+~/dev/
+cd elm/apps/altheas/
+neovide
+~/.config/nvim
+nvim
+neovide
+nvim
+neovide
+nvim
+neovide
+nvim
+neovide
+cd -
+clear
+ls
+pnpm dev
+clear
+pnpm dev
+neovide
+clear
+ls
+ls public/
+mkdir public/icons/
+mv ~/Downloads/google.png public/icons/
+mv ~/Downloads/github.png public/icons/
+clear
+~/dev/ts/examples/supertokens-node/
+..
+ls
+..
+cd scratches/
+ls
+cd supetokens-test/
+nvim
+...
+cd examples/supertokens-web-js/
+pnpm elm-pages run Stars
+htop
+pnpm dev
+pnpm dev
+clear
+pnpm de
+sudo rfkill bluetooth
+sudo rfkill --help
+sudo rfkill list bluetooth
+sudo rfkill unblock bluetooth
+nvim
+neovide
+nix develop --command nu
+clear
+exit
+nix develop --command nu
+exit
+exit
+exit
+~/dev/elm/apps/altheas/
+clear
+htop
+sudo rfkill unblock bluetooth
+clear
+bluetoothctl
+clear
+ls
+bluetoothctl 
+clear
+bluetoothctl 
+clar
+clear
+bluetoothctl 
+sudo rfkill list
+bluetoothctl 
+pnpm dev
+clear
+yazi
+~/Downloads/
+xdg-open '[SubsPlease] Dandadan - 06 (720p) [8A8D8C72].mkv'
+neovide
+lear
+clear
+exit
+nix develop --command nu
+clear
+~/dev/rust/scratches
+ls
+mkdir pdf_file
+cd pdf_file/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+cargo init
+htop
+nix develop --command nu
+ls
+git add .
+clear
+~/dev/ts
+ls
+mkdir scratches/
+ls
+cd scratches
+mkdir pdf_file
+cd pdf_file/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpm init
+pnpm create vite@latest
+mv pdf_file/* .
+ls
+rm pdf_file/
+ls
+pnpm install
+clear
+pnpm install -D docx
+node src/main.ts
+pnpm run
+pnpm install tsc
+pnpm install
+clear
+pnpm build
+pnpm install
+pnpm build
+pnpm install webpack
+pnpm webpack --help
+clear
+pnpm webpack --help
+pnpm webpack build --help
+pnpm tsc
+pnpm webpack build --watch src/main.ts
+pnpm webpack build --watch ./src/main.ts
+pnpm webpack build --mode development ./src/main.ts
+neovide
+clear
+pnpm run
+pnpm run run
+pnpm node ./dist/main.js
+pnpm c
+pnpm j
+pnpm i fs
+pnpm uninstall fs
+pnpm install nodefs
+pnpm u nodefs
+pnpm uninstall nodes
+pnpm uninstall nodefs
+node src/main.js
+clear
+pnpm webpack build --help
+pnpm webpack build --target node
+pnpm webpack build --target node ./src/main.js
+pnpm webpack build --target node20 ./src/main.js
+pnpm webpack build --target node20 --watch ./src/main.js
+pnpm webpack build ./src/main.js --target node
+pnpm webpack build ./src/main.js --target --mode development  node
+pnpm webpack build ./src/main.js --target node --mode development
+clear
+ls
+pnpm webpack build ./src/main.js --target node --mode development
+pnpm webpack build ./src/main.ts --target node --mode development
+node dist/main.js
+pnpm webpack build ./src/main.ts --target node20 --mode development
+node dist/main.js
+pnpm webpack build ./src/main.ts --target node20 l --mode development
+pnpm webpack build ./src/main.ts --target node20 es5 --mode development
+node dist/main.js
+pnpm webpack build ./src/main.ts --target node20 es20 --mode development
+node dist/main.js
+pnpm webpack build --help
+pnpm webpack build ./src/main.ts --target node20 es6 --mode development
+node dist/main.js
+mkdir assets/
+mkdir output/
+mv ~/Downloads/simple-template-2.docx assets/
+pnpm webpack build ./src/main.ts --target node20 es6 --mode development
+node dist/main.js
+pnpm webpack build --config webpack.config.js
+pnpm webpack build ./src/main.ts --target node20 es6 --mode development --output-library-target module
+pnpm webpack build --config webpack.config.js
+node dist/main.js
+pnpm webpack build --config webpack.config.js
+node dist/main.js
+pnpm webpack build --config webpack.config.js
+node dist/main.js
+mv `~/Downloads/Industry manager resume.docx` assets/
+mv `assets/Industry manager resume.docx`
+mv `assets/Industry manager resume.docx` assets/industry-manager-resume.docx
+pnpm all
+clear
+cd assets/
+ls
+cp industry-manager-resume.docx industry-manager-resume.zip
+unzip industry-manager-resume.zip
+ls
+ls word
+nvim assets/word/styles.xml
+ls assets/word/styles.xml
+cd -
+neovide
+clear
+ls
+pnpm all
+wget https://raw.githubusercontent.com/dolanmiu/docx/refs/heads/master/demo/assets/custom-styles.xml assets/styles.xml
+ping 8.8.8.8
+wget https://raw.githubusercontent.com/dolanmiu/docx/refs/heads/master/demo/assets/custom-styles.xml 
+mv custom-styles.xml assets/styles.xml
+rm custom-styles.xml.1
+pnpm all
+cleart
+clear
+cd assets/
+ls
+mkdir wow
+cd wow
+unzip `../Simple UIUX designer resume.docx`
+ls
+mkdir ../../assets/styles/
+mv word/styles.xml ../styles/tech-flair.xml
+mkdir templates
+..
+rm -rf wow
+mkdir templates
+pnpm all
+~/dev/ts/scratches/pdf_file/
+nix develop --command nu
+clear
+cd assets/styles/
+ls
+pnpm all
+mkdir tmp
+cd tmp/
+unzip ../templates/designer-resume-template.docx
+nvim tech-flair.xml
+ls
+../tmp/
+ls
+cd word
+ls
+nvim document.xml
+ls
+cd -
+....
+cd -
+cd assets/tmp
+nvim word/document.xml
+neovide .
+clear
+node src/replace.js
+pnpm all
+clear
+pnpm install pdf-lib
+ls
+..
+clear
+~/dev/
+ls
+cd godot/
+clear
+ls
+cd hello
+neovie
+htop
+which neovide
+which nvim
+neovide --help
+which nvim
+neovide
+clear
+ls
+..
+clear
+mkdir rusty
+cd rusty/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+la
+ls -al
+ls -a
+mkdir ext_scripts
+cd ext_scripts/
+ls
+cp ../flake.* .
+mv ../flake.* .
+ls -a
+..
+cd rusty/
+exit
+nix develop --command nu
+..
+clear
+ls
+cd rusty/
+ls
+..
+cd -
+mkdir godot
+mv * .* godot/
+ls
+mkdir extension
+ls
+..
+rm -rf rusty
+mkdir rusty
+ls 
+cd rusty/
+ls
+clear
+mkdir godot/
+mkdir extension
+cd extension/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+clear
+cargo init 
+ls
+rm Cargo.toml Cargo.lock src/
+ls
+rm Cargo.toml
+rm -r src
+ls
+cargo init "rusty" --lib
+..
+git init
+cd extension/
+ls
+htop
+cargo build
+flatpak kill org.godotengine.Godot
+htop
+ls target/bin
+ls
+ls target
+ls target/debug
+ls
+ls target/debug
+cargo build
+ls target/debug
+cargo build
+cargo b
+flatpak kill org.godotengine.Godot
+pkill -9 godot-bin
+~/Videos/
+ls
+mkdir godotrust
+cd godotrust/
+hx
+nvim source.txt
+yazi
+yt-dlp -a source.txt
+../
+ls
+env
+cd env/
+neovide
+clear
+htop
+exit
+nix develop --command nu
+clear
+ls
+~/Videos/
+cd env
+clear
+ls
+nix develop --command nu
+clear
+nix develop --command nu
+ls
+cat flake.nix
+which .envrc
+cat .envrc
+mv *.webm ..
+ls
+mv *.mp4 ..
+ls
+mv *.mkv ..
+ls
+nix develop --command nu
+mv 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].f315.webm.part' ..
+ls
+mv source.txt ..
+ls
+clear
+ls
+nix develop --command nu
+nix --help
+nix develop --h
+nix develop --help
+clear
+..
+clear
+ls
+clear
+ls
+cd godotrust/
+ls
+clear
+..
+mkdir examples
+cd examples/
+git clone git@github.com:godot-rust/gdext.git
+yt-dlp -a source.txt
+~/dev/godot/examples/
+git clone git@github.com:Nokorpo/LibreAim.git 
+git clone git@github.com:FOSS-Supremacy/OpenLiberty.git
+git clone https://gitlab.com/SuperTuxParty/SuperTuxParty.git
+git clone git@github.com:Quaint-Studios/Reia.git
+ping 8.8.8.8
+clear
+..
+ls
+ls -d
+ls -a
+ping 8.8.8.8
+ls
+cd godotrust/
+ls
+..
+ls
+ls -t
+/usr/bin/ls -t
+ls
+ls env
+ls
+xdg-open 'One hour of colours — Blender Conference 2024 [Xqne7oRxSjM].webm'
+clear
+xdg-open --help
+xdg-open 'One hour of colours — Blender Conference 2024 [Xqne7oRxSjM].webm'
+ls
+ls .lin
+cd ~/Downloads/
+ls
+yazi
+ls
+yazi yazi 
+~/Videos/
+ffplay 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].f315.webm.part'
+ls 0a 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].f315.webm.part'
+ls -a 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].f315.webm.part'
+which blender
+clear
+ls ~/.var
+ls ~/.var/app
+ls ~/.var/app/org.blender.Blender/
+ls ~/.var/app/org.mozilla.firefox/
+ls ~/.var/app/org.mozilla.firefox/data/firefox-mpris/
+clear
+blender
+flatpak --help
+pkill -9 godot-bin
+htop
+pkill -9 godot-bin
+ps -aux | grep godot
+which ps
+/usr/bin/ps aux | grep godot
+kill 19709
+kill -9 19848
+/usr/bin/ps aux | grep godot
+sudo kill -9 19848
+/usr/bin/ps aux | grep godot
+sudo kill -9 19709
+/usr/bin/ps aux | grep godot
+sudo kill -9 19848
+/usr/bin/ps aux | grep godot
+sudo kill -9 19848
+/usr/bin/ps aux | grep godot
+sudo kill -9 19848
+/usr/bin/ps aux | grep godot
+htop
+ping 8.8.8.8
+cd godotrust/
+ls
+yazi
+clear
+~/dev/purescript/
+ls
+cd examples/
+ls
+cd purescript-resourcet/
+ls
+neovide
+..
+clear
+ls
+cd purescript-vault/
+neovide
+..
+clear
+ls
+..
+ls
+cd learning/
+ls
+..
+ls
+cd scratches/
+ls
+cd coveriantt/
+neovide
+nix develop --help
+nix develop --command nu
+which purs
+clear
+nix develop --help
+nix develop --offline --command nu
+ping 8.8.8.8
+clear
+~/dev/purescript
+ls
+cd games
+ls
+cd purescript-solitaire/
+ls
+ls
+..
+nix develop --offline --command nu
+ls
+clear
+ls
+neovide
+..
+ls
+cd recce/
+ls
+nix develop --command nu
+ls
+neovide
+..
+ls
+cd tiles/
+ls
+sws -p 3000 -d dist
+ping 8.8.8.8
+purs
+nis d
+nix develop --command nu
+ls
+~/dev/purescript
+ls
+cd learning/
+nix develop --command nu
+clear
+ls dist
+ls dist/assets/
+ping 8.8.8.8
+clear
+~/dev/rust
+ls
+cd examples/
+ls
+cd rauthy/
+neovide
+~/dev/ts
+ls
+cd scratches/
+neovide
+exit
+nix develop --command nu
+clear
+ls
+..
+ls
+cd scratches/
+ls
+cd backtracking/
+clear
+~/dev/el
+~/dev/elm/apps/altheas/
+ls
+clear
+exit
+ping 8.8.8.8
+clear
+rustc
+clear
+ls
+cd clerk-javascript-quickstart/
+nix develop --command nu
+clear
+ls
+..
+ls
+cd zion
+ls
+node
+clear
+neovide
+exit
+nix develop --command nu
+..
+ls
+cd partycup/
+~/dev/roc
+clear
+ls
+cd scratches/
+ls
+nix develop --command nu
+cd throwaway/
+ls
+..
+cd learning/
+ls
+cd custom_platform/
+ls
+..
+ls
+cd wow
+odin
+ls
+cat package.json
+clear
+htop
+clear
+pkill io.elementary.terminal 
+flatpak kill io.elementary.vt
+flatpak kill io.elementary.t
+io.elementary.t 
+ls
+ls
+nix develop --command nu
+odin
+clear
+nvim
+roc
+airscan-discover 
+airscan-discover --help
+airscan-discover -h
+ping 8.8.8.8
+clear
+...
+ls
+cd examples/
+ls
+cd elm-pages/
+ls
+nvim
+clear
+..
+ls
+cd odin/
+ls
+cd learning/
+s
+ls
+cd http/
+nvim
+clear
+ls
+nix develop --command nu
+clear
+ls
+..
+odin
+..
+cd examples/
+~/dev/go
+ls
+cd examples/
+ls
+cd casdoor/
+ping 8.8.8.8
+nvim
+ls
+cd odin-http/
+ls
+..
+cd learning/
+ls
+cd http/
+nix develop --command nu
+clear
+ls
+nix develop --command nu
+odin
+clear
+nix develop --command nu
+..
+ls
+..
+clear
+ls
+cd hello_world/
+nix develop --command nu
+ls
+~/dev/roc/learning/custom_platform/
+odin
+cd -
+~/dev/odin/examples/
+ls
+cd odin-http/
+ls
+clear
+cd examples/
+ls
+cd complete/
+ls
+odin build main.odin
+odin build .
+ls
+wget http://localhost:6969
+ls
+cat index.html
+rm index.html
+curl http://localhost:6969
+curl http://localhost:6969/api
+curl -H http://localhost:6969/api
+curl http://localhost:6969/api
+curl http://localhost:6969/ping
+curl http://localhost:6969/echo
+./complete
+curl http://localhost:6969/echo -X "l"
+man curl
+curl http://localhost:6969/pop
+ping 8.8.8.8
+neovide
+neovide
+htop
+~/Downloads/
+git clone https://www.youtube.com/watch?v=QGC11ZScL4E
+~/Videos/env
+~/dev/purescript/
+ls
+cd learning/
+ls
+..
+ls
+cd scratches/
+ls
+cd par
+ls
+nix develop --command nu
+yt-dlp https://www.youtube.com/watch?v=QGC11ZScL4E
+ping 8.8.8.8
+..
+clear
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+ls
+clear
+ls 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].f315.webm.part'
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+nvim
+~/.config/nvim
+nvim
+neovide
+yt-dlp -F https://www.youtube.com/watch?v=t3gm0aWJgMA&t=511s&pp=ygUWYmxlbmRlciBnZW9tZXRyeSBub2Rlcw%3D%3D
+yt-dlp -f 137+139 https://www.youtube.com/watch?v=t3gm0aWJgMA&t=511s&pp=ygUWYmxlbmRlciBnZW9tZXRyeSBub2Rlcw%3D%3D
+yt-dlp -f 247+139 https://www.youtube.com/watch?v=aO0eUnu0hO0&pp=ygUWYmxlbmRlciBnZW9tZXRyeSBub2Rlcw%3D%3D
+yt-dlp -f 247+139 https://www.youtube.com/watch?v=ZerJnivvBn4&pp=ygUWYmxlbmRlciBnZW9tZXRyeSBub2Rlcw%3D%3D
+/usr/bin/ps aux | grep godot
+/usr/bin/ls -t
+ls
+yt-dlp -f 247+139 https://www.youtube.com/watch?v=ZerJnivvBn4&pp=ygUWYmxlbmRlciBnZW9tZXRyeSBub2Rlcw%3D%3D
+ls
+cd blender/
+ls
+mkdir geometry_nodes
+cd geometry_nodes/
+~/Videos/
+ls
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+cd env
+..
+neovide
+yt-dlp -f 137+139 https://www.youtube.com/playlist?list=PLgO2ChD7acqHzccBuhAGw8dTPLnR1E3QB
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+nix develop --command nu
+clear
+..
+cd -
+ls
+clear
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+nix develop --command nu
+nix develop --command nu
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+nix develop --command nu
+..
+clear
+cd par
+ls
+nvim flake.nix
+rm flake.lock
+..
+clear
+mkdir watchlist
+cd watchlist/
+~/Videos/en
+~/Videos/env/
+.
+..
+mkdir watchlist_talks
+cd watchlist_talks/
+yt-dlp https://www.youtube.com/watch?v=LOhfqjmasi0&t=3030s&pp=ygUOZ29kb3QgdHV0b3JpYWw%3D
+clear
+~/dev
+ls
+cd rust
+ls
+mkdir gaes
+mkdir games
+cd games/
+ls
+nix develop --command nu
+clear
+~/dev/
+ls
+cd elm
+ls
+cd games
+ls
+cd hello/
+ls
+..
+clear
+..
+ls
+..
+ls
+cd purescript/
+ls
+cd scratches/
+ls
+cd wow
+ls
+nvim
+nix develop --command nu
+rm /nix/store/lqzrx7828znhdyc7x5609bhk43q7qpsb-purescript-language-server-0.18.1.drv
+sudo rm /nix/store/lqzrx7828znhdyc7x5609bhk43q7qpsb-purescript-language-server-0.18.1.drv
+sudo rm /nix/store/757vlx3rsg8fsr4vwriidc0nxwz32wbq-lambda-calculus-parser-env.drv
+nix develop --command nu
+nix store
+nix store repair
+nvim
+nix store
+nix store ls
+nis tore ping
+nix store ping
+clear
+nix develop --command nu
+history | grep nix
+history | grep clean
+nix clean --help
+nix clean
+nix 
+nix --help
+nix flake clean
+nix flake --help
+nix develop
+rm flake.lock
+nix develop
+nvim source.txt
+yt-dlp -F https://www.youtube.com/watch?v=t3gm0aWJgMA&t=511s&pp=ygUWYmxlbmRlciBnZW9tZXRyeSBub2Rlcw%3D%3D
+nix-collect-garbage
+ls
+git
+git status
+ls
+git
+git status
+ls
+clear
+ls
+yt-dlp -f 247+139 -a source.txt
+cp ../unfold/flake.lock
+cp ../unfold/flake.lock .
+yt-dlp -F -a source.txt
+nvim source.txt
+yt-dlp -F -a source.txt
+nix develop
+yt-dlp -f 136+139 -a source.txt
+nix develop
+..
+clear
+ls
+cd tree-monad/
+ls
+..
+ls
+..
+ls
+cd watchlist_talks/
+yt-dlp -f 136+139 -a source.txt
+ls
+nvim source.txt
+yt-dlp -f 136+139 -a source.txt
+nix develop
+..
+cd wow
+nix develop
+..
+ls
+cd par
+ls
+cp ../unfold/flake.lock .
+nvim source.txt
+nix develop
+ls
+..
+ls
+cd recordig/
+nix develop
+../unfold/
+nix develop
+..
+ls
+cd coveriantt/
+ls
+nix develop
+mkdir polls
+cd polls
+cp ../unfold/flake.lock .
+yt-dlp -f 136+139 -a source.txt
+..
+rm polls/
+..
+mkdir polls
+cd polls
+cp ../unfold/flake.lock .
+cp ../unfold/flake.nix .
+ping
+ping 8.8.8.8
+clear
+spago init
+spago install hyrule
+nix develop
+clear
+..
+ls
+cd par
+spago install
+nix develop
+..
+clear
+ls
+..
+ls
+cd graphics/
+ls
+cd air_bender/
+ls
+yt-dlp -f 136+139 -a source.txt
+nix develop
+clear
+..
+ls
+..
+ls
+cd projects/
+ls
+cd purescript-partykit/
+nix develop
+..
+ls
+..
+cd games/
+ls
+cd purescript-solitaire/
+ls
+nix develop
+clear
+ls
+..
+ls
+clear
+cd tiles/
+ls
+nix develop
+ls
+nvim flake.nix
+rm flake.*
+cp ~/dev/purescript/graphics/air_bender/flake.* .
+nix develop
+..
+clear
+..
+ls
+cd elm
+ls
+cd apps
+ls
+..
+cd games/
+ls
+cd hello/
+nix develop --command nu
+nix develop --command nu
+nix develop --command nu
+nix develop
+..
+clear
+..
+ls
+cd rust
+ls
+cd games
+ls
+mkdir peeps
+cd peeps
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+nix develop
+ls
+..
+ls
+..
+ls
+cd scratches/
+ls
+nvim flake.nix
+cd -
+games/peeps
+nvim flake.nix
+ls
+cd games
+ls
+cd pee
+cd peeps/
+nvim flake.nix
+nix develop
+nvim flake.nix
+nix develop
+ls
+nix develop
+nix
+nix develop --help
+nix develop --install
+..
+mkdir wow
+cd wow
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+nix develop --install
+which rustc
+nix develop
+nvim flake.nix
+cargo add bevy avian2d
+cargo b
+ls
+nvim flake.nix
+exit
+nix develop
+..
+mv wow ping
+cd ping
+nix develop
+rm flake.nix
+nix develop
+..
+clear
+cd peeps/
+nvim flake.nix
+git add .
+cargo b
+nvim src/server.js
+cargo b
+cargo r
+..
+mpv
+ffplay 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].webm'
+clear
+~/dev/purescript/graphics/air_bender/
+clear
+purs --version
+pnpm install
+pnpm dev
+spago build
+pnpm build
+pnpm dev
+pnpm build
+pnpm dev
+flatpak list
+flatpak run io.github.ungoogled_software.ungoogled_chromium
+flatpak run io.github.ungoogled_software.ungoogled_chromium --enable-unsafe-wegbpu
+flatpak run io.github.ungoogled_software.ungoogled_chromium --help
+flatpak run io.github.ungoogled_software.ungoogled_chromium -- --help
+flatpak run io.github.ungoogled_software.ungoogled_chromium --help
+flatpak run io.github.ungoogled_software.ungoogled_chromium -h
+flatpak run io.github.ungoogled_software.ungoogled_chromium -d
+flatpak run io.github.ungoogled_software.ungoogled_chromium --vulkan
+pnpm spago build
+ffmpeg
+man ffmpeg
+~/Videos/
+ffplay 'How to make a Video Game - Godot Beginner Tutorial [LOhfqjmasi0].webm'
+neovide
+clear
+clear
+nvim flake.nix
+clear
+pnpm spago build
+pnpm dev
+pnpm tailwindcss init -p
+yt-dlp -f 136+139 -a source.txt
+cd env
+nix develop
+nix develop --install
+clear
+..
+ls
+mkdir watchlist2
+cd watchlist2/
+clear
+~/Videos/env/
+nix develop --install
+ls
+rm 'Only Showoffs Do Things Once [QGC11ZScL4E].f616.mp4.part'
+rm 'Only Showoffs Do Things Once [QGC11ZScL4E].f616.mp4.ytdl'
+..
+mkdir type_systems
+cd type_systems/
+echo https://www.youtube.com/playlist?list=PL-2hPK7m5S3iZDLkvthPyLmyQjdATqgAs > source.txt
+ls
+echo https://www.youtube.com/playlist?list=PL-2hPK7m5S3iZDLkvthPyLmyQjdATqgAs o> source.txt
+ls
+yt-dlp -f 136+139 -a source.txt
+yt-dlp -F -a source.txt
+yt-dlp -f 137+139 https://www.youtube.com/playlist?list=PLgO2ChD7acqHzccBuhAGw8dTPLnR1E3QB
+yt-dlp -f 137+139 -a source.txt
+clear
+mkdir type_systems_from_lambda_calculus_to_Hm
+cd type_systems_from_lambda_calculus_to_Hm/
+echo https://www.youtube.com/watch?v=b5VhYkvOk30&list=PLoyEIY-nZq_uipRkxG79uzAgfqDuHzot- o> source.txt
+yt-dlp -f 137+139 -a source.txt
+yt-dlp -F -a source.txt
+clear
+..
+mkdir geometry_nodes_crossmind
+cd geometry_nodes_crossmind/
+echo https://www.youtube.com/watch?v=8L9fV8P_HAM&list=PLgO2ChD7acqHzccBuhAGw8dTPLnR1E3QB o> source.txt
+yt-dlp -F -a source.txt
+..
+mkdir geom_nodes_joey_carolino
+cd geom_nodes_joey_carolino/
+echo https://www.youtube.com/playlist?list=PLzg4_2BrWAVzK4ORuEHz0RoE7Va3w6fBf o> source.txt
+yt-dlp -F -a source.txt
+yt-dlp -f 137+139 -a source.txt
+..
+mkdir godot_celeste
+cd godot_celeste/
+echo https://www.youtube.com/playlist?list=PLQl2eWiUO8_KwIEBy5PfaZCT2yEi2J7Ew o> source.txt
+yt-dlp https://www.youtube.com/watch?v=bB-Bj1S3idY
+...
+dev/rust/examples
+~/dev/rust/examples
+git clone git@github.com:sotrh/learn-wgpu.git
+pnpm dev
+git clone --depth=5 git@github.com:sotrh/learn-wgpu.git
+yt-dlp -a source.txt
+nvim source.txt
+..
+cd watchlist2/
+yt-dlp -a source.txt
+yt-dlp -f 137+139 -a source.txt
+yt-dlp -f 137+139 -a source.txt
+yt-dlp -f 137+139 -a source.txt
+~/dev/godot/rusty/
+ls
+cd extension/
+ls
+cargo install bevy_ecs
+nix develop --command nu
+ls
+..
+git status
+git add .
+cd -
+cargo install bevy_ecs
+cargo add bevy_ecs
+cargo build
+exit
+nix develop --command nu
+clear
+~/dev/rust/games
+ls
+cd peeps/
+cat Cargo.toml
+cargo add bevy --features wav,trace
+cargo b
+...
+ls
+cd examples/
+ls
+yt-dlp -f 137+139 -a source.txt
+git clone --depth=5 https://github.com/bevyengine/bevy
+git clone --depth=5 https://github.com/bevyengine/bevy\
+yt-dlp -f 137+139 -a source.txt
+zellij
+clear
+ls
+cd type_systems_from_lambda_calculus_to_Hm/
+ls
+..
+ls
+cd watchlist2/
+ls
+ffplay 'I Mapped The Field Of An Antimagnet (electret) [oTNXXiMO3e8].mp4'
+ffplay 'MUSK TRUMP!!! Welcome to Idiocracy America!! [hEFQUq_5xRs].mp4'
+clear
+ls
+..
+ls
+/usr/bin/ls -t
+cd godot_celeste/
+ls
+fplay 'C# Godot ｜ Creating a Celeste Like Character Movement System [yVY2vGz6rwE].mp4'
+ffplay 'C# Godot ｜ Creating a Celeste Like Character Movement System [yVY2vGz6rwE].mp4'
+ls
+..
+ls
+clear
+cd learn-wgpu/
+clear
+ls
+pnp dev
+neovide
+nvim
+flatpak run io.github.ungoogled_software.ungoogled_chromium --enable-features=Vulkan
+ping 8.8.8.8
+ls
+clear
+cd dev/rust/games
+~/.cargo/
+nvim
+cd -
+ls
+cd peeps/
+clear
+ls
+cargo b
+nvim
+cargo check
+clear
+cargo manifest
+cargo --list
+cargo read-manifest
+cargo config
+cargo config --help
+cargo config get
+cargo config get l
+clear
+cargo check
+cargo b
+cargo r
+nvim Cargo.toml
+clear
+cargo b
+mv ~/Downloads/brackeys_platformer_assets.zip assets
+cd assets/
+ls
+unzip brackeys_platformer_assets.zip
+ls
+rm brackeys_platformer_assets.zip
+ls brackeys_platformer_assets/
+mv brackeys_platformer_assets/* .
+rm brackeys_platformer_assets/
+rm `LICENSE & CREDITS.txt`
+ls
+~/dev/rust/bevy/
+~/dev/rust/examples/bevy
+ls
+cd examples/
+ls
+cd asset/
+ls
+cargo b
+cargo r
+cargo check
+pkill rust-analyzer
+neovide
+clear
+cargo check
+cargo r
+cargo check
+cargo r
+cargo check
+~/Videos/
+ls
+cd watchlist2/
+../env/
+nvim
+clear
+~/Videos/
+cd watchlist2/
+ls
+../watchlist2/
+yt-dlp -f 137+139 -a source.txt
+find ~/Downloads/ -iname '*crispr*'
+/usr/bin/find ~/Downloads/ -iname '*crispr*'
+flatpak update
+~/Downloads/
+nvim download_list
+nvim source.txt
+htop
+yt-dlp -f 137+139 -a source.txt
+../env/
+../watchlist2/
+~/Videos/watchlist2/
+yt-dlp -f 137+139 -a source.txt
+../watchlist2/
+yt-dlp -f 137+139 -a source.txt
+nvim source.txt
+yt-dlp -f 137+139 -a source.txt
+~/Downloads/
+nvim download_list
+ls ~/Downloads/
+/usr/bin/find ~/Downloads/ -iname '*evolution*'
+cd -
+nvim download_list
+flatpak update
+nvim source.txt
+yt-dlp -a source.txt
+yt-dlp -a source.txt
+ls
+ls
+ls
+/usr/bin/find ~/Downloads/ -iname '*autocoids*'
+/usr/bin/find ~/Downloads/ -iname '*uppers*'
+htop
+io.elementary.wingpanel 
+clear
+zellij
+jobs
+clear
+which R
+ls /opt
+/opt/lazygit/bin/lazygit
+which rstudio
+nvim source.txt
+pactl -- set-sink-volume 0 +100%
+../env/
+cd -
+../watchlist2/
+../watchlist2/
+yt-dlp -a source.txt
+yt-dlp -a source.txt
+sudo rfkill unblock bluetooth
+ls
+..
+ls
+cd watchlist2/
+ls
+ffplay 'Virtual Production, Octane and Render Network. With Mike Hodgetts ｜ BCON24 [yqe0uVcbhr0].mp4'
+clear
+~/dev/rust/examples/bevy
+...
+games/peeps
+./games/peeps/
+clear
+cargo check
+ffplay "＂Understanding TypeScript's Structural Type System＂ by Drew Colthorp [MbZoQlmQaWQ].mp4"
+cargo r
+ls
+clear
+ls
+clear
+ping 
+ping 8.8.8.8
+../env
+cd -
+../watchlist2/
+ls
+yt-dlp -a source.txt
+ls
+ffplay '~/Downloads/[SubsPlease] Dandadan - 08 (720p) [6C4B084A].mkv'
+ls '~/Downloads/[SubsPlease] Dandadan - 08 (720p) [6C4B084A].mkv'
+ffplay '~/Downloads/[SubsPlease] Dandadan - 08 (720p) [6C4B084A].mkv'
+cd ~/Downloads/
+ffplay '[SubsPlease] Dandadan - 08 (720p) [6C4B084A].mkv'
+ffplay '~/Downloads/[SubsPlease] Dandadan - 07 (720p) [8C525D61].mkv'
+ffplay './[SubsPlease] Dandadan - 07 (720p) [8C525D61].mkv'
+sudo rfkil list
+sudo rfkill unblock bluetooth
+clear
+neovide
+ping 8.8.8.8
+~/Videos/
+nvim source.txt
+mkdir .lin
+cd .lin
+nvim source.txt
+~/dev/
+mkdir gleam
+cd gleam
+mkdir hello
+cd hello
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#gleam"
+gleam
+htop
+gleam help
+gleam init
+gleam new
+gleam new .
+gleam
+clear
+neovide
+~/.config/nvim
+ls
+sudo rfkill unblock bluetooth
+nvim
+ping 8.8.8.8
+clear
+ping 8.8.8.8
+cd -
+gleam run
+gleam install
+gleam build
+mkdir .w
+cd .w
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#erlang"
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#erl"
+cd .
+..
+gleam build
+ping 8.8.8.8
+clear
+cd .w
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elixir"
+nvim
+rn flake.*
+rm flake.*
+ls
+nvim
+nvim flake.nix
+mv .w/* .
+rm .w
+nix develop --command nu
+git add .
+gleam add lustre
+gleam build
+erl
+erlang
+clear
+ls
+erl
+gleam
+cd .w
+mkdir .w
+cd .w
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elixir"
+ping 8.8.8.8
+..
+gleam build
+gleam run
+nvim
+gleam
+gleam run --help
+gleam add lustre
+gleam run
+gleam build
+clear
+gleam build
+erlang
+erl
+erlang
+erl
+clear
+gleam build
+gleam run
+gleam build
+gleam run
+gleam build
+gleam run
+gleam add lustre_http
+~/dev/elm/apps/altheas/
+ls
+nvim
+clear
+pnpm build
+clear
+pnpm dev
+clear
+pnpm dev
+pnpm install
+htop
+nc localhost 8080
+sws -p 3000 -d dist
+pnpm dev
+clear
+pnpm dev
+sws -p 3000 -d .
+neovide
+clear
+sws
+clear
+pnpm dev
+wget http://localhost:3000/apiversion
+curl https://st-dev-1912b760-a98b-11ef-8da5-55353a8083a7.aws.supertokens.io/apiversion
+clear
+pnpm dev
+~/dev/ts/scratches/supetokens-test/
+ls
+nvim
+..
+ls
+ls partycup/
+nvim
+mkdir supertt
+cd supertt/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+pnpx create-supertokens-app@latest
+clear
+ls
+cd my-app/
+ls
+..
+mv my-app/* .
+rm my-app/
+pnpm install
+cd src/
+clear
+pnpm de
+pnpm dev
+nvim
+sws -p 3000 -d dist
+pnpm dev
+clear
+neovide
+...
+ls
+mkdir scratches
+cd scratches/
+..
+mkdir lamdera
+cd lamdera/
+zellij
+clear
+exit
+nix develop --command nu
+which node
+...
+./lamdera/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elm"
+clear
+ls
+ping 8.8.8.8
+clear
+ping 8.8.8.8
+nix develop --command nu
+nvim
+ping 8.8.8.8
+~/Videos/
+ls .lin
+htop
+clear
+lamdera
+clear
+nix develop --command nu
+which lamdera
+ls
+nix build
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure
+nix develop --command nu
+lamdera
+nix develop --command nu
+htop
+nvim
+clear
+exit
+exit
+~/dev/elm/lamdera/
+mkdir hello
+cd hello/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elm"
+nix develop --command nu
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure
+clear
+lamdera
+clear
+nvim flake.nix
+clear
+nix develop --command nu
+clear
+lamdera
+lamdera init
+lamdera live
+lamdera make
+clear
+lamdera
+lamdera live --help
+neovide
+clear
+nvim flake.nix
+exit
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure --command nu
+nix develop --command nu
+git add .
+nix develop --command nu
+neovide
+exit
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure --command nu
+nvim flake.nix
+clear
+elm install orus-io/elm-spa
+lamdera
+lamdera install orus-io/elm-spa
+~/Downloads/
+nvim download_list
+lamdera live
+neovide
+htop
+lamdera install elm/time
+lamdera install rtfeldman/elm-css
+lamdera install avh4/elm-color
+nix develop --command nu
+neovide
+clear
+lamdera dev
+clear
+mv src/Pages/ src/Route.elm src/Shared.elm src/View.elm src/Frontend
+lamdera live
+lamdera reset
+bash
+lamdera live
+nix profile install --accept-flake-config nixpkgs#devenv
+clear
+..
+exit
+zellij
+clear
+..
+ls
+mkdir wow
+cd wow
+ls
+clear
+devbox 
+pnpm
+pnpx degit git@github.com:kraklin/elm-land-lamdera-auth-tailwind-template.git
+htop
+...
+ls
+clear
+ls
+cd apps/altheas/
+ls
+clear
+htop
+nix profile install --accept-flake-config nixpkgs#yt-dlp
+~/Videos/
+yt-dlp https://www.youtube.com/watch?v=7vc-aphGuNs&t=43s&pp=ygUPcm95IGNhc3NhZ3JhbmRh
+yt-dlp https://www.youtube.com/watch?v=BHQjeifqQ6o&pp=ygUPcm95IGNhc3NhZ3JhbmRh
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].*'
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].f616.mp4.*'
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].f616.mp4.'*
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].f616.mp4.'.*
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].f616.mp4.part'
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].f616.mp4.part-Frag67.part'
+rm 'Election 2024 ｜ Democracy on the Edge？ [BHQjeifqQ6o].f616.mp4.ytdl'
+yt-dlp -F https://www.youtube.com/watch?v=BHQjeifqQ6o&pp=ygUPcm95IGNhc3NhZ3JhbmRh
+yt-dlp -f 136+139 https://www.youtube.com/watch?v=BHQjeifqQ6o&pp=ygUPcm95IGNhc3NhZ3JhbmRh
+yt-dlp -F https://www.youtube.com/watch?v=IMrBTx7aYjs
+yt-dlp https://www.youtube.com/watch?v=IMrBTx7aYjs
+cd .lin
+ls
+clear
+nvim source.txt
+yt-dlp -a source.txt
+..
+yt-dlp https://www.youtube.com/watch?v=bnitmmJKVCw
+yt-dlp -F https://www.youtube.com/watch?v=bnitmmJKVCw
+yt-dlp -f 136+139 https://www.youtube.com/watch?v=bnitmmJKVCw
+yt-dlp -f 136+139 https://www.youtube.com/watch?v=yL6Ica2cXIM
+ffplay 'HOW Are These Airlines STILL in Business？! [bnitmmJKVCw].mp4'
+pnpm dev
+nvim 
+cd .lin
+yt-dlp -f 136+139 https://www.youtube.com/watch?v=yL6Ica2cXIM
+yt-dlp -a source.txt
+nvim source.txt
+yt-dlp -a source.txt
+~/Videos
+.lin
+nvim source.txt
+yt-dlp -a source.txt
+nvim source.txt
+yt-dlp -a source.txt
+cd ~/dev/godot/
+ls
+cd tetris/
+ls
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#csharp"
+nix develop --command nu
+nvim
+clearls
+clear
+ls
+csharp
+yt-dlp -a source.txt
+nvim source.txt
+~/Videos/
+.lin
+ls
+nvim source.txt
+yt-dlp -a source.txt
+yt-dlp -a source.txt
+ls
+clear
+rm source.txt
+rm *.part
+ls
+clear
+nvim python
+nvim m.py
+clear
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#python"
+nix develop --command nu
+rm flake.*
+..
+cd env
+~/dev/godot/hello/
+ls
+../
+cd .lin
+clear; python3 m.py
+python3 ./m.py
+clear
+python3 ./m.py
+clear
+python3 ./m.py
+clear
+python3 ./m.py
+python3 m.py
+exit
+python3 m.py
+clear
+python3 m.py
+clear
+ls
+clear
+python3 m.py
+clear
+python3 m.py
+clear
+python3 m.py
+clear
+python3 m.py
+clear
+ls
+clear
+python3 m.py
+clear
+python3 m.py
+clear
+python3 m.py
+clear
+ls
+clear
+python3 m.py
+clear
+python3 m.py
+clear
+ls
+python3 m.py
+clear
+python3 m.py
+ls
+clear
+nvim m.py
+~/dev/elm/lamdera/
+ls
+cd hello/
+nvi
+nvim
+clear
+ls
+../wow/
+ls
+nvim
+cp ../hello/flake.* .
+ls
+nix develop --command nu
+clear
+neovide
+clear
+git init
+pnpm install
+ping 8.8.8.8
+clear
+pnpm install
+clear
+pnpm start
+pnpm install
+clear
+pnpm 
+pnpm install
+wget https://registry.npmjs.org/tailwindcss
+nvim tailwindcss
+rm tailwindcss
+pnpm install
+clear
+neovide
+ls
+pnpx degit git@github.com:kraklin/elm-land-lamdera-auth-tailwind-template.git
+pnpx degit git@github.com:kraklin/elm-land-lamdera-auth-tailwind-template.git a
+mv a/* .
+ls a
+rm a
+cp -r a/* .
+ls
+ls a
+pnpm install
+clear
+pnpm install -D @openapitools/openapi-generator-cli
+pnpm openapi-generator-cli version-manager set 7.9.0
+clear
+cp ~/Downloads/supertokens-CDI-5.1.1-resolved.json .
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./test
+ls
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./test
+nix develop --command nu
+git add .
+ni x
+nix develop --command nu
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure --command nu
+ping 8.8.8.8
+clear
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure --command nu
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./test
+neovide
+clear
+ls
+cp flake.* ..
+..
+clear
+cd wow/
+nix develop --command nu
+clear
+lamdera install danyx23/elm-uuid
+ping 8.8.8.8
+clear
+lamdera install danyx23/elm-uuid
+lamdera install rtfeldman/elm-iso8601-date-strings
+clear
+git add .
+git status
+clear
+git status
+gh
+gh repo create
+pnpm start
+pnpm lamdera reset
+neovide
+clear
+ls
+clear
+pnpm elm-land
+pnpm elm-land add page --help
+pnpm elm-land add page /auth
+pnpm start
+pnpm elm-land customize auth
+lamdera reset
+pnpm start
+lamdera live
+pnpm start
+htop
+pnpm start
+clear
+pnpm start
+pnpm lamdera reset
+clear
+pnpm lamdera live
+pnpm start
+pnpm elm-land add page /pricing
+pnpm elm-land
+pnpm elm-land generate
+pnpm elm-land add page /join
+pnpm elm-land generate
+clear
+pnp s
+htop
+pnpm start
+neovide
+clear
+clear
+neovide
+clear
+~/Videos/watchlist_talks/
+ls
+nvim source.txt
+..
+nvim source.txt
+yt-dlp -a source.txt
+cp `~/Downloads/brackeys_platformer_assets(2).zip`
+cp `~/Downloads/brackeys_platformer_assets(2).zip` .
+unzip `brackeys_platformer_assets(2).zip`
+ls
+mv brackeys_platformer_assets/* .
+ls
+rm brackeys_platformer_assets/ `LICENSE & CREDITS.txt`
+ls
+which neovide
+which code
+flatpak list | grep code
+grep
+ls | echo
+clear
+flatpak list
+clear
+neovide
+clear
+pnpm start
+clear
+lamdera rest
+lamdera reset
+ls
+rm -r elm-stuff/
+~/dev/elm/lamdera
+ls
+cd hello/
+nvim
+..
+ls
+../examples/
+ls
+clear
+pnpm elm-land add page --help
+pnpm elm-land add page /game/:id
+pnpm elm-land generate
+neovide
+clear
+neovide
+clear
+exit
+nix develop --command nu
+clear
+~/.config/nvim
+nvim
+clear
+neovide
+clear
+pnpm start
+~/Videos/
+clear
+yt-dlp -a source.txt
+neovide
+clear
+git checkout src/Backend.elm
+nvim src/.Backend.elm.swp
+neovide
+pnpm start
+clear
+pnpm start
+rm elm-stuff/
+rm -r elm-stuff/
+clear
+pnpm start
+clear
+rm -r elm-stuff/ ~/.elm/
+clear
+pnpm install
+clear
+vim src/Backend.elm
+pnpm start
+clear
+pnpm lamdera live
+pnpm elm-land
+pnpm elm-land buil
+pnpm elm-land build
+pnpm elm-land se
+lamdera
+lamdera live
+lamdera live --help
+lamdera live --port 2000
+lamdera live --port 9000
+pnpm elm-land server
+pnpm start
+rm -r elm-stuff/ ~/.elm/
+lamdera live
+lamdera live --port 9000
+lamdera live --port 9001
+neovide
+clear
+~/Videos/
+yt-dlp -a source.txt
+clear
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./supertokens
+rm -r supertokens/
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./supertokens
+pnpm elm-land 
+pnpm elm-land build
+htop
+pnpm elm-land b
+pnpm elm-land build
+clear
+pnpm elm-land build
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g node -o ./supertokens
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g rust -o ./supertokens
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g rust -o ./supertokens-elm
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g l -o ./supertokens-elm
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./supertokens-elm
+rm -r supertokens-elm/*
+pnpm openapi-generator-cli generate -i supertokens-CDI-5.1.1-resolved.json -g elm -o ./supertokens-elm
+~/dev/ts/
+ls
+cd examples/
+ls
+..
+cd go
+ls
+cd examples/
+ls
+git clone --depth=5 git@github.com:supertokens/supertokens-golang.git
+clear
+pnpm elm-land build
+clear
+pnpm start
+pnpm elm-land build
+clear
+~/dev/ts/examples/supertokens-node/
+~/dev/elm/apps/altheas/
+nvim
+neovide
+pnpm start
+flatpak list
+flatpak kill org.mozilla.firefox
+nvim ~/Downloads/
+nvim ~/Downloads/download_list
+clear
+~
+clear
+ls
+dev/elm/apps
+ls
+cd dev/elm/apps
+ls
+mkdir portal
+cd portal/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#elm"
+pnpm
+nvim flake.nix
+exit
+nix develop --command nu
+pnpx elm-pages init 
+ls
+pnpx elm-pages init 
+pnpx elm-pages --help
+clear
+pnpx degit https://github.com/dillonkearns/elm-pages-starter
+nvim flake.nix
+exit 
+nix develop --command nu
+nvim flake.nix
+nix develop --command nu
+nvim flake.nix
+clear
+pnpx elm-pages --help
+pnpm init
+pnpm install -D vite typescript tailwindcss
+pnpm init
+pnpx elm-pages --help
+pnpm install
+clear
+pnpx degit https://github.com/dillonkearns/elm-pages-starter
+pnpx degit https://github.com/dillonkearns/elm-pages-starter l
+cp -r l/* .
+ls
+rm l
+ls
+rm -r l
+ls
+pnpm install
+clear
+ls
+clear
+git init
+clear
+pnpm elm-pages run Stars
+pnpm upgrade
+pnpm elm-pages run Stars
+pnpm elm-pages run AddRoute /auth/login
+pnpm dev
+neovide
+htop
+pnpm elm-pages run AddRoute /auth/login
+..
+rm -rf portal
+pnpx elm-pages --help
+pnpx degit https://github.com/dillonkearns/elm-pages-starter l
+pnpx degit https://github.com/dillonkearns/elm-pages-starter portal
+cd portal
+ls
+cp ../altheas/flake.* .
+ls
+pnpm install
+clear
+pnpm build
+clear
+pnpm build
+clear
+pnpm build
+clear
+pnpm dev
+pnpm start
+pnpm install -D elm-pages
+pnpm start
+...
+ls
+cd apps/altheas/
+pnpm install
+pnpm dev
+pnpm install
+pnpm dev
+pnpm install
+nvim
+clear
+git status
+git init
+git add .
+git commit -S -m "init: Set up repository structure"
+pnpm install drizzle
+pnpm add drizzle-orm
+pnpm add -D drizzle-kit @types/pg
+pnpm add postgres
+pnpm add drizzle-orm
+postgres
+psql
+clear
+psql
+postgres
+pg_ctl
+pg_ctl start ./pg_data/ -l ./pg_log
+pg_ctl start -D ./pg_data/ -l ./pg_log
+initdb
+initdb -D ./pg_data/
+$env.LANG
+$env
+nvim ~/dev/rust/examples/rauthy/
+$env
+clear
+clear
+initdb -D ./pg_data/
+$env.LC_ALL
+sudo locale-gen en_US.UTF-8
+initdb -D ./pg_data/
+let-env LC_ALL="en_US.UTF-8"
+$env.LC_ALL = "en_US.UTF-8"
+initdb -D ./pg_data/
+$env.LANG
+clear
+initdb -D /path/to/data_directory --locale=en_US.UTF-8
+nix develop --command nu
+clear
+initdb -D /path/to/data_directory --locale=en_US.UTF-8
+locale -a
+sudo locale-gen en_US.UTF-8
+locale -a
+$env.LANG
+initdb -D /path/to/data_directory --locale=en_US.UTF-8
+initdb -D /path/to/data_directory --icu-locale --locale=en_US.UTF-8
+clear
+locale -a
+locale -a
+initdb -D .data
+locale -a
+initdb -D .data
+initdb -D .pg_data
+initdb -D .pg_data -l .pg_log
+pg_ctl start -D ./pg_data/ -l ./pg_log
+pg_ctl start -D .pg_data/ -l ./pg_log
+pg_ctl --help
+pg_ready
+pg_ctl status
+pg_ctl -D .pg_data status
+pg_ctl -D .pg_data -l .pg_log start
+man pg_ctl
+pg_ctl --help
+clear
+systemctl status postgres
+psql
+psql
+psql -D .pg_data/
+lsof -i tcp:5432
+man lsof
+lsof
+pg_ctl -D .pg_data -l .pg_log start
+pg_ctl -D .pg_data  start
+ls /run
+pg_ctl -D .pg_data start
+pg_ctl -D .pg_data -l .pg_log.log start
+pg_ctl -D .pg_data -l .pg_log.log start --help
+pg_ctl --help
+pg_ctl start --help
+clear
+mkdir /run/postgres
+sudo initdb -D .pg_data -l .pg_log
+initdb -D .pg_data -l .pg_log
+initdb -D .pg_data
+clear
+ping 8.8.8.8
+clear
+pg_ctl -D .pg_data -l .pg_log.log start 
+pg_ctl -D .pg_data -l .pg_log.log -k .pg_run start 
+pg_ctl -D .pg_data -l .pg_log.log -o "-k .pg_run" start 
+clear
+curl -fsSL https://get.docker.com -o install-docker.sh
+nvim install-docker.sh
+neovide
+sh install-docker.sh
+flatpak kill org.mozilla.firefox
+ls
+sh install-docker.sh
+ls
+ls /etc/apt/keyrings/
+ls /etc/apt/sources.list.d/
+nvim /etc/apt/sources.list
+clear
+sudo rm /etc/apt/sources.list.d/docker.list
+sudo rm /etc/apt/sources.list.d/github-cli.list
+sudo rm /etc/apt/keyrings/*
+sudo apt update
+./install-docker.sh
+sh install-docker.sh
+sudo apt update
+ps 2180
+bash
+cat /etc/apt/sources.list.d/docker.list
+sh install-docker.sh
+docker
+rm ./install-docker.sh
+clear
+ls
+..
+~/dev/
+mkdir scratches
+ls
+cd scratches/
+ls
+docker-compose up
+docker
+docker compose
+docker compose up
+getent group docker
+echo $USER
+echo $env.USER
+sudo usermod -aG docker $env.USER
+clear
+docker ps
+sudo systemctl restart docker
+docker compose up
+nvim docker-compose.yml
+..
+elm/apps/portal/
+cp ~/dev/scratches/docker-compose.yml .
+docker compose up
+whoami
+docker compose up
+clear
+docker compose up
+docker d
+docker compose up
+sudo chmod 660 /var/run/docker.sock
+docker compose up
+nvim docker-compose.yml
+clear
+node ts/wow.js
+nix shell -p posgresql
+nix shell -p hello
+nix shell helo
+nix shell hello
+nix shell posgresql
+clear
+psql
+clear
+netstat
+sudo lsof -i -P -n
+clear
+sudo lsof -i -P -n
+psql
+psql -h 127.0.0.1 -p 5432
+psql -h 127.0.0.1 -p 5432 -U myuser -d mydatabase
+node ts/wow.js
+clear
+~/dev/elm/examples/elm-pages
+grep -r env .
+nvim
+clear
+node ts/wow.js
+pnpm drizzle-kit generate
+pnpm drizzle-kit push
+pnpm drizzle-kit studio
+pnpm drizzle-kit studio --host 0.0.0.0
+pnpm drizzle-kit studio --host 0.0.0.0 --port 3000
+htop
+clear
+pnpm add -D @types/node
+node ts/backend/tasks/queries.ts
+node ts/backend/tasks/queries.js
+pnpm add -D typescript
+tsc 
+pnpm tsc ts/backend/tasks/queries.ts
+node ts/backend/tasks/queries.js
+pnpm start
+pnpm dev
+nix shell posgresql
+clear
+pnpm add -D tailwindcss
+pnpm add -D tailwindcss postcss autoprefixer
+pnpm tailwindcss init -p
+~/dev/elm/apps/altheas/
+DATABASE_URL='postgres://myuser:mypassword@127.0.0.1/mydatabase' pnpm dev
+pnpm tailwindcss init -p
+pnpm dev
+nvim
+pnpm elm install elm/svg
+pnpm build
+clear
+DATABASE_URL='postgres://myuser:mypassword@127.0.0.1/mydatabase' pnpm dev
+pnpm dev
+DATABASE_URL='postgres://myuser:mypassword@127.0.0.1/mydatabase' pnpm dev
+neovide
+htop
+nvim
+cd -
+nvim
+htop
+clear
+pnpm drizzle-kit generate
+pnpm drizzle-kit push
+neovide
+nvim
+clear
+...
+ls
+cd apps/altheas/
+nvim
+../../lamdera/
+ls
+cd wow
+nvim
+nix develop --command nu
+nvim flake.nix
+pnpm dev
+pnpm run
+pnpm start
+pnpm lamdera live
+exit
+nix develop --command nu
+nvim flake.nix
+pnpm start
+pnpm add next-auth@beta
+htop
+clear
+DATABASE_URL='postgres://myuser:mypassword@127.0.0.1/mydatabase' pnpm dev
+pnpx auth secret
+pnpm add @auth/core
+pnpm add @auth/drizzle-adapter
+clear
+ls
+pnpm install
+pnpm add -D dotenv
+pnpm dev
+pnpx auth secret
+pnpx auth secret --help
+pnpx auth secret -copy
+pnpx auth secret --copy
+pnpm dev
+pnpm dotenv
+clear
+pnpm dev
+clear
+pnpm dotenv
+pnpx dotenv
+source-env .env
+open .env
+open .env | from toml
+open .env | from toml | load-env
+open .env | from toml
+open .env | from toml | loadenv
+open .env | from toml | load-env
+nvim
+../../../
+elm/apps/altheas/
+nvim
+clear
+gh repo create
+clear
+git add .
+git commit -S -m "feat: Add supertokens auth"
+git status
+git log
+~/dev/elm/lamdera/
+git status
+git log
+NIXPKGS_ALLOW_UNFREE=1 nix develop --impure --command nu
+~/dev/elm/lamdera/
+git status
+cd wow/
+git log
+git push
+pactl -- set-sink-volume 0 +90%
+ls
+nix develop --command nu
+clear
+ls
+docker compose up
+git status
+pnpm run
+pnpm start
+clear
+lamdera install dillonkearns/elm-form
+clear
+pnpm start
+htop
+clear
+~/dev/elm/apps/
+ls
+cd portal
+git pull
+clear
+ls
+nvim
+neovide
+htop
+pnpm start
+clear
+psql -h 127.0.0.1 -p 5432
+clear
+neovide
+htop
+neoivde
+neovide
+htop
+neovide
+..
+ls
+..
+ls
+cd scratches/
+ls
+..
+ls
+cd aps
+cd apps
+cd altheas/
+ls
+clear
+pnpm dev
+nvim
+~/dev/elm/apps/altheas/
+pnpm dev
+exit
+nix develop --command nu
+~/dev/elm/lamdera/wow/
+ls
+nvim
+rm a.js
+~/dev/elm/scratches/
+ls
+mkdir lamdera_ws
+cd lamdera_ws/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*node"
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#node"
+ls
+clear
+ls
+clear
+node b.js
+nvim a.js
+clear
+node b.js
+jobs
+node b.js
+clear
+node b.js
+nvim
+clear
+nvim
+clear
+neovide
+nix develop --command nu
+pnpm start
+clear
+pnpm dev
+neovide
+nvim
+hx 
+vi
+vi ./src/Backend.elm
+git checkout src/Backend.elm
+clear
+ls
+ls src
+ls -al src
+nvim
+neovide
+htop
+ps -aux | grep 
+/usr/bin/ps aux | grep godot
+/usr/bin/ps aux | grep elm
+pkill elm-language-server
+kill 13243
+/usr/bin/ps aux | grep elm
+pnpm start
+clear
+..
+ls
+cd hello
+ls
+nvim
+..
+ls
+..
+ls
+cd scratches/
+ls
+cd lamdera_ws/
+ls
+...
+ls
+cd examples/
+ls
+..
+cd scratches/
+neovide
+clear
+pnpm start
+clear
+pnpm lamdera live
+pnpm lamdera live --help
+pnpm lamdera live --port 8001
+pnpm lamdera live --port 8002
+clear
+pnpm lamdera live
+nc localhost 8080
+clear
+pnpm lamdera live --port 5173
+clear
+pnpm lamdera live --port 5173
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css
+pnpm lamdera live
+clear
+ls
+ls -a
+rm -rf .elm-land/
+pnpm lamdera live
+clear
+pnpm elm-land
+pnpm elm-land build
+pnpm lamdera live
+clear
+pnpm lamdera live
+pnpm lamdera
+lamdera reset
+pnpm install
+pnpm lamdera live
+clear
+pnpm lamdera live
+clear
+lamdera install krisajenkins/remotedata
+pnpm lamdera live
+htop
+pnpm lamdera live
+lamdera 
+lamdera reset
+lamderal update
+lamdera update
+lamdera install eojpod/elm-jwt
+lamdera install leojpod/elm-jwt
+ls
+~/dev/elm/scratches/
+../lamdera/wow/
+nvim
+lamdera live
+lamdera reset
+lamdera live
+clear
+lamdera reset
+lamdera live
+lamdera reset
+ls ~/.elm
+rm -rf ~/.elm
+ls
+rm elm-stuff/
+rm -rf elm-stuff/
+lamdera live
+pnpm install
+elm install
+lamdera install
+pnpm install
+pnpm elm-tooling
+pnpm elm-land build
+neovide
+htop
+pkill elm-language-server
+/user/bin/ps -aux | grep elm-language-server
+/usr/bin/ps -aux | grep elm-language-server
+kill 41300
+clear
+lamdera install elm/random
+lamdera install danyx23/elm-uuid
+nvim ~/.elm
+lamdera live
+nvim ../../apps/altheas/
+htop
+clear
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css
+clear
+lamdera live
+lamdera reset
+lamdera live
+clear
+lamdera live
+neovide
+lamdera live
+clear
+lamdera reset
+lamdera live
+rm -rf elm-stuff/
+rm -r ~/.elm/
+lamdera live
+pnpm elm-land build
+lamdera live
+lamdera install danyx23/elm-uuid
+lamdera live
+~/dev/elm/games/hello/
+ls
+pnpm build
+pnpm install
+ls ~/.elm
+pnpm dev
+pnpm start
+cd -
+lamdera live
+pnpm install
+pnpm elm-tooling install
+pnpm elm-land build
+clear
+ls
+lamdera
+lamdera make
+elm
+elm install --help
+elm install
+lamdera install elm/json
+lamdera live
+lamdera live --port 9001
+lamdera live
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
+clear
+ls
+curl -sSfL https://get.tur.so/install.sh
+curl -sSfL https://get.tur.so/install.sh o> w.sh
+nvim w.sh
+clear
+turso db show showie
+turso
+clear
+turso db show showie
+turso db show showie --http-url
+htop
+clear
+rm w.sh
+turso db tokens create showie
+turso db tokens create showie
+turso db tokens create showie o>> Env.elm
+nvim
+clear
+htop
+neovide
+lamdera live
+lamdera reset
+rm ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+rm ./elm-stuff/
+rm -rf ./elm-stuff/
+clear
+pnpm elm-land build
+pnpm elm-land 
+pnpm elm-land add page /game/create
+pnpm elm-land add page --help
+pnpm elm-land add --help
+pnpm elm-land add page --help
+pnpm elm-land generate
+flatpak search vscode
+ping 8.8.8.8
+clear
+nvim ../../apps/altheas/app/Route/Auth.elm
+lamdera live
+lamdera reset
+rm -rf ./elm-stuff/
+rm ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+lamdera live
+rm ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+clear
+htop
+neovide
+clear
+lamdera live
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+clear
+pnpm elm-land add page /games/
+pnpm elm-land add page /games
+pnpm elm-land generate
+lamdera live
+lamdera reset
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+rm ./elm-stuff/
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+lamdera live
+clear
+lamdera live
+clear
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+ls
+rm ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+clear
+neovide
+nvim ~/.config/nvim/lua
+neovide
+nvim ~/.config/nvim/lua
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
+clear
+htop
+lamdera live
+clear
+rm ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+ls
+clear
+nvim ~/.config/nvim/lua
+cd ~/.config/nvim/lua
+ls
+nvim
+ls
+cd -
+ls
+nvim
+neovide
+htop
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
+clear
+lamdera live
+clear
+lamdera live
+ls
+rm ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+lamdera live
+rm elm-stuff/
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+clear
+pnpm elm-land add page /games/create
+pnpm elm-land add page --help /games/create
+pnpm elm-land add --help
+pnpm elm-land generate
+lamdera live
+clear
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+htop
+lamdera live
+clear
+lamdera install justinmimbs/date
+lamdera live
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+lamdera live
+clear
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+pnpm elm-land generate
+pnpm dev
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
+lamdera live
+rm -r elm-stuff/ ~/.elm/0.19.1/packages/lamdera/core/1.0.0/artifacts.x.dat
+lamdera live
+neovide
+~/.config/nvim/lua
+neovide
+nvim ~/.config/neovide/config.toml
+cd -
+neovide
+cd -
+clear
+~/dev/purescript/graphics/air_bender/
+neovide
+../../games/purescript-solitaire/
+ls
+clear
+ls
+which neovide
+file ~/.local/bin/neovide
+ls /opt/neovide/bin/neovide-0_13_3
+neovide
+clear
+ls
+clear
+ls
+../
+ls
+cd tiles
+neovide
+clear
+pnpm install
+lamdera login
+ls
+pnpm dev
+neovide
+exit
+nix develop --command nu
+clear
+ls
+..
+ls
+cd recce/
+neovide
+..
+ls
+cd scratches/
+ls
+cd par
+neovide
+ls
+..
+ls
+cd polls/
+neovide
+..
+ls
+cd projects/
+ls
+cd pomodoro_chan/
+neovide
+..
+ls
+..
+ls
+cd learning/
+neovide
+..
+~/dev/
+ls
+cd gleam/
+ls
+cd hello/
+ls
+neovide
+..
+ls
+..
+ls
+cd haskell/
+ls
+cd examples/
+ls
+cd apecs
+ls
+neovide
+...
+.
+..
+ls
+./r
+ls
+cd learning
+ls
+neovide  econ.R
+clear
+...
+cd python/
+ls
+cd examples/
+ls
+cd cube/
+ls
+neovide
+....
+ls
+cd odin
+ls
+cd examples/odin-http/
+ls
+neovide
+clear
+~/.config/nvim/lua
+neovide
+cd -
+neovide
+~/
+dev/
+ls
+clear
+cd rust
+ls
+rm gaes/
+mkdir webapps
+cd webapps/
+nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+neovide
+../
+ls
+cd apps/portal/
+neovide
+..
+cd altheas/
+neovide
+clear
+..
+ls
+~/dev/projects
+ls
+cd voter
+neovide
+../personal_website/
+neovide
+../capsule_clock/
+neovide
+~/dev
+ls
+cd godot
+ls
+cd ping
+ls
+neovide
+cargo leptos
+cargo binstall
+clear
+cargo binstall cargo-leptos
+cargo leptos
+cargo leptos new
+cargo leptos new --git --init
+cargo leptos new --init
+cargo generate
+cargo --list
+cargo binstall cargo-generate
+ls
+cargo leptos new --init
+cargo leptos --help
+cargo leptos new --help
+cargo leptos new --git leptos-rs/start-axum --init
+cargo leptos
+cargo leptos serve
+cargo manifest
+cargo metadata
+cargo leptos serve
+rustup target add wasm32-unknown-unknown
+rustup
+cargo leptos serve
+neovide
+cargo leptos serve
+nvim
+nix develop --command nu
+ping 8.8.8.8
+cargo leptos serve
+nvim ~/.config/
+cargo leptos serve
+clear
+cargo leptos serve
+neovide
+..
+cd games
+ls
+cd peeps/
+neovide
+..
+ls
+cd ping
+neovide
+..
+ls
+..
+ls
+cd examples/
+ls
+neovide
+yazi
+ls
+cd ~/Videos/watchlist_talks/
+ls
+..
+ls -d
+cd watchlist2/
+ls
+ffplay 'Building an Awesome Electronics Bench on the Cheap [MzmyaskFVK0].mp4'
+ffplay "＂Understanding TypeScript's Structural Type System＂ by Drew Colthorp [MbZoQlmQaWQ].mp4"
+clear
+~/dev/
+elm/lamdera/wow/
+ls
+neovide
+clear
+lamdera 
+pnpm tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
+lamdera live
+htop
+lamdera live
+lamdera reset
+neovide
+lamdera live
+lamdera reset
+rm gaes/
+rm elm-stuff ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat 
+rm -r elm-stuff
+lamdera reset
+lamdera live
+clear
+rm -r elm-stuff ~/.elm/0.19.1/packages/lamdera/codecs/1.0.0/artifacts.x.dat
+clear
+lamdera live
+clear
+pnpm elm-land generate
+git push
+lamdera 
+lamdera login
+~
+ls
+ls -al
+ls -a
+cd dev
+ls
+cd build
+ls
