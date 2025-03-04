@@ -1,11 +1,11 @@
 {pkgs, ...}: {
   programs = {
-    firefox.enable = false; # Firefox is not installed by defualt
     dconf.enable = true;
     seahorse.enable = true;
     fuse.userAllowOther = true;
     virt-manager.enable = true;
     mtr.enable = true;
+    regreet.enable = true;
 
     gnupg.agent = {
       enable = true;
@@ -24,44 +24,49 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    amfora # Fancy Terminal Browser For Gemini Protocol
-    appimage-run # Needed For AppImage Support
-    ungoogled-chromium
-    neovide
-    brightnessctl # For Screen Brightness Control
-    docker-compose # Allows Controlling Docker From A Single File
-    duf # Utility For Viewing Disk Usage In Terminal
-    eza # Beautiful ls Replacement
-    ffmpeg # Terminal Video / Audio Editing
-    file-roller # Archive Manager
-    gedit # Simple Graphical Text Editor
-    gimp # Great Photo Editor
-    greetd.tuigreet # The Login Manager (Sometimes Referred To As Display Manager)
-    htop # Simple Terminal Based System Monitor
-    hyprpicker # Color picker for wayland
-    imv # Image viewer
-    inxi # System information tool
-    killall
-    libnotify
-    libvirt
+    # System apps and libraries
+    appimage-run                      # AppImage Support
+    brightnessctl                     # Screen Brightness Control
+    greetd.regreet                    # The Login Manager
+    adi1090x-plymouth-themes          # Themes for the boot splash screen
+    lxqt.lxqt-policykit               # Polkit agent Authentication for processes that require it
+    libnotify                         # Notifications
+    libvirt                           # Virtualization API
+    playerctl                         # Controlling media players
+    pavucontrol                       # Pulse Audio volume control
     lm_sensors
-    lolcat # cat (concatenation program) with colors
-    lshw
-    lxqt.lxqt-policykit
-    mpv
-    ncdu # Disk usage analyzer
-    nixfmt-rfc-style
-    pavucontrol
+    
+    # Terminal utilities
     pciutils
-    pkg-config
-    playerctl
-    ripgrep
-    socat # parallel cat ???
-    unrar
-    unzip
     usbutils
     v4l-utils
-    virt-viewer
+    lshw
+    killall
+    file                              # Shows the type of files
     wget
+    ripgrep
+    ffmpeg                            # Video / Audio Editing
+    eza                               # Beautiful ls Replacement
+    htop                              # Terminal Based System Monitor
+    inxi                              # System information tool
+    duf                               # Disk Usage/Free utility
+    ncdu                              # Disk usage analyzer
+    rar
+    zip
+    unrar
+    unzip
+    virt-viewer
+    socat                             # Relay socket streams
+
+    # GUI apps
+    chromium                          # Default browser for all users
+    file-roller                       # Archive Manager
+    gedit                             # Simple Graphical Text Editor
+    hyprpicker                        # Color picker
+    gnome-photos                      # Image viewer
+    totem                             # Video player
+    onlyoffice-desktopeditors         # Office suite
+    papers                            # Document reader
+    foliate                           # Ebook reader
   ];
 }

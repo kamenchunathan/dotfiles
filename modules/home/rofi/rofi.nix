@@ -8,7 +8,6 @@
     rofi = {
       enable = true;
       package = pkgs.rofi-wayland;
-      plugins = [pkgs.rofi-calc];
       extraConfig = {
         modi = "drun,filebrowser,run";
         show-icons = true;

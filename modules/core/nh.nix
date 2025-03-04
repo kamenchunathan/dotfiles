@@ -7,9 +7,9 @@
     enable = true;
     clean = {
       enable = true;
-      extraArgs = "--keep-since 7d --keep 5";
+      extraArgs = "--keep-since 14d --keep 5";
     };
-    flake = "/home/${username}/zaneyos";
+    flake = "/etc/nixos";
   };
 
   environment.systemPackages = with pkgs; [

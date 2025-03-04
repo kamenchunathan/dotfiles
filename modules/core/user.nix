@@ -31,7 +31,6 @@ in {
     #  passord is `password` initialPassword did not work quite as well
     initialHashedPassword = "$y$j9T$7GGjVmvGIBpwCSSNvR/iC/$Tbf8meenzM6odINXJT.D1IwmNYlkEdHrlMJlD89vTd8";
     extraGroups = [
-      "adbusers"
       "docker"
       "libvirtd"
       "lp"
@@ -41,6 +40,41 @@ in {
     ];
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;
+    packages = with pkgs; [
+      gimp                                # Image editting 
+      discord
+      thunderbird                         # mail client
+      obs-studio                          # Video recording and streaming
+      obsidian                            # Notes / Knowledge base
+      libresprite                         # Pixel editor
+      zotero                              # Citing and references
+      en-croissant                        # Chess
+      stockfish
+      mpv                                 # Media player
+      kdePackages.kdenlive                # Video editting
+      morgen                              # Calendar
+      
+      neovide                             # Graphical neovim client
+      direnv
+      lazygit
+      
+      # Dev Utilities
+      libgcc
+      gcc_debug
+      pkg-config
+      nodejs
+      docker-compose
+      nixfmt-rfc-style
+    ];
   };
+
+  users.users.guest = {
+    isNormalUser = true;
+    home = "/home/guest";
+    description = "Guest User";
+    password = "guest";
+    extraGroups = [ "networkmanager" ];
+  };
+  
   nix.settings.allowed-users = ["${username}"];
 }

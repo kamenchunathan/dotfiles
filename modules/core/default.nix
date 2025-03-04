@@ -12,8 +12,7 @@
     ./nh.nix
     ./packages.nix
     ./services.nix
-    ./starfish.nix
-    ./steam.nix
+    ./starship.nix
     ./stylix.nix
     ./system.nix
     ./user.nix

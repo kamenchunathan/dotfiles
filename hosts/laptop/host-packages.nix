@@ -1,7 +1,3 @@
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [
-    discord
-    nodejs_23
-    obs-studio
-  ];
+  environment.systemPackages = with pkgs; [ ];
 }

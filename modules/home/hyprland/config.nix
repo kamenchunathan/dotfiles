@@ -17,6 +17,7 @@ in {
       exec-once = [
         "dbus-update-activation-environment --all --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
         "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+        "regreet; hyprctl dispatch exit"
         "killall -q swww;sleep .5 && swww init"
         "killall -q waybar;sleep .5 && waybar"
         "killall -q swaync;sleep .5 && swaync"
@@ -59,6 +60,8 @@ in {
         initial_workspace_tracking = 0;
         mouse_move_enables_dpms = true;
         key_press_enables_dpms = false;
+        disable_splash_rendering = true;
+        disable_hyprland_logo = true;
       };
 
       dwindle = {
@@ -104,7 +107,7 @@ in {
 
       bind = [
         "$modifier SHIFT,Return,exec,${terminal}"
-        "$modifier,exec,rofi-launcher"
+        "$modifier,Return,exec,rofi-launcher"
         "$modifier SHIFT,W,exec,web-search"
         "$modifier ALT,W,exec,wallsetter"
         "$modifier SHIFT,N,exec,swaync-client -rs"
@@ -196,10 +199,6 @@ in {
         "tag +im, class:^(org.telegram.desktop|io.github.tdesktop_x64.TDesktop)$"
         "tag +im, class:^(teams-for-linux)$"
         "tag +games, class:^(gamescope)$"
-        "tag +games, class:^(steam_app_\d+)$"
-        "tag +gamestore, class:^([Ss]team)$"
-        "tag +gamestore, title:^([Ll]utris)$"
-        "tag +gamestore, class:^(com.heroicgameslauncher.hgl)$"
         "tag +settings, class:^(gnome-disks|wihotspot(-gui)?)$"
         "tag +settings, class:^([Rr]ofi)$"
         "tag +settings, class:^(file-roller|org.gnome.FileRoller)$"

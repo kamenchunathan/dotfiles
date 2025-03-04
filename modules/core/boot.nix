@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ pkgs, config, lib, ... }:
 
 {
   boot = {
@@ -6,7 +6,14 @@
     kernelModules = [ "v4l2loopback" ];
     extraModulePackages = [ config.boot.kernelPackages.v4l2loopback ];
     kernel.sysctl = { "vm.max_map_count" = 2147483642; };
-    initrd.luks.devices.cryptroot.device = "/dev/disk/by-label/data";
+
+    initrd = {
+      # The encrypted system partition by the label `data`
+      luks.devices.cryptroot.device = "/dev/disk/by-label/data";
+      systemd.enable = true;
+    };
+    
+    # Use grub as the boot loader
     loader = {
       efi.canTouchEfiVariables = true;
       grub = {
@@ -14,6 +21,18 @@
         device = "nodev";
         efiSupport = true;
       };
+    };
+    
+    # Plymouth for the graphical interface to ask for the encrypted
+    # device password and loading screen
+    plymouth = {
+      enable = true;
+      themePackages = with pkgs; [
+        (adi1090x-plymouth-themes.override {
+          selected_themes = [ "target" ];
+        })
+      ];
+      theme = lib.mkForce "target";
     };
     
     # Appimage Support
@@ -25,6 +44,5 @@
       mask = ''\xff\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff'';
       magicOrExtension = ''\x7fELF....AI\x02'';
     };
-    plymouth.enable = true;
   };
 }

@@ -1,5 +1,5 @@
 {
-  description = "ZaneyOS";
+  description = "Nathan's nixos system based off zaneyOS";
 
   inputs = {
     home-manager = {
@@ -13,7 +13,7 @@
   outputs = {nixpkgs, ...} @ inputs: let
     system = "x86_64-linux";
     host = "laptop";
-    profile = "amd";
+    profile = "intel";
     username = "nathankamenchu";
   in {
     nixosConfigurations = {

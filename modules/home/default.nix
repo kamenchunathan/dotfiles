@@ -1,5 +1,6 @@
 {...}: {
   imports = [
+    ./chromium.nix
     ./bash.nix
     ./bat.nix
     ./btop.nix
