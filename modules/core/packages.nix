@@ -11,14 +11,6 @@
       enable = true;
       enableSSHSupport = true;
     };
-
-    thunar = {
-      enable = true;
-      plugins = with pkgs.xfce; [
-        thunar-archive-plugin
-        thunar-volman
-      ];
-    };
   };
 
   nixpkgs.config.allowUnfree = true;
@@ -33,7 +25,6 @@
     libnotify                         # Notifications
     libvirt                           # Virtualization API
     playerctl                         # Controlling media players
-    pavucontrol                       # Pulse Audio volume control
     lm_sensors
     
     # Terminal utilities
@@ -57,14 +48,17 @@
     unzip
     virt-viewer
     socat                             # Relay socket streams
+    fzf                               # Fuzzy finder
 
     # GUI apps
+    nautilus                          # File Manager
+    gnome-photos                      # Image viewer
+    totem                             # Video player
+    pwvucontrol                       # Pipewire Audio volume control
     chromium                          # Default browser for all users
     file-roller                       # Archive Manager
     gedit                             # Simple Graphical Text Editor
     hyprpicker                        # Color picker
-    gnome-photos                      # Image viewer
-    totem                             # Video player
     onlyoffice-desktopeditors         # Office suite
     papers                            # Document reader
     foliate                           # Ebook reader

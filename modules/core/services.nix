@@ -56,6 +56,8 @@ in {
     };
     rpcbind.enable = true;
     nfs.server.enable = true;
+
+    spotifyd.enable = true;
   };
 
   systemd.services.flatpak-repo = {

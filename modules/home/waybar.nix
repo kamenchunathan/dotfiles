@@ -19,18 +19,17 @@ in
           position = "top";
           modules-center = ["hyprland/workspaces"];
           modules-left = [
-            "custom/startmenu"
-            "hyprland/window"
             "clock"
-            "idle_inhibitor"
+            "hyprland/window"
           ];
           modules-right = [
             "cpu"
             "memory"
-            "pulseaudio"
+            "audio"
             "tray"
             "battery"
             "custom/notification"
+            "idle_inhibitor"
             "custom/exit"
           ];
 
@@ -47,33 +46,26 @@ in
           "clock" = {
             format =
               if clock24h == true
-              then '' {:L%H:%M}''
-              else '' {:L%I:%M %p}'';
+              then ''  {:L%H:%M}''
+              else ''  {:L%I:%M %p}'';
             tooltip = true;
             tooltip-format = "<big>{:%A, %d.%B %Y }</big>\n<tt><small>{calendar}</small></tt>";
           };
           "hyprland/window" = {
             max-length = 22;
             separate-outputs = false;
-            rewrite = {
-              "" = " 🙈 No Windows? ";
-            };
           };
           "memory" = {
             interval = 5;
-            format = " {}%";
+            format = "  {}%";
             tooltip = true;
           };
           "cpu" = {
             interval = 5;
-            format = " {usage:2}%";
+            format = "  {usage:2}%";
             tooltip = true;
           };
-          "disk" = {
-            format = " {free}";
-            tooltip = true;
-          };
-          "network" = {
+         "network" = {
             format-icons = [
               "󰤯"
               "󰤟"
@@ -89,7 +81,7 @@ in
           "tray" = {
             spacing = 12;
           };
-          "pulseaudio" = {
+          "audio" = {
             format = "{icon} {volume}% {format_source}";
             format-bluetooth = "{volume}% {icon} {format_source}";
             format-bluetooth-muted = " {icon} {format_source}";
@@ -109,18 +101,12 @@ in
                 ""
               ];
             };
-            on-click = "sleep 0.1 && pavucontrol";
+            on-click = "sleep 0.1 && pwvucontrol";
           };
           "custom/exit" = {
             tooltip = false;
             format = "";
             on-click = "sleep 0.1 && wlogout";
-          };
-          "custom/startmenu" = {
-            tooltip = false;
-            format = "";
-            # exec = "rofi -show drun";
-            on-click = "sleep 0.1 && rofi-launcher";
           };
           "custom/hyprbindings" = {
             tooltip = false;
@@ -235,22 +221,12 @@ in
           tooltip label {
             color: #${config.lib.stylix.colors.base08};
           }
-          #window, #pulseaudio, #cpu, #memory, #idle_inhibitor {
+          #cpu, #memory, #audio, #idle_inhibitor {
             font-weight: bold;
             margin: 4px 0px;
-            margin-left: 7px;
             padding: 0px 18px;
             background: #${config.lib.stylix.colors.base04};
             color: #${config.lib.stylix.colors.base00};
-            border-radius: 24px 10px 24px 10px;
-          }
-          #custom-startmenu {
-            color: #${config.lib.stylix.colors.base0B};
-            background: #${config.lib.stylix.colors.base02};
-            font-size: 28px;
-            margin: 0px;
-            padding: 0px 30px 0px 15px;
-            border-radius: 0px 0px 40px 0px;
           }
           #custom-hyprbindings, #network, #battery,
           #custom-notification, #tray, #custom-exit {
@@ -258,8 +234,6 @@ in
             background: #${config.lib.stylix.colors.base0F};
             color: #${config.lib.stylix.colors.base00};
             margin: 4px 0px;
-            margin-right: 7px;
-            border-radius: 10px 24px 10px 24px;
             padding: 0px 18px;
           }
           #clock {
@@ -268,7 +242,6 @@ in
             background: linear-gradient(90deg, #${config.lib.stylix.colors.base0E}, #${config.lib.stylix.colors.base0C});
             margin: 0px;
             padding: 0px 15px 0px 30px;
-            border-radius: 0px 0px 0px 40px;
           }
         ''
       ];

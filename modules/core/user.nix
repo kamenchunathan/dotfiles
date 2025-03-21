@@ -1,5 +1,6 @@
 {
   pkgs,
+  lib,
   inputs,
   username,
   host,
@@ -7,6 +8,33 @@
   ...
 }: let
   inherit (import ../../hosts/${host}/variables.nix) gitUsername;
+
+  arch = if pkgs.stdenv.isx86_64 then "x86_64" else "aarch64";
+  spotify = pkgs.stdenv.mkDerivation {
+    pname = "spotify-player";
+    version = "0.20.4";
+
+    src = pkgs.fetchurl {
+      url = "https://github.com/aome510/spotify-player/releases/download/v0.20.4/spotify_player-${arch}-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-J0yJjtwMxPZt0z+XnjAv08Bl1nc1bMVTMhUmt598rBA=";
+    };
+
+    nativeBuildInputs = [ pkgs.makeWrapper ];
+    sourceRoot = ".";
+    installPhase = ''
+      mkdir -p $out/bin
+      tar -xzf $src -C $out/bin
+      chmod +x $out/bin/spotify_player
+    '';
+
+    meta = {
+      description = "A terminal-based Spotify player with full feature parity.";
+      homepage = "https://github.com/aome510/spotify-player";
+      license = lib.licenses.mit;
+      maintainers = with lib.maintainers; [ ];
+    };
+  };
+    
 in {
   imports = [inputs.home-manager.nixosModules.home-manager];
   home-manager = {
@@ -41,24 +69,31 @@ in {
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;
     packages = with pkgs; [
+      spotify                             # spotify client
+      
       gimp                                # Image editting 
       discord
       thunderbird                         # mail client
       obs-studio                          # Video recording and streaming
       obsidian                            # Notes / Knowledge base
-      libresprite                         # Pixel editor
       zotero                              # Citing and references
       en-croissant                        # Chess
       stockfish
+      morgen                              # Calendar
       mpv                                 # Media player
       kdePackages.kdenlive                # Video editting
-      morgen                              # Calendar
+      blender
+      
+      godot_4                             # Game dev
+      libresprite                         # Pixel editor
       
       neovide                             # Graphical neovim client
       direnv
       lazygit
       
-      # Dev Utilities
+      jq
+      jqp
+      
       libgcc
       gcc_debug
       pkg-config

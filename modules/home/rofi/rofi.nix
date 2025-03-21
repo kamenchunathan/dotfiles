@@ -13,10 +13,6 @@
         show-icons = true;
         icon-theme = "Fluent-dark";
         font = "Noto Sans CJK JP Bold 12";
-        drun-display-format = "{icon} {name}";
-        display-drun = "  Apps";
-        display-run = "  Run";
-        display-filebrowser = "  File";
       };
       theme = let
         inherit (lib) mkForce;
@@ -35,12 +31,12 @@
 
           window = {
             fullscreen = true;
-            padding = mkLiteral "1em";
+            padding = mkLiteral "2em";
             background-color = mkLiteral "${base00}dd";
           };
 
           mainbox = {
-            padding = mkLiteral "8px";
+            padding = mkLiteral "2em";
           };
 
           inputbar = {
