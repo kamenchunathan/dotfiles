@@ -86,6 +86,7 @@ in
       obs-studio # Video recording and streaming
       obsidian # Notes / Knowledge base
       zotero # Citing and references
+      zoom
 
       # Chess
       en-croissant
