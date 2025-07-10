@@ -1,4 +1,5 @@
-{ profile, ... }: {
+{ profile, ... }:
+{
   programs.zsh = {
     enable = true;
     autosuggestion.enable = true;
@@ -24,9 +25,11 @@
       ll = "eza --icons -a --group-directories-first -1 --no-user --long";
       tree = "eza --icons --tree --group-directories-first";
 
+      "..." = "../..";
+
       # Git aliases
       gc = "git commit";
-      gc = "git add";
+      ga = "git add";
       lg = "lazygit";
     };
   };

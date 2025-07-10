@@ -6,7 +6,8 @@
   host,
   profile,
   ...
-}: let
+}:
+let
   inherit (import ../../hosts/${host}/variables.nix) gitUsername;
 
   arch = if pkgs.stdenv.isx86_64 then "x86_64" else "aarch64";
@@ -34,16 +35,24 @@
       maintainers = with lib.maintainers; [ ];
     };
   };
-    
-in {
-  imports = [inputs.home-manager.nixosModules.home-manager];
+
+in
+{
+  imports = [ inputs.home-manager.nixosModules.home-manager ];
   home-manager = {
     useUserPackages = true;
     useGlobalPkgs = true;
     backupFileExtension = "backup";
-    extraSpecialArgs = {inherit inputs username host profile;};
+    extraSpecialArgs = {
+      inherit
+        inputs
+        username
+        host
+        profile
+        ;
+    };
     users.${username} = {
-      imports = [./../home];
+      imports = [ ./../home ];
       home = {
         username = "${username}";
         homeDirectory = "/home/${username}";
@@ -69,31 +78,35 @@ in {
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;
     packages = with pkgs; [
-      spotify                             # spotify client
-      
-      gimp                                # Image editting 
+      spotify # spotify client
+
+      gimp # Image editting
       discord
-      thunderbird                         # mail client
-      obs-studio                          # Video recording and streaming
-      obsidian                            # Notes / Knowledge base
-      zotero                              # Citing and references
-      en-croissant                        # Chess
+      thunderbird # mail client
+      obs-studio # Video recording and streaming
+      obsidian # Notes / Knowledge base
+      zotero # Citing and references
+
+      # Chess
+      en-croissant
+      lc0
       stockfish
-      morgen                              # Calendar
-      mpv                                 # Media player
-      kdePackages.kdenlive                # Video editting
+
+      morgen # Calendar
+      mpv # Media player
+      kdePackages.kdenlive # Video editting
       blender
-      
-      godot_4                             # Game dev
-      libresprite                         # Pixel editor
-      
-      neovide                             # Graphical neovim client
+
+      godot_4 # Game dev
+      libresprite # Pixel editor
+
+      neovide # Graphical neovim client
       direnv
       lazygit
-      
+
       jq
       jqp
-      
+
       libgcc
       gcc_debug
       pkg-config
@@ -110,6 +123,6 @@ in {
     password = "guest";
     extraGroups = [ "networkmanager" ];
   };
-  
-  nix.settings.allowed-users = ["${username}"];
+
+  nix.settings.allowed-users = [ "${username}" ];
 }

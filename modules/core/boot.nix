@@ -8,8 +8,7 @@
     kernel.sysctl = { "vm.max_map_count" = 2147483642; };
 
     initrd = {
-      # The encrypted system partition by the label `data`
-      luks.devices.cryptroot.device = "/dev/disk/by-label/data";
+      luks.devices.cryptroot.device = "/dev/disk/by-uuid/e891955a-80c8-431d-a7c4-2de3baf3a2a7";
       systemd.enable = true;
     };
     
