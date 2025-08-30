@@ -5,10 +5,6 @@ return {
     ensure_installed = {
       "lua",
       "vim",
-      "elm",
-      "purescript",
-      "rust",
-      "python"
     },
   },
 }
